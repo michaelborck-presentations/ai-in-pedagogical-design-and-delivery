@@ -1,4 +1,26 @@
-## Artificial Intelligence in Education (AIED). 
+---
+title: "AI in Pedagogical Design and Delivery"
+subtitle: "How AI transforms teaching roles and learning design"
+author: "Michael Borck"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    toc: true
+    toc-depth: 2
+    colorlinks: true
+    fontsize: 11pt
+---
+
+# Artificial Intelligence in Education (AIED) 
 
 The integration of Artificial Intelligence in Education (AIED) is fundamentally reshaping pedagogy. This overview outlines the five key areas of impact, from the core technology and its effect on course design and delivery to the critical challenges and the re-humanization of the educator's role
 

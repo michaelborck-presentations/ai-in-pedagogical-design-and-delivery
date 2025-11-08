@@ -1,4 +1,26 @@
-## References & Resources
+---
+title: "References & Further Reading"
+subtitle: "Bibliography for AI in education"
+author: "Michael Borck"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    toc: true
+    toc-depth: 2
+    colorlinks: true
+    fontsize: 11pt
+---
+
+# References & Resources
 
 * Park University. (2025, February 14). AI in education: The rise of intelligent tutoring systems. Park University. [View Article →](https://www.park.edu/blog/ai-in-education-the-rise-of-intelligent-tutoring-systems/)
 

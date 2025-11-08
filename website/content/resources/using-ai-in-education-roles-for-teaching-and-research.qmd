@@ -1,3 +1,25 @@
+---
+title: "Using AI in Education"
+subtitle: "Roles for teaching and research"
+author: "Michael Borck"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    toc: true
+    toc-depth: 2
+    colorlinks: true
+    fontsize: 11pt
+---
+
 # Using AI in Education: Roles for Teaching and Research
 
 

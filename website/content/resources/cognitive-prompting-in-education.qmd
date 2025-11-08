@@ -1,4 +1,26 @@
-## Cognitive Prompting in Education: A New Pedagogical Frontier
+---
+title: "Cognitive Prompting in Education"
+subtitle: "A new pedagogical frontier"
+author: "Michael Borck"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    toc: true
+    toc-depth: 2
+    colorlinks: true
+    fontsize: 11pt
+---
+
+# Cognitive Prompting in Education: A New Pedagogical Frontier
 
 Cognitive prompting represents a fundamental shift in how educators approach AI integration—moving beyond simple content generation to intentional instructional design that enhances cognitive development and deeper learning.
 

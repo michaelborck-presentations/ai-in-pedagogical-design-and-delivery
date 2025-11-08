@@ -1,8 +1,31 @@
 project:
   type: default
   output-dir: ../docs
+  resources:
+    - src/images/
 
-# Render all markdown files
-  
+# Render all .qmd files in content/
+render:
+  - content/**/*.qmd
+
+# Default format settings for all documents
+format:
+  html:
+    theme: default
+    toc: true
+    toc-depth: 2
+    embed-resources: true
+    css: src/css/style.css
+    
+  pdf:
+    toc: true
+    toc-depth: 2
+    colorlinks: true
+    fontsize: 11pt
+
+# Execution settings
 execute:
   freeze: auto
+
+# Copy images to output
+include-in-header: ""
