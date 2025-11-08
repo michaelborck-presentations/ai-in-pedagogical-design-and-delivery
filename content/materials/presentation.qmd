@@ -17,70 +17,70 @@ format:
 
 # Welcome & The AI Landscape
 
-![](../src/images/welcome_nobg.png)
+![](../../src/images/welcome_nobg.png)
 
 ---
 
 # Intelligent Tutoring Systems (ITS)
 
-![](../src/images/itts-paths_nobg.png)
+![](../../src/images/itts-paths_nobg.png)
 
 ---
 
 # The Architect (Pedagogical Design)
 
-![](../src/images/architect_nobg.png)
+![](../../src/images/architect_nobg.png)
 
 ---
 
 # The Practitioner (Pedagogical Delivery)
 
-![](../src/images/ai-copilot_nobg.png)
+![](../../src/images/ai-copilot_nobg.png)
 
 ---
 
 # Challenges & Limitations
 
-![](../src/images/challenges_nobg.png)
+![](../../src/images/challenges_nobg.png)
 
 ---
 
 # The Evolving Role of the Educator
 
-![](../src/images/rising-tide_nobg.png)
+![](../../src/images/rising-tide_nobg.png)
 
 ---
 
 # Activity 1: Automate the Tedious
 
-![](../src/images/automate_nobg.png)
+![](../../src/images/automate_nobg.png)
 
 ---
 
 # Activity 2: The Art of the Prompt
 
-![](../src/images/prompt_nobg.png)
+![](../../src/images/prompt_nobg.png)
 
 ---
 
 # Activity 3: Your 5-Step Critique Framework
 
-![](../src/images/check_nobg.png)
+![](../../src/images/check_nobg.png)
 
 ---
 
 # Activity 4: The "Assessment Stress-Test"
 
-![](../src/images/stress_nobg.png)
+![](../../src/images/stress_nobg.png)
 
 ---
 
 # Activity 5: Secure, Safe, and Sustainable AI
 
-![](../src/images/safety_nobg.png)
+![](../../src/images/safety_nobg.png)
 
 ---
 
 # Wrap-Up & Next Steps
 
-![](../src/images/next_nobg.png)
+![](../../src/images/next_nobg.png)
