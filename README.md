@@ -24,49 +24,54 @@ This repository contains materials for a hands-on workshop designed to help educ
 
 ## Repository Contents
 
-### Pre-Reading Materials
-- `what-to-expect.md` - Workshop overview and preparation guide
-- `quick-start-guide.md` - 5-minute essentials for time-pressed educators
-- `what-is-ai.qmd` - Non-technical introduction to AI concepts
-- `what-are-llms.qmd` - Introduction to Large Language Models
-- `ai-in-pedagogical-design-and-delivery.md` - Comprehensive overview
-- `cognitive-prompting-in-education.md` - Advanced prompting strategies
-- `using-ai-in-education-roles-for-teaching-and-research.md` - AI applications in academic roles
+### Pre-Reading Materials (in `website/content/resources/`)
+- `what-to-expect.md` - Workshop overview and preparation guide (3 min)
+- `quick-start-guide.md` - 5-minute essentials (5 min)
+- `what-is-ai.qmd` - Non-technical introduction to AI concepts (10 min)
+- `what-are-llms.qmd` - Introduction to Large Language Models (12 min)
+- `ai-in-pedagogical-design-and-delivery.md` - Comprehensive overview (8 min)
+- `cognitive-prompting-in-education.md` - Advanced prompting strategies (7 min)
+- `using-ai-in-education-roles-for-teaching-and-research.md` - AI applications (5 min)
 
-### Presentation Materials
-- `ai-pedagogy-presentation.qmd` - Main presentation source file
-- `ai-pedagogy-presentation.pptx` - Generated PowerPoint presentation
+### Workshop Presentation (in `website/content/materials/`)
+- `presentation.qmd` - Main presentation source file (renders to PPTX/PDF/HTML)
 
-### Documentation
-- `docs/ai-what-handout.md` - Quick reference for AI tools in education
-- `docs/teaching-strategies-handout.md` - Practical integration approaches
-- `docs/faq.md` - Frequently asked questions about AI in education
-- `docs/references.md` - Bibliography and further reading
+### Handouts & References (in `website/content/materials/`)
+- `teaching-strategies-handout.md` - Practical integration approaches
+- `references.md` - Bibliography and further reading
 
-### Supporting Materials
-- `images/` - Presentation visuals and graphics
-- `source-documents/` - Research papers, notes, and background materials
+### Assessment Tools (in `website/content/assessment/`)
+- `ai-literacy-diagnostic.html` - Interactive diagnostic quiz (15 questions, 4 adaptive profiles)
 
-## Quick Start for Participants
+### Companion Website (in `website/src/`)
+- `index.html` - Landing page
+- `resources.html` - Resources directory
+- `materials.html` - Materials directory
+- `css/style.css` - Professional stylesheet
+- `images/` - Presentation visuals
 
-1. Read `what-to-expect.md` (3 minutes)
-2. Review `quick-start-guide.md` (5 minutes)
-3. Bring a laptop and one assessment idea to the workshop
+### Documentation (see `docs/guides/` for detailed implementation guides)
+- `README.md` - This file (project overview)
+- `PROJECT-SUMMARY.md` - Comprehensive reference guide
 
-## Building the Presentation
+## Quick Start
 
-This project uses [Quarto](https://quarto.org/) to generate presentations and documents:
+### For Participants
+1. Read `website/content/resources/what-to-expect.md` (3 min)
+2. Review `website/content/resources/quick-start-guide.md` (5 min)
+3. Take the diagnostic quiz: `website/content/assessment/ai-literacy-diagnostic.html`
+4. Bring a laptop and one assessment idea to the workshop
 
-```bash
-# Install Quarto (if not already installed)
-# https://quarto.org/docs/get-started/
+### For Facilitators
+1. Read `PROJECT-SUMMARY.md` (overview)
+2. See `docs/guides/QUIZ-SETUP-GUIDE.md` (implementation)
+3. See `docs/guides/WEBSITE-BUILD-GUIDE.md` (deployment)
+4. Test locally: `python -m http.server 8000` (then open `http://localhost:8000/website/src/index.html`)
 
-# Render the presentation
-quarto render ai-pedagogy-presentation.qmd
-
-# Render all documents
-quarto render
-```
+### For Developers
+1. See `docs/guides/WEBSITE-BUILD-GUIDE.md` for local development
+2. Edit files in `website/src/`
+3. Test locally, then deploy to GitHub Pages
 
 ## License
 

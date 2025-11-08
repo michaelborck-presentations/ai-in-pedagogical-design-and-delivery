@@ -2,6 +2,9 @@
 title: "AI in Pedagogical Design and Delivery"
 author: "Michael Borck"
 format:
+  html:
+    embed-resources: true
+  pdf: default
   pptx:
     slide-level: 1
     incremental: false
