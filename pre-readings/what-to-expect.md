@@ -1,0 +1,143 @@
+---
+title: "What to Expect: AI in Pedagogical Design & Delivery Workshop"
+subtitle: "A guide for participants"
+author: "Michael Borck"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: false
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    colorlinks: true
+    fontsize: 11pt
+---
+
+# What to Expect: AI in Pedagogical Design & Delivery Workshop
+
+**Duration:** 2 hours  
+**Audience:** School of Marketing & Management faculty  
+**Format:** Interactive presentation with hands-on activities
+
+---
+
+## Workshop Overview
+
+This session is designed for educators with varying levels of AI experience—from those who've never used AI tools to those already experimenting with them. Our goal is **AI literacy through practical, hands-on experience**, not technical expertise.
+
+**Reading time:** 3 minutes
+
+---
+
+## The Day's Structure
+
+### Morning Sessions (Separate from this workshop)
+- **Assessment Design Session** - How to design assessments that integrate or resist AI
+- **Ethics Session** - Ethical considerations in AI-enhanced education
+
+*Note: We'll reference these topics but won't cover them in detail, as they're addressed in dedicated morning sessions.*
+
+### Our Workshop (2 hours)
+
+**Part 1: Welcome & Landscape (5 minutes)**
+- Quick energizer and overview of generative AI
+- No technical jargon—just practical context
+
+**Part 2: Automate the Tedious (15 minutes)**
+- **Hands-on Activity:** Use AI to summarize a complex reading
+- **Goal:** Experience AI as a time-saving assistant
+- **You'll try:** Basic prompting for summarization
+
+**Part 3: The Art of the Prompt (15 minutes)**
+- Introduction to the CRAFT framework for better prompts
+- **Hands-on Activity:** Use Microsoft's Prompt Coach tool
+- **Goal:** Move from basic to strategic prompting
+
+**Part 4: Your 5-Step Critique Framework (15 minutes)**
+- Essential quality control for any AI output
+- **Hands-on Activity:** Apply the framework to previous outputs
+- **Goal:** Develop critical evaluation skills
+
+**Part 5: Assessment Stress-Test (15 minutes)**
+- **Hands-on Activity:** Test one of your assessments against AI
+- **Goal:** Understand how AI might interact with your assignments
+- *Connects to morning assessment session*
+
+**Part 6: Secure, Safe & Sustainable AI (10 minutes)**
+- Core tensions: privacy, accuracy, bias, ethics
+- **Goal:** Understand responsible AI use
+- *Briefly connects to morning ethics session*
+
+**Part 7: Wrap-Up & Next Steps (10 minutes)**
+- Personal AI challenge
+- Q&A and resources
+
+---
+
+## What You Won't Find Here
+
+❌ **Technical deep dives** - We're not learning to build AI  
+❌ **One-size-fits-all solutions** - AI tools vary by discipline  
+❌ **Mandates or requirements** - This is exploratory, not prescriptive  
+❌ **Assessment redesign** - That's covered in the morning session  
+❌ **Ethics deep dive** - That's also covered in the morning session  
+
+---
+
+## What You Will Find Here
+
+✅ **Hands-on practice** - You'll actually use AI tools  
+✅ **Practical frameworks** - CRAFT prompting, 5-step critique  
+✅ **Peer discussion** - Learn from colleagues' experiences  
+✅ **Honest limitations** - AI isn't perfect, and we'll show why  
+✅ **Starting points** - Resources to continue exploring  
+✅ **Judgment-free zone** - All experience levels welcome  
+
+---
+
+## Pre-Reading Options
+
+**For everyone (10-12 minutes):**
+- [What is AI? A Non-Technical Introduction](what-is-ai.qmd)
+- [What are Large Language Models (LLMs)?](what-are-llms.qmd)
+
+**For the curious (additional 15 minutes):**
+- [AI in Pedagogical Design & Delivery Overview](ai-in-pedagogical-design-and-delivery.md)
+- [Cognitive Prompting in Education](cognitive-prompting-in-education.md)
+- [Using AI in Education: Roles for Teaching & Research](using-ai-in-education-roles-for-teaching-and-research.md)
+
+**For the time-pressed:**
+- See our [Quick Start Guide](quick-start-guide.md) - 5-minute read
+
+---
+
+## What to Bring
+
+- **Your laptop or tablet** - We'll be using AI tools live
+- **One assessment idea** - Something you'd like to test against AI
+- **Your questions** - No question is too basic
+- **Open mind** - AI is evolving rapidly; we're all learning
+
+---
+
+## After the Workshop
+
+You'll receive:
+- PDF handouts: AI Tools Quick Reference & Teaching Strategies
+- Access to the companion website (in development)
+- Contact information for follow-up questions
+- Suggested "first experiments" for your teaching
+
+---
+
+## Questions Before the Workshop?
+
+Contact: michael.borck@curtin.edu.au
+
+---
+
+**Remember:** This is a starting point, not a destination. Our goal is to help you take your first (or next) steps with AI in a way that feels manageable and relevant to your teaching context.

@@ -1,0 +1,37 @@
+https://www.youtube.com/watch?v=873_SLmrkXU
+
+Here are the key insights extracted from Dr. Shelley Spessard's presentation on cognitive prompting with AI in education:
+
+### Core Philosophy & Vision
+1. **Reframing Prompting**: AI prompting is not a shortcut or threat, but a **"new pedagogical frontier"** that enhances intentional teaching, learning design, and deeper cognitive engagement.
+2. **Educator Reality**: Educators aren’t resistant to AI—they’re **unprepared** and need **structures, not just tools**, to use it ethically and effectively.
+3. **Pedagogical Shift**: The goal is to move from "What can AI produce?" to **"How can AI enhance cognitive development?"** (analysis, synthesis, reflection, metacognition).
+
+### The "Prompting as Pedagogy" Model
+4. **Structured Framework**: Aligns AI prompts with **Bloom’s Taxonomy** and **Webb’s Depth of Knowledge** to match cognitive rigor (recall → creation).
+5. **Deliberate Instruction**: Prompting becomes an **intentional instructional move** requiring learning theory, design principles, and content expertise—**not a tech trick**.
+6. **Living Framework**: Designed to evolve based on **faculty/student feedback**, ensuring practicality and real-world relevance.
+
+### Key Themes & Insights
+7. **Pedagogical Intrigue**: Educators view prompting as an **intellectual design challenge** (e.g., "How do I scaffold critical thinking?").
+8. **Reflective Practice**: Crafting prompts forces educators to **rethink goals**, assessment, and student needs ("What am I *really* trying to teach?").
+9. **Planning Revolution**: Prompts drive **differentiated, flexible planning** and assessment, moving beyond rigid structures.
+10. **New Literacy**: Prompting fluency is emerging as a **core digital competency**, essential for student success in an AI-driven world.
+
+### Implementation & Strategy
+11. **Capacity Building**: Focus on **ethical, meaningful integration** through practical tools and professional development.
+12. **Student Preparedness**: Teach AI prompting as a **"second language"** to ensure students are globally competitive and career-ready.
+13. **Guardrails**: Prioritize data privacy, avoid PII, use institutional RAG models, and adopt ethical frameworks (e.g., APA guidelines).
+14. **Institutional Action**: Embed AI prompting in **education programs** and involve diverse stakeholders in policy/governance decisions.
+
+### Future Implications & Challenges
+15. **Evolution of Prompting**: As LLMs advance, prompting will become more sophisticated—requiring **ongoing professional development**.
+16. **Human-Centric Balance**: While AI enhances efficiency, **emotional intelligence and human connection must remain central** to avoid devaluing the "human element."
+17. **Research Standards**: Institutions need **reproducibility frameworks** and clear documentation for AI-driven research amid rapid technological change.
+
+### Dr. Spessard’s Call to Action
+- **Educators**: Use prompting to **deepen thinking**, not replace it. Start with small, intentional steps.
+- **Institutions**: Invest in **structures, training, and governance** to support ethical AI integration.
+- **Research**: Refine the "Prompting as Pedagogy" model through collaborative validation and practical tool development.
+
+> 💡 **Wisdom in a Nutshell**: "Prompting isn’t about getting better AI responses—it’s about thinking more intentionally about our goals, methods, and how we design learning for students." This mindset shift transforms AI from a tool into a catalyst for pedagogical innovation.

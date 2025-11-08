@@ -1,0 +1,42 @@
+https://www.youtube.com/watch?v=hJP5GqnTrNo&t=77s
+
+Here's the distilled wisdom from Sal Khan's talk on AI in education, organised by key themes:
+
+### 🌟 Core Vision: AI as an Educational Revolution
+- **"Two Sigma Opportunity"**: AI can solve Bloom's 1984 "Two Sigma Problem" – providing 1-on-1 tutoring (proven to boost learning by 2 standard deviations) to *every student globally*, turning average into exceptional and below-average into above-average.
+- **Democratization**: AI tutors/assistants can bridge gaps in access (e.g., 1 guidance counselor per 300 students → personalised academic/life coaching for all).
+
+### 🛡️ Mitigating Cheating & Enhancing Learning
+- **Socratic Guardrails**: Tools like Khanmigo don’t give answers but ask probing questions ("What do you think the next step is?"), forcing critical thinking.
+- **Misconception Detection**: AI identifies *why* a student made an error (e.g., "Did you distribute the negative sign?") and tailors feedback.
+- **Contextual Tutoring**: Understands student work in real-time (e.g., debugging code, analysing literature, connecting math to real-life goals like sports nutrition).
+
+### 🎯 Transformative Use Cases
+1. **Personalised Learning**  
+   - **Subject Mastery**: AI adapts to student pace (math, coding, writing) with instant feedback.  
+   - **"Why Learn This?":** AI links lessons to student interests (e.g., "Cell size → nutrition for athletes").  
+   - **Simulations**: Students debate historical figures (e.g., Jay Gatsby) or concepts (e.g., the Mississippi River), making abstract ideas tangible.  
+
+2. **Teacher Empowerment**  
+   - **AI Teaching Assistant**: Automates lesson planning, grading, and progress reports, freeing teachers for human interaction.  
+   - **Pedagogical Support**: Generates teaching guides, explains concepts, and suggests lesson strategies (e.g., "Spanish-American War").  
+
+3. **Skill Development**  
+   - **Writing Collaboration**: AI co-creates stories (e.g., student writes 2 sentences → AI writes 2), building confidence.  
+   - **Argument Refinement**: Students practice debates (e.g., student debt cancellation) without fear of judgment.  
+   - **Reading Comprehension**: AI socratically analyzes texts (e.g., Steve Jobs’ speech), probing word choice and intent.  
+
+### ⚙️ Technical Innovation
+- **"Thinking Before Speaking"**: AI internalizes reasoning (e.g., "Student’s answer differs – ask them to explain instead of correcting") to improve accuracy and pedagogy.  
+- **Subject-Specific Training**: Enhanced math/coding capabilities via targeted fine-tuning (beyond generic LLMs).  
+
+### 🌍 Philosophical Stance
+- **Fear vs. Proactivity**:  
+  - *Pessimism*: Pausing AI benefits "rule-breakers" (authoritarian regimes, bad actors), worsening inequality.  
+  - *Optimism*: With guardrails, AI can amplify human intelligence and purpose.  
+- **Responsibility**: We must "fight like hell" for positive use cases while implementing ethical regulations.  
+
+### 💡 Key Takeaway
+> **"AI isn’t just a tool to cheat—it’s the key to unlocking the greatest educational transformation in history: personalised tutoring for all, empowering both students and teachers to reach their full potential."**  
+
+This reframes AI from a threat to an opportunity to democratize excellence in education, turning Bloom’s theoretical "problem" into a scalable "opportunity."

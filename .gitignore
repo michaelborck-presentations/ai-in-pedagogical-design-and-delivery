@@ -1,0 +1,91 @@
+# Quarto
+/.quarto/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# R
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+
+# Node/npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# LaTeX
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# PDF and Office files (generated)
+*.pdf
+*.docx
+*.pptx
+
+# Keep source files
+!*.qmd
+!*.md
+!*.Rmd
+
+# Images (keep source images)
+!images/*
+
+# HTML (generated)
+*.html
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Quarto output directories
+_site/
+output/

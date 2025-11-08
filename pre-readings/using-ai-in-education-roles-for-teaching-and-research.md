@@ -1,0 +1,74 @@
+# Using AI in Education: Roles for Teaching and Research
+
+
+##  Possible Roles of AI in Education
+
+This information is based on the table on page 9 of the ChatGPT and Artificial Intelligence in higher education guide (Sabzalieva & Valentini, 2023).
+
+### 1. Possibility engine
+* **Description:** AI generates alternative ways of expressing an idea
+* **Example:** Students write queries in ChatGPT and use the 'Regenerate response' function to examine alternative responses
+
+### 2. Socratic opponent
+* **Description:** AI acts as an opponent to develop an argument
+* **Example:** Students enter prompts into ChatGPT following the structure of a conversation or debate. Teachers can ask students to use ChatGPT to prepare for discussions
+
+### 3. Collaboration coach
+* **Description:** AI helps groups to research and solve problems together
+* **Example:** Working in groups, students use ChatGPT to find out information to complete tasks and assignments
+
+### 4. Guide on the side
+* **Description:** AI acts as a guide to navigate physical and conceptual spaces
+* **Example:** Teachers use ChatGPT to generate content for classes/courses (e.g., discussion questions) and advice on how to support students in learning specific concepts
+
+### 5. Personal tutor
+* **Description:** AI tutors each student and gives immediate feedback on progress
+* **Example:** ChatGPT provides personalised feedback to students based on information provided by students or teachers (e.g., test scores)
+
+### 6. Co-designer
+* **Description:** AI assists throughout the design process
+* **Example:** Teachers ask ChatGPT for ideas about designing or updating a curriculum (e.g., rubrics for assessment) and/or focus on specific goals (e.g., how to make the curriculum more accessible)
+
+### 7. Exploratorium
+* **Description:** AI provides tools to play with, explore and interpret data
+* **Example:** Teachers provide basic information to students who write different queries in ChatGPT to find out more. ChatGPT can be used to support language learning
+
+### 8. Study buddy:
+* **Description:** AI helps the student reflect on learning material
+* **Example:** Students explain their current level of understanding to ChatGPT and ask for ways to help them study the material. ChatGPT could also be used to help students prepare for other tasks (e.g., job interviews)
+
+### 9. Motivator
+* **Description:** AI offers games and challenges to extend learning
+* **Example:** Teachers or students ask ChatGPT for ideas about how to extend students' learning after providing a summary of the current level of knowledge (e.g., quizzes, exercises)
+
+### 10. Dynamic assessor
+* **Description:** AI provides educators with a profile of each student's current knowledge
+* **Example:** Students interact with ChatGPT in a tutorial-type dialogue and then ask ChatGPT to produce a summary of their current state of knowledge to share with their teacher/for assessment
+
+---
+
+## Possible Uses of ChatGPT in the Research Process
+
+This information is based on Figure 3 on page 10 of the ChatGPT and Artificial Intelligence in higher education guide (Sabzalieva & Valentini, 2023).
+
+### 1. Research design
+* Generate ideas for research questions or projects
+* Suggest data sources
+
+### 2. Data collection
+* Search archives and datasets
+* Translate sources into other languages
+
+### 3. Data analysis
+* Code data
+* Suggest themes or topics for analysis
+
+### 4. Writing up
+* Improve writing quality
+* Reformat citations and references
+* Translate writing
+
+
+# Reference:
+
+Sabzalieva, E., & Valentini, A. (2023). ChatGPT and artificial intelligence in higher education: Quick start guide. UNESCO International Institute for Higher Education in Latin America and the Caribbean (IESALC).

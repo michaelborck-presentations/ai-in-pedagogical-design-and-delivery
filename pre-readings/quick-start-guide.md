@@ -1,0 +1,224 @@
+---
+title: "Quick Start Guide: AI in Education"
+subtitle: "For the time-pressed educator"
+author: "Michael Borck"
+date: today
+format:
+  html:
+    embed-resources: true
+    toc: false
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    colorlinks: true
+    fontsize: 11pt
+---
+
+# Quick Start Guide: AI in Education
+
+**Reading time:** 5 minutes  
+**For:** Educators who want the essentials without the deep dive
+
+---
+
+## The 3 Things You Need to Know
+
+### 1. AI is a Tool, Not a Replacement
+- AI assists with tasks; it doesn't replace your expertise
+- Your judgment is more important, not less
+- Think "assistant," not "autopilot"
+
+### 2. AI Makes Mistakes (Often Confidently)
+- Can generate plausible but incorrect information
+- Doesn't understand context like humans do
+- **Always verify critical information**
+
+### 3. Start Small, Stay Practical
+- Pick one repetitive task
+- Test AI assistance
+- Evaluate results
+- Adjust and repeat
+
+---
+
+## What is AI in 2 Minutes
+
+**AI (Artificial Intelligence)** = Software that learns patterns from data to perform tasks that typically need human intelligence.
+
+**For educators, this means:**
+- Tools that can draft content, answer questions, summarize text
+- Not magic, not conscious—just pattern-matching at scale
+- Requires human oversight and expertise
+
+**Examples you've heard of:** ChatGPT, Claude, Microsoft Copilot, Gemini
+
+---
+
+## What AI Can Do for You Right Now
+
+### ✅ **Time-Savers** (Low Risk)
+- Generate discussion questions
+- Draft assignment rubrics
+- Summarize long readings
+- Create multiple-choice questions
+- Format references
+
+### ⚠️ **Use with Care** (Medium Risk)
+- Draft feedback comments
+- Create case studies
+- Explain complex concepts
+- Generate lesson plans
+- Write practice problems
+
+### ❌ **Avoid** (High Risk)
+- Final grading decisions
+- Handling student data
+- Medical/legal advice
+- Replacing human connection
+
+---
+
+## Your First AI Experiment (15 Minutes)
+
+### Step 1: Pick a Task (2 min)
+Choose something simple and low-stakes:
+- Generate 3 discussion questions for next week's topic
+- Summarize a 5-page reading into bullet points
+- Draft a sample email to students about an assignment
+
+### Step 2: Write Your First Prompt (3 min)
+
+**Bad prompt:** "Make some questions"
+
+**Good prompt:** "Generate 3 discussion questions for a second-year marketing course on consumer behavior. Focus on ethical considerations. Make them open-ended to encourage debate."
+
+**Formula:** Task + Context + Specifics + Constraints
+
+### Step 3: Evaluate the Output (5 min)
+
+Ask yourself:
+- Is this accurate? (Verify 1-2 key facts)
+- Does it fit my context? (Would this work for MY students?)
+- What's missing? (What would I need to add?)
+- What's wrong? (Any obvious errors?)
+
+### Step 4: Refine or Use (5 min)
+- Edit the output to match your voice
+- Add specific examples from your experience
+- Remove anything that doesn't fit
+- Use what works, discard what doesn't
+
+---
+
+## The 5-Second Quality Check
+
+Before using any AI output, ask:
+
+1. **Would I be comfortable defending this to a colleague?**
+2. **Can I verify the key claims?**
+3. **Does this sound like me or generic content?**
+
+If you answer "no" to any, revise before using.
+
+---
+
+## Common Mistakes to Avoid
+
+### ❌ **Blind Trust**
+- Accepting AI output without review
+- **Fix:** Always verify critical information
+
+### ❌ **Too Vague**
+- "Tell me about marketing"
+- **Fix:** Be specific: "Explain segmentation for first-year business students using retail examples"
+
+### ❌ **Perfectionism**
+- Expecting AI to produce final drafts
+- **Fix:** Think "first draft" or "starting point"
+
+### ❌ **Over-Sharing**
+- Pasting student work or confidential data
+- **Fix:** Use anonymized examples only
+
+---
+
+## When to Use AI in Your Workflow
+
+**Before class:** Generate ideas, draft materials, create examples  
+**During class:** (Generally avoid—focus on human interaction)  
+**After class:** Draft feedback, summarize discussions, plan next session  
+**For assessment:** Generate practice questions, draft rubrics (never final grading)
+
+---
+
+## Red Flags: When AI Gets It Wrong
+
+Watch for:
+- **Made-up facts** (hallucinations)
+- **Outdated information** (AI training has a cutoff date)
+- **Generic advice** that doesn't fit your context
+- **Overly confident tone** masking uncertainty
+- **Missing nuance** from your discipline
+
+**Your expertise is the filter.**
+
+---
+
+## One-Week Challenge
+
+**Day 1:** Generate discussion questions for one topic  
+**Day 2:** Summarize one reading  
+**Day 3:** Draft a rubric outline  
+**Day 4:** Create practice problems  
+**Day 5:** Write a sample student feedback paragraph  
+
+**Each day:** Spend 10 minutes, evaluate results, note what worked
+
+---
+
+## Resources to Keep Learning
+
+**Minimal time:**
+- Workshop handouts (you'll receive these)
+- Try one new prompt per week
+
+**Some time:**
+- Read the full pre-reading materials (30 min total)
+- Experiment with one tool (ChatGPT, Claude, or Copilot)
+
+**More time:**
+- Join peer discussions
+- Pilot one AI-assisted activity in your course
+- Share results with colleagues
+
+---
+
+## The Bottom Line
+
+**You don't need to become an AI expert.**
+
+You need to:
+1. Understand what AI can and can't do
+2. Try it for one small task
+3. Apply your expertise to evaluate outputs
+4. Build gradually from there
+
+**Your teaching expertise + AI assistance = Better outcomes for students**
+
+---
+
+## Workshop Prep Checklist
+
+- [ ] Bring a laptop/tablet
+- [ ] Think of one repetitive task you'd like to streamline
+- [ ] Have one assessment in mind to "stress-test"
+- [ ] Come with questions (no question too basic!)
+
+---
+
+**Questions?** michael.borck@curtin.edu.au
+
+**Remember:** Everyone starts somewhere. The goal isn't perfection—it's progress.
