@@ -1,0 +1,8 @@
+project:
+  type: default
+  output-dir: ../docs
+
+# Render all markdown files
+  
+execute:
+  freeze: auto

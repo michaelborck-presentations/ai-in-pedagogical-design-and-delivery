@@ -1,5 +1,7 @@
 # Quarto
 /.quarto/
+*_files/
+*_cache/
 
 # OS generated files
 .DS_Store
@@ -65,27 +67,30 @@ yarn-error.log*
 *.cb2
 .*.lb
 
-# PDF and Office files (generated)
-*.pdf
-*.docx
-*.pptx
+# PDF and Office files (DO COMMIT generated versions in docs/)
+docs/**/*.pdf
+docs/**/*.pptx
+docs/**/*.docx
+
+# HTML (commit what's in docs/)
+!docs/**/*.html
 
 # Keep source files
 !*.qmd
 !*.md
 !*.Rmd
 
-# Images (keep source images)
+# Images (keep all)
 !images/*
-
-# HTML (generated)
-*.html
+!website/src/images/*
 
 # Temporary files
 *.tmp
 *.temp
 .cache/
 
-# Quarto output directories
-_site/
-output/
+# Archive folder (keep)
+!archive/**
+
+# Website source (keep)
+!website/**
