@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources - Learning Materials & Workshop Content</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header (injected via JavaScript) -->
+    <div id="header"></div>
+
+    <!-- Page Header -->
+    <section style="background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%); color: white; padding: 2.5rem 0;">
+        <div class="container">
+            <h1 style="color: white; margin-bottom: 0.5rem;">Resources</h1>
+            <p style="color: rgba(255,255,255,0.9);">Learning materials, workshop content, and preparation guides</p>
+        </div>
+    </section>
+
+    <!-- Pre-Reading Resources -->
+    <section class="alt-bg">
+        <div class="container">
+            <!-- Filter Buttons -->
+            <div style="margin-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 0.75rem;">
+                <button class="filter-btn active" data-filter="all" style="padding: 0.5rem 1rem; border: 2px solid var(--primary); background: var(--primary); color: white; border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.3s ease;">All</button>
+                <button class="filter-btn" data-filter="Essential" style="padding: 0.5rem 1rem; border: 2px solid var(--primary); background: white; color: var(--primary); border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.3s ease;">Essential</button>
+                <button class="filter-btn" data-filter="Foundation" style="padding: 0.5rem 1rem; border: 2px solid var(--primary); background: white; color: var(--primary); border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.3s ease;">Foundation</button>
+                <button class="filter-btn" data-filter="Pedagogy" style="padding: 0.5rem 1rem; border: 2px solid var(--primary); background: white; color: var(--primary); border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.3s ease;">Pedagogy</button>
+                <button class="filter-btn" data-filter="Advanced" style="padding: 0.5rem 1rem; border: 2px solid var(--primary); background: white; color: var(--primary); border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.3s ease;">Advanced</button>
+                <button class="filter-btn" data-filter="Reference" style="padding: 0.5rem 1rem; border: 2px solid var(--primary); background: white; color: var(--primary); border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.3s ease;">Reference</button>
+                <button class="filter-btn" data-filter="Presentation" style="padding: 0.5rem 1rem; border: 2px solid var(--primary); background: white; color: var(--primary); border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.3s ease;">Presentation</button>
+                <button class="filter-btn" data-filter="Handout" style="padding: 0.5rem 1rem; border: 2px solid var(--primary); background: white; color: var(--primary); border-radius: 20px; cursor: pointer; font-weight: 500; transition: all 0.3s ease;">Handout</button>
+            </div>
+
+            <div class="resource-card" data-category="Essential">
+                <span class="type">Essential</span>
+                <h4>What to Expect</h4>
+                <p>Workshop overview, structure, and preparation guide. Sets expectations and explains what will/won't be covered.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 3 min read</div>
+                    <div class="meta-item">📄 Markdown</div>
+                </div>
+                <a href="content/resources/what-to-expect.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
+            </div>
+
+            <div class="resource-card" data-category="Essential">
+                <span class="type">Essential</span>
+                <h4>Quick Start Guide</h4>
+                <p>For the time-pressed educator. The 5-minute essentials: what you need to know about AI, your first experiment, and common mistakes to avoid.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 5 min read</div>
+                    <div class="meta-item">📄 Markdown</div>
+                </div>
+                <a href="content/resources/quick-start-guide.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
+            </div>
+
+            <div class="resource-card" data-category="Foundation">
+                <span class="type">Foundation</span>
+                <h4>What is AI?</h4>
+                <p>Non-technical introduction to artificial intelligence. Covers types of AI, what it can/can't do, how businesses use it, and common misconceptions.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 10 min read</div>
+                    <div class="meta-item">📄 Quarto</div>
+                </div>
+                <a href="content/resources/what-is-ai.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
+            </div>
+
+            <div class="resource-card" data-category="Foundation">
+                <span class="type">Foundation</span>
+                <h4>What are Large Language Models (LLMs)?</h4>
+                <p>Accessible explanation of LLMs like ChatGPT and Claude. How they work, what they do well, their limitations (hallucinations, bias, knowledge cutoffs), and real-world applications.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 12 min read</div>
+                    <div class="meta-item">📄 Quarto</div>
+                </div>
+                <a href="content/resources/what-are-llms.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
+            </div>
+
+            <div class="resource-card" data-category="Pedagogy">
+                <span class="type">Pedagogy</span>
+                <h4>AI in Pedagogical Design and Delivery</h4>
+                <p>Overview of how AI transforms pedagogical design (architect role) and delivery (practitioner role). Discusses intelligent tutoring systems, the evolving educator role, and key challenges.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 8 min read</div>
+                    <div class="meta-item">📄 Markdown</div>
+                </div>
+                <a href="content/resources/ai-in-pedagogical-design-and-delivery.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
+            </div>
+
+            <div class="resource-card" data-category="Advanced">
+                <span class="type">Advanced</span>
+                <h4>Cognitive Prompting in Education</h4>
+                <p>How to use AI prompting as a pedagogical tool. Aligns prompts with Bloom's Taxonomy and Webb's Depth of Knowledge to enhance cognitive development and deeper learning.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 7 min read</div>
+                    <div class="meta-item">📄 Markdown</div>
+                </div>
+                <a href="content/resources/cognitive-prompting-in-education.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
+            </div>
+
+            <div class="resource-card" data-category="Reference">
+                <span class="type">Reference</span>
+                <h4>Using AI in Education: Roles for Teaching and Research</h4>
+                <p>10 possible roles for AI in education (possibility engine, Socratic opponent, collaboration coach, personal tutor, etc.) plus AI applications in the research process (design, data collection, analysis, writing).</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 5 min read</div>
+                    <div class="meta-item">📄 Markdown</div>
+                </div>
+                <a href="content/resources/using-ai-in-education-roles-for-teaching-and-research.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
+            </div>
+
+            <div class="resource-card" data-category="Presentation">
+                <span class="type">Presentation</span>
+                <h4>AI in Pedagogical Design and Delivery</h4>
+                <p>Main workshop presentation covering all 6 activities. Available in multiple formats for different uses.</p>
+                <p style="font-size: 0.9rem; color: var(--text-light); margin-top: 1rem;">
+                    <strong>Duration:</strong> 2 hours | <strong>Activities:</strong> 6 interactive sessions
+                </p>
+                <div style="display: flex; gap: 0.5rem; margin-top: 1rem; flex-wrap: wrap;">
+                    <a href="content/materials/presentation.html" class="btn btn-primary">View HTML</a>
+                    <a href="content/materials/presentation.pdf" class="btn btn-secondary">Download PDF</a>
+                    <a href="content/materials/presentation.pptx" class="btn btn-secondary">Download PPTX</a>
+                </div>
+            </div>
+
+            <div class="resource-card" data-category="Handout">
+                <span class="type">Handout</span>
+                <h4>Teaching Strategies: Integrating AI Thoughtfully</h4>
+                <p>Practical implementation guide covering assessment redesign, classroom activities, and addressing common concerns.</p>
+                <a href="content/materials/teaching-strategies-handout.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">View Handout</a>
+            </div>
+
+            <div class="resource-card" data-category="Reference">
+                <span class="type">Reference</span>
+                <h4>References & Further Reading</h4>
+                <p>Bibliography of sources, academic papers, and recommended reading for deeper exploration.</p>
+                <a href="content/materials/references.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">View References</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- License -->
+    <section class="alt-bg">
+        <div class="container" style="text-align: center;">
+            <p style="font-size: 1.1rem;"><strong>All materials are licensed under CC BY 4.0</strong></p>
+            <p style="color: var(--text-light);">Feel free to adapt, remix, and share! Just attribute: Michael Borck & Curtin University</p>
+        </div>
+    </section>
+
+    <!-- Footer (injected via JavaScript) -->
+    <div id="footer"></div>
+
+    <script src="js/inject-components.js"></script>
+    <script>
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+
+                // Update active button
+                document.querySelectorAll('.filter-btn').forEach(b => {
+                    b.style.background = 'white';
+                    b.style.color = 'var(--primary)';
+                });
+                this.style.background = 'var(--primary)';
+                this.style.color = 'white';
+
+                // Filter cards
+                document.querySelectorAll('.resource-card').forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                        // Fade in animation
+                        card.style.opacity = '0';
+                        setTimeout(() => {
+                            card.style.transition = 'opacity 0.3s ease';
+                            card.style.opacity = '1';
+                        }, 10);
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

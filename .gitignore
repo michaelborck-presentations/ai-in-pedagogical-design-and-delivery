@@ -67,13 +67,13 @@ yarn-error.log*
 *.cb2
 .*.lb
 
-# PDF and Office files (DO COMMIT generated versions in docs/)
-docs/**/*.pdf
-docs/**/*.pptx
-docs/**/*.docx
-
-# HTML (commit what's in docs/)
+# HTML, CSS, JavaScript, PDF, and Office files (DO COMMIT generated versions in docs/)
 !docs/**/*.html
+!docs/**/*.css
+!docs/**/*.js
+!docs/**/*.pdf
+!docs/**/*.pptx
+!docs/**/*.docx
 
 # Keep source files
 !*.qmd

@@ -5,8 +5,10 @@ project:
     - src/images/
 
 # Render all .qmd files in content/
+# Each folder renders to output-dir root (flattened structure)
 render:
-  - content/**/*.qmd
+  - content/resources/*.qmd
+  - content/materials/*.qmd
 
 # Default format settings for all documents
 format:
@@ -28,4 +30,3 @@ execute:
   freeze: auto
 
 # Copy images to output
-include-in-header: ""
