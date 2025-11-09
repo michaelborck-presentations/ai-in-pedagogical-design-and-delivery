@@ -8,6 +8,22 @@ format:
 
 # Seven Essential Prompt Techniques for Business Teaching
 
+## A Quick Note: Prompting Fundamentals
+
+Before diving into the seven techniques, you might find it helpful to understand the **C.R.A.F.T. Prompting Framework**—a structured approach to writing clear, effective prompts in general.
+
+The seven techniques in this guide are *pedagogical prompts* (teaching techniques you use *with* students). C.R.A.F.T. is a *prompting methodology* (how to write better prompts overall).
+
+**They complement each other:**
+- Use **C.R.A.F.T.** to structure how you ask the AI to generate student prompts
+- Use these **Seven Techniques** to choose *which* type of prompt helps students develop specific skills
+
+For example, when creating a Reverse Prompting exercise (Technique 1), you'd use C.R.A.F.T. to write clearer instructions to the AI about what kind of questions to generate.
+
+→ **Learn more:** See the [C.R.A.F.T. Prompting Framework](../resources/craft-prompting-framework.html) guide for a complete overview.
+
+---
+
 ## Why These Seven?
 
 These aren't random AI tricks. These are seven proven prompting techniques specifically chosen because they develop critical thinking skills that business professionals across all disciplines need:

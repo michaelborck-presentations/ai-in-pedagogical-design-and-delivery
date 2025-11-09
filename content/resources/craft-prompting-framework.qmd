@@ -1,0 +1,246 @@
+---
+format:
+  html:
+    toc: true
+    toc-expand: 2
+    embed-resources: true
+---
+
+# C.R.A.F.T. Prompting Framework
+
+## Introduction
+
+The C.R.A.F.T. framework is a practical, structured approach to writing better prompts for AI tools. Whether you're an educator, researcher, or professional staff member, CRAFT helps you communicate clearly with AI and get more relevant, high-quality results.
+
+Most disappointing AI outputs result from vague or context-free prompts. The good news? Structured prompts produce dramatically better results with less rework.
+
+> **Think of prompting like briefing a colleague:** The better you brief the AI, the better its draft.
+
+---
+
+## The C.R.A.F.T. Framework
+
+The framework has five elements. You don't need to use all of them every time, but they provide a useful scaffold:
+
+| Letter | Element | What It Means | Example |
+|--------|---------|---------------|---------|
+| **C** | **Context** | What's the background? What data or situation are we working with? | "This is student enrolment data from business units over three semesters." |
+| **R** | **Role** | What role should the AI take on? | "You are an experienced teaching coordinator." |
+| **A** | **Action** | What specifically should the AI do? | "Analyse trends and identify units at risk." |
+| **F** | **Format** | How should the output be structured? | "Provide results as bullet points." |
+| **T** | **Tone/Target** | What tone, and who's the audience? | "Use clear language suitable for faculty meetings." |
+
+---
+
+## Why CRAFT Works
+
+1. **Clarity:** Removes ambiguity from what you're asking
+2. **Consistency:** Works across all AI tools (ChatGPT, Claude, Copilot, Gemini, etc.)
+3. **Quality:** Reduces rework by 30–50% in most cases
+4. **Speed:** Takes just a few extra seconds to set up
+5. **Collaboration:** Frames AI as a thinking partner, not just a tool
+
+---
+
+## Examples: Improving Prompts with CRAFT
+
+### Example 1: Teaching & Learning
+
+**Weak Prompt:**
+> "How can I use AI in my class?"
+
+**CRAFT-Improved Prompt:**
+> "I teach first-year business students in a capstone project unit. You are an instructional designer. Suggest three practical ways to integrate AI tools without replacing authentic student work. Format as a bulleted list with implementation tips. Use language suitable for sharing with faculty colleagues."
+
+**Why it's better:**
+- **Context:** We know the student level, discipline, and unit type
+- **Role:** AI knows what perspective to take (instructional designer)
+- **Action:** Clear, specific request (three ways, with implementation)
+- **Format:** Structured output (bullets + tips)
+- **Tone:** Colleague-appropriate language
+
+---
+
+### Example 2: Research & Analysis
+
+**Weak Prompt:**
+> "Analyse this data."
+
+**CRAFT-Improved Prompt:**
+> "This CSV contains survey responses from 200 educators about AI adoption barriers. You are a research analyst. Identify the top 5 themes and frequency for each. Flag any surprising or contradictory patterns. Output as a structured summary with key quotes. Keep language technical but accessible for a research paper methods section."
+
+**Why it's better:**
+- **Context:** Dataset size, content, source
+- **Role:** Research analyst (appropriate perspective)
+- **Action:** Specific analyses (themes, frequencies, contradictions, quotes)
+- **Format:** Structured summary
+- **Tone:** Suitable for academic writing
+
+---
+
+### Example 3: Professional Operations
+
+**Weak Prompt:**
+> "Summarise this compliance document."
+
+**CRAFT-Improved Prompt:**
+> "This is a TEQSA compliance framework document. You are a senior teaching support officer. Extract the three most critical requirements for our business faculty. Highlight any compliance gaps we might have. Format as a one-page summary with clear action items. Use plain English suitable for a faculty board update."
+
+**Why it's better:**
+- **Context:** Document type and regulatory body
+- **Role:** TSO (operational expertise)
+- **Action:** Extract + identify gaps + recommend actions
+- **Format:** One-page, action-oriented
+- **Tone:** Board-appropriate
+
+---
+
+## Prompting as a Conversation
+
+CRAFT is a great **starting point**, but don't stop there. The real power emerges when you use AI as a **collaborator** through follow-up prompts.
+
+### Example Flow:
+
+**Prompt 1 (Initial CRAFT prompt):**
+> "I teach engineering students in a design studio. You are a pedagogy expert. How can I use AI tools to scaffold student problem-solving without reducing cognitive challenge? Format as 3 strategies with classroom examples. Use language suitable for colleague workshops."
+
+**Prompt 2 (Follow-up - Refine & Extend):**
+> "Those are helpful. Now add one example of how to assess whether students are developing critical thinking versus just using AI to bypass thinking."
+
+**Prompt 3 (Follow-up - Adapt Audience):**
+> "Great. Now rewrite the first strategy as an email I can send to first-year coordinators who are skeptical of AI."
+
+**Why this matters:**
+- You're not just extracting information; you're building on it
+- Each turn gets more specific and tailored
+- You're thinking **with** AI, not just getting outputs **from** it
+
+> The best prompts are rarely the first ones. The magic happens in the conversation.
+
+---
+
+## CRAFT in Action: Step-by-Step
+
+### Step 1: Identify Your Goal
+- What do you actually want to accomplish?
+- What's the starting point (data, concept, problem)?
+- Who's the audience?
+
+### Step 2: Build Your CRAFT Prompt
+- **C:** Provide context (what's the background/data?)
+- **R:** State the role (what expertise should AI bring?)
+- **A:** State the action (what specifically should it do?)
+- **F:** Specify format (bullets, paragraphs, table, etc.)
+- **T:** Define tone/target (who reads this, what tone works?)
+
+### Step 3: Try It
+- Paste your prompt into your AI tool
+- Review the output
+- Note what's helpful and what's missing
+
+### Step 4: Iterate
+- Use follow-ups to refine, extend, or adapt
+- Try "Now rewrite that for [different audience]"
+- Try "What's one thing we missed?"
+- Try "Make that more/less technical"
+
+### Step 5: Document Your Process
+- What prompt worked best?
+- What follow-ups added the most value?
+- What would you do differently next time?
+
+---
+
+## CRAFT Prompt Templates
+
+Feel free to adapt these templates for your context:
+
+### For Teaching & Learning Design
+```
+Context: [Describe your students, unit, discipline, learning outcome]
+Role: You are [pedagogical expertise needed: instructional designer, curriculum specialist, etc.]
+Action: [Specific task: suggest strategies, design activities, develop rubric, etc.]
+Format: [How should output be structured?]
+Tone: [Audience and tone: colleague workshop, student-facing, etc.]
+```
+
+### For Research & Analysis
+```
+Context: [Data source, sample size, research question, discipline]
+Role: You are [research role: data analyst, methodologist, literature reviewer, etc.]
+Action: [Specific analysis: identify themes, compare approaches, evaluate evidence, etc.]
+Format: [Structure: summary, table, narrative, etc.]
+Tone: [Suitable for: research paper, conference presentation, grant proposal, etc.]
+```
+
+### For Professional Operations
+```
+Context: [Document/data type, organisational context, compliance/operational need]
+Role: You are [professional role: teaching coordinator, policy analyst, compliance officer, etc.]
+Action: [Specific task: extract requirements, identify risks, recommend actions, etc.]
+Format: [Structure: summary, action list, comparison, etc.]
+Tone: [Audience: leadership, faculty, staff, etc.]
+```
+
+---
+
+## Key Principles
+
+1. **Be specific, not verbose.** CRAFT doesn't require long prompts—just clear ones.
+
+2. **Context is crucial.** The more relevant background you provide, the better the output.
+
+3. **Role matters.** Assigning a role helps AI understand what perspective and expertise to bring.
+
+4. **Format guides quality.** Specifying bullet points vs. paragraphs vs. tables changes output structure significantly.
+
+5. **Tone prevents misfits.** What works for a faculty meeting doesn't work for a student email. Be explicit.
+
+6. **Follow-ups are where the value lives.** First outputs are drafts; follow-ups are refinement.
+
+---
+
+## Common Mistakes to Avoid
+
+| Mistake | What Happens | Fix |
+|---------|--------------|-----|
+| **No context** | AI makes too many assumptions or produces generic output | Provide relevant background (data, students, discipline, situation) |
+| **Vague role** | Output lacks appropriate perspective or expertise | Specify a concrete role (e.g., "instructional designer" not just "expert") |
+| **Unclear action** | You get something but not what you needed | Say exactly what you want it to do (analyse, design, critique, summarise, etc.) |
+| **No format specification** | Output is unstructured or in wrong format | Say "bullet points" or "three paragraphs" or "comparison table" |
+| **Mismatched tone** | Good content but wrong for your audience | Name your audience explicitly |
+
+---
+
+## Practice Exercise
+
+Try improving this weak prompt using CRAFT:
+
+**Weak Prompt:**
+> "How do I teach AI literacy?"
+
+**Your Task:**
+Using the CRAFT framework:
+1. Add context (what students? what discipline? what level?)
+2. Define a role (what expertise?)
+3. Clarify the action (what specifically do you want?)
+4. Specify format (how should it be organised?)
+5. State the tone/target (who's the audience?)
+
+Then try your CRAFT prompt in an AI tool and see how the output improves.
+
+---
+
+## Final Thought
+
+> **CRAFT isn't about creating the perfect prompt.** It's about starting a better conversation with AI.
+>
+> You don't need the ideal prompt on the first try. You need clarity, curiosity, and a willingness to iterate. AI will meet you halfway—but only if you bring specificity and a challenge worth solving.
+
+---
+
+## Further Reading
+
+- **"The Art of the Prompt"** - Seven Techniques guide (for pedagogical prompts)
+- **"Prompt Chaining Techniques"** - Multi-step workflows and reasoning
+- **Seven Essential Prompt Techniques for Business Teaching** - Deep dive into discipline-specific prompts
