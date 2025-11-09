@@ -171,7 +171,8 @@ nav .dropdown-menu {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
-    transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    pointer-events: none;
 }
 
 nav .dropdown-menu a {
@@ -197,6 +198,7 @@ nav li.dropdown:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
     transform: translateY(0);
+    pointer-events: auto;
 }
 
 /* Layout */
