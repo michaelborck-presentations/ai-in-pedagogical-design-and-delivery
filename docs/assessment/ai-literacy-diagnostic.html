@@ -21,6 +21,34 @@
             padding: 20px;
         }
 
+        .top-nav {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            right: 20px;
+            display: flex;
+            justify-content: flex-start;
+            gap: 2rem;
+            max-width: 700px;
+            margin: 0 auto;
+            width: auto;
+            z-index: 100;
+        }
+
+        .top-nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+            opacity: 0.9;
+            transition: opacity 0.3s;
+            display: flex;
+            align-items: center;
+        }
+
+        .top-nav a:hover {
+            opacity: 1;
+        }
+
         .container {
             background: white;
             border-radius: 12px;
@@ -28,6 +56,7 @@
             max-width: 700px;
             width: 100%;
             padding: 40px;
+            margin-top: 40px;
         }
 
         .header {
@@ -61,6 +90,73 @@
             background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
             width: 0%;
             transition: width 0.3s ease;
+        }
+
+        /* Welcome Screen */
+        .welcome-screen {
+            display: none;
+        }
+
+        .welcome-screen.active {
+            display: block;
+        }
+
+        .welcome-buttons {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+        }
+
+        .btn-primary-action {
+            padding: 14px 24px;
+            font-size: 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-continue {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .btn-continue:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn-restart {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .btn-restart:hover {
+            background: #f0f5ff;
+        }
+
+        .results-summary {
+            background: #f0f5ff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            border-left: 4px solid #667eea;
+        }
+
+        .results-summary h3 {
+            color: #667eea;
+            margin-bottom: 0.5rem;
+            font-size: 16px;
+        }
+
+        .results-summary p {
+            color: #666;
+            font-size: 14px;
+            margin: 0.5rem 0;
         }
 
         .quiz-section {
@@ -383,21 +479,39 @@
             margin-right: 8px;
         }
 
-        .export-button {
-            width: 100%;
-            padding: 16px;
+        .results-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        .export-button,
+        .btn-result-action {
+            padding: 14px 24px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
             border: none;
             border-radius: 6px;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s;
-            margin-top: 10px;
         }
 
-        .export-button:hover {
+        .btn-result-action.secondary {
+            background: white;
+            color: #667eea;
+            border: 2px solid #667eea;
+        }
+
+        .btn-result-action.secondary:hover {
+            background: #f0f5ff;
+        }
+
+        .export-button:hover,
+        .btn-result-action:hover {
             transform: translateY(-2px);
             box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
         }
@@ -422,7 +536,15 @@
         }
 
         @media (max-width: 600px) {
+            .top-nav {
+                position: relative;
+                justify-content: center;
+                margin-bottom: 20px;
+                gap: 1rem;
+            }
+
             .container {
+                margin-top: 0;
                 padding: 24px;
             }
 
@@ -434,8 +556,11 @@
                 grid-template-columns: 1fr;
             }
 
-            .nav-buttons {
+            .nav-buttons,
+            .welcome-buttons,
+            .results-actions {
                 flex-direction: column;
+                grid-template-columns: 1fr;
             }
 
             button {
@@ -445,464 +570,596 @@
     </style>
 </head>
 <body>
+    <!-- Top Navigation -->
+    <div class="top-nav">
+        <a href="../../index.html">← Back to Home</a>
+    </div>
+
     <div class="container">
-        <!-- Header -->
-        <div class="header">
-            <h1>Get Your Personalised Workshop Recommendations</h1>
-            <p>This quick assessment helps personalise your workshop experience. Your results will guide recommendations for activities and pre-reading materials.</p>
-        </div>
-
-        <!-- Progress Bar -->
-        <div class="progress-bar">
-            <div class="progress-fill"></div>
-        </div>
-
-        <!-- Quiz Sections -->
-        <form id="quizForm">
-            <!-- Section 1: Knowledge -->
-            <div class="quiz-section active">
-                <div class="section-title">Section 1: What AI Can & Can't Do</div>
-
-                <!-- Q1 -->
-                <div class="question">
-                    <div class="question-text">1. Which of these is something AI does well?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q1" value="0" id="q1a">
-                            <label for="q1a">Verify its own facts and cite sources accurately</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q1" value="1" id="q1b">
-                            <label for="q1b">Spot patterns and trends in large datasets</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q1" value="0" id="q1c">
-                            <label for="q1c">Understand the unique context of your classroom</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q1" value="0" id="q1d">
-                            <label for="q1d">Generate perfect, publishable documents without review</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q1Error">Please select an answer</div>
-                </div>
-
-                <!-- Q2 -->
-                <div class="question">
-                    <div class="question-text">2. What is "hallucination" in AI?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q2" value="0" id="q2a">
-                            <label for="q2a">When AI gets confused about its training data</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q2" value="1" id="q2b">
-                            <label for="q2b">When AI confidently generates false information</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q2" value="0" id="q2c">
-                            <label for="q2c">When AI learns too much from large datasets</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q2" value="0" id="q2d">
-                            <label for="q2d">An error that only happens with older AI models</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q2Error">Please select an answer</div>
-                </div>
-
-                <!-- Q3 -->
-                <div class="question">
-                    <div class="question-text">3. True or False: ChatGPT knows what today's date is and current events from this month</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q3" value="1" id="q3a">
-                            <label for="q3a">False (its training data has a cutoff date)</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q3" value="0" id="q3b">
-                            <label for="q3b">True (it's connected to the internet)</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q3Error">Please select an answer</div>
-                </div>
-
-                <!-- Q4 -->
-                <div class="question">
-                    <div class="question-text">4. What's the biggest limitation of AI for education?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q4" value="1" id="q4a">
-                            <label for="q4a">It can't replace human judgment, mentorship, and connection</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q4" value="0" id="q4b">
-                            <label for="q4b">It's too slow for classroom use</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q4" value="0" id="q4c">
-                            <label for="q4c">It only works in English</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q4" value="0" id="q4d">
-                            <label for="q4d">It requires a lot of expensive equipment</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q4Error">Please select an answer</div>
-                </div>
-
-                <!-- Q5 -->
-                <div class="question">
-                    <div class="question-text">5. You ask AI to write quiz questions on photosynthesis. The questions look good but one has a factual error. What should you do?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q5" value="0" id="q5a">
-                            <label for="q5a">Never use AI for this task again</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q5" value="1" id="q5b">
-                            <label for="q5b">Fix the error and use the questions—this is why humans review AI output</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q5" value="0" id="q5c">
-                            <label for="q5c">Use it anyway; students will learn to fact-check</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q5" value="0" id="q5d">
-                            <label for="q5d">Report the AI tool to its creators</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q5Error">Please select an answer</div>
-                </div>
+        <!-- Welcome Screen (for returning users with stored results) -->
+        <div class="welcome-screen" id="welcomeScreen">
+            <div class="header">
+                <h2>Welcome Back!</h2>
+                <p>You've already completed the assessment. Your personalised recommendations are ready below.</p>
             </div>
 
-            <!-- Section 2: Skills -->
-            <div class="quiz-section">
-                <div class="section-title">Section 2: Prompting & Critique Skills</div>
-
-                <!-- Q6 -->
-                <div class="question">
-                    <div class="question-text">6. Which prompt is most effective?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q6" value="0" id="q6a">
-                            <label for="q6a">"Tell me about marketing"</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q6" value="1" id="q6b">
-                            <label for="q6b">"Explain customer segmentation for first-year business students. Use a retail example. Keep it to 150 words."</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q6" value="0" id="q6c">
-                            <label for="q6c">"Make me something good about marketing"</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q6" value="0" id="q6d">
-                            <label for="q6d">"What do you think about marketing?"</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q6Error">Please select an answer</div>
-                </div>
-
-                <!-- Q7 -->
-                <div class="question">
-                    <div class="question-text">7. You ask AI: "Generate an essay outline on supply chain ethics." It gives you something generic. What's the problem?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q7" value="1" id="q7a">
-                            <label for="q7a">Your prompt was too vague—you didn't specify audience, length, or unique angle</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q7" value="0" id="q7b">
-                            <label for="q7b">AI is just bad at outlines</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q7" value="0" id="q7c">
-                            <label for="q7c">You should use a different AI tool</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q7" value="0" id="q7d">
-                            <label for="q7d">You can't use AI for academic work</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q7Error">Please select an answer</div>
-                </div>
-
-                <!-- Q8 -->
-                <div class="question">
-                    <div class="question-text">8. When evaluating AI output, what's most important to check first?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q8" value="1" id="q8a">
-                            <label for="q8a">Accuracy of key facts and claims (verify against reliable sources)</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q8" value="0" id="q8b">
-                            <label for="q8b">The length and word count</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q8" value="0" id="q8c">
-                            <label for="q8c">Grammar and spelling</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q8" value="0" id="q8d">
-                            <label for="q8d">Whether it sounds impressive</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q8Error">Please select an answer</div>
-                </div>
-
-                <!-- Q9 -->
-                <div class="question">
-                    <div class="question-text">9. How confident are you in creating effective AI prompts?</div>
-                    <div class="question-type-label">Confidence Scale</div>
-                    <div class="likert-scale">
-                        <div class="likert-label">Not at all</div>
-                        <div class="likert-options">
-                            <div class="likert-option">
-                                <input type="radio" name="q9" value="0">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q9" value="1">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q9" value="2">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q9" value="3">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q9" value="4">
-                            </div>
-                        </div>
-                        <div class="likert-label">Very confident</div>
-                    </div>
-                    <div class="error-message" id="q9Error">Please select a response</div>
-                </div>
-
-                <!-- Q10 -->
-                <div class="question">
-                    <div class="question-text">10. You use AI to generate discussion questions for your class. What's your responsibility as the educator?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q10" value="1" id="q10a">
-                            <label for="q10a">Review, evaluate, and refine the questions to match your learning objectives</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q10" value="0" id="q10b">
-                            <label for="q10b">Use them exactly as generated</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q10" value="0" id="q10c">
-                            <label for="q10c">Never use AI-generated content with students</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q10" value="0" id="q10d">
-                            <label for="q10d">Don't tell students it was AI-generated</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q10Error">Please select an answer</div>
-                </div>
+            <div class="results-summary" id="welcomeSummary">
+                <!-- Populated from localStorage -->
             </div>
 
-            <!-- Section 3: Attitudes & Concerns -->
-            <div class="quiz-section">
-                <div class="section-title">Section 3: Your Concerns & Priorities</div>
-
-                <!-- Q11 -->
-                <div class="question">
-                    <div class="question-text">11. What concerns you MOST about AI in education?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q11" value="0" id="q11a">
-                            <label for="q11a">Students will use AI to cheat on assignments</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q11" value="1" id="q11b">
-                            <label for="q11b">Loss of human connection and mentorship in teaching</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q11" value="2" id="q11c">
-                            <label for="q11c">Bias and fairness issues in AI systems</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q11" value="3" id="q11d">
-                            <label for="q11d">Data privacy and security concerns</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q11" value="4" id="q11e">
-                            <label for="q11e">I need to learn too much new technology too fast</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q11Error">Please select an answer</div>
-                </div>
-
-                <!-- Q12 -->
-                <div class="question">
-                    <div class="question-text">12. I worry that AI will make my teaching expertise less valuable</div>
-                    <div class="question-type-label">Opinion Scale</div>
-                    <div class="likert-scale">
-                        <div class="likert-label">Strongly<br>Disagree</div>
-                        <div class="likert-options">
-                            <div class="likert-option">
-                                <input type="radio" name="q12" value="0">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q12" value="1">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q12" value="2">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q12" value="3">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q12" value="4">
-                            </div>
-                        </div>
-                        <div class="likert-label">Strongly<br>Agree</div>
-                    </div>
-                    <div class="error-message" id="q12Error">Please select a response</div>
-                </div>
-
-                <!-- Q13 -->
-                <div class="question">
-                    <div class="question-text">13. What would MOST help you feel confident using AI in your teaching?</div>
-                    <div class="question-type-label">Multiple Choice - Select One</div>
-                    <div class="options">
-                        <div class="option">
-                            <input type="radio" name="q13" value="0" id="q13a">
-                            <label for="q13a">Understanding its capabilities and limitations</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q13" value="1" id="q13b">
-                            <label for="q13b">Practical examples of how others use it in my discipline</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q13" value="2" id="q13c">
-                            <label for="q13c">Time to experiment safely without affecting students</label>
-                        </div>
-                        <div class="option">
-                            <input type="radio" name="q13" value="3" id="q13d">
-                            <label for="q13d">A clear framework for academic integrity and AI use</label>
-                        </div>
-                    </div>
-                    <div class="error-message" id="q13Error">Please select an answer</div>
-                </div>
-
-                <!-- Q14 -->
-                <div class="question">
-                    <div class="question-text">14. I have the time and capacity to learn to use AI tools this year</div>
-                    <div class="question-type-label">Opinion Scale</div>
-                    <div class="likert-scale">
-                        <div class="likert-label">Strongly<br>Disagree</div>
-                        <div class="likert-options">
-                            <div class="likert-option">
-                                <input type="radio" name="q14" value="0">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q14" value="1">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q14" value="2">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q14" value="3">
-                            </div>
-                            <div class="likert-option">
-                                <input type="radio" name="q14" value="4">
-                            </div>
-                        </div>
-                        <div class="likert-label">Strongly<br>Agree</div>
-                    </div>
-                    <div class="error-message" id="q14Error">Please select a response</div>
-                </div>
-
-                <!-- Q15 -->
-                <div class="question">
-                    <div class="question-text">15. Any additional comments or concerns about AI in your teaching? (Optional)</div>
-                    <div class="question-type-label">Open Feedback</div>
-                    <textarea name="q15" placeholder="Your thoughts here (not required)..."></textarea>
-                </div>
-            </div>
-
-            <!-- Results Page -->
-            <div class="results-page">
-                <div class="results-header">
-                    <h2>Your AI-Literacy Profile</h2>
-                    <p class="results-subtitle">Personalized recommendations below</p>
-                </div>
-
-                <div class="score-cards">
-                    <div class="score-card">
-                        <div class="score-card-label">Knowledge</div>
-                        <div class="score-value" id="scoreKnowledge">0%</div>
-                        <div class="score-bar">
-                            <div class="score-bar-fill" id="scoreKnowledgeBar" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                    <div class="score-card">
-                        <div class="score-card-label">Skills</div>
-                        <div class="score-value" id="scoreSkills">0%</div>
-                        <div class="score-bar">
-                            <div class="score-bar-fill" id="scoreSkillsBar" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                    <div class="score-card">
-                        <div class="score-card-label">Confidence</div>
-                        <div class="score-value" id="scoreConfidence">0%</div>
-                        <div class="score-bar">
-                            <div class="score-bar-fill" id="scoreConfidenceBar" style="width: 0%;"></div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="profile-section">
-                    <div class="profile-title" id="profileTitle">Your AI-Literacy Profile</div>
-                    <div class="profile-description" id="profileDescription"></div>
-                    <div id="profileBullets"></div>
-                </div>
-
-                <div class="recommendations">
-                    <h3>Workshop Recommendations</h3>
-                    <div id="activityRecommendations"></div>
-                </div>
-
-                <div class="recommendations" style="background: #fef3e2; border-left-color: #f59e0b;">
-                    <h3 style="color: #d97706;">Pre-Reading Focus</h3>
-                    <div id="readingRecommendations"></div>
-                </div>
-
-                <button type="button" class="export-button" onclick="exportResults()">
-                    📋 Copy Results to Clipboard
+            <div class="welcome-buttons">
+                <button type="button" class="btn-primary-action btn-continue" onclick="viewStoredResults()">
+                    📊 View Your Results
                 </button>
+                <button type="button" class="btn-primary-action btn-restart" onclick="startFreshAssessment()">
+                    🔄 Retake Assessment
+                </button>
+            </div>
 
-                <div class="required-note">
-                    All results are calculated locally in your browser and not saved. You can share them with facilitators if you'd like.
+            <p style="font-size: 13px; color: #999; margin-top: 2rem; text-align: center;">
+                Your results are saved locally in your browser and never sent to any server.
+            </p>
+        </div>
+
+        <!-- Main Assessment Form -->
+        <div id="assessmentForm">
+            <!-- Header -->
+            <div class="header">
+                <h1>Get Your Personalised Workshop Recommendations</h1>
+                <p>This quick assessment helps personalise your workshop experience. Your results will guide recommendations for activities and pre-reading materials.</p>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+
+            <!-- Quiz Sections -->
+            <form id="quizForm">
+                <!-- Section 1: Knowledge -->
+                <div class="quiz-section active">
+                    <div class="section-title">Section 1: What AI Can & Can't Do</div>
+
+                    <!-- Q1 -->
+                    <div class="question">
+                        <div class="question-text">1. Which of these is something AI does well?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q1" value="0" id="q1a">
+                                <label for="q1a">Verify its own facts and cite sources accurately</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q1" value="1" id="q1b">
+                                <label for="q1b">Spot patterns and trends in large datasets</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q1" value="0" id="q1c">
+                                <label for="q1c">Understand the unique context of your classroom</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q1" value="0" id="q1d">
+                                <label for="q1d">Generate perfect, publishable documents without review</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q1Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q2 -->
+                    <div class="question">
+                        <div class="question-text">2. What is "hallucination" in AI?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q2" value="0" id="q2a">
+                                <label for="q2a">When AI gets confused about its training data</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q2" value="1" id="q2b">
+                                <label for="q2b">When AI confidently generates false information</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q2" value="0" id="q2c">
+                                <label for="q2c">When AI learns too much from large datasets</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q2" value="0" id="q2d">
+                                <label for="q2d">An error that only happens with older AI models</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q2Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q3 -->
+                    <div class="question">
+                        <div class="question-text">3. True or False: ChatGPT knows what today's date is and current events from this month</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q3" value="1" id="q3a">
+                                <label for="q3a">False (its training data has a cutoff date)</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q3" value="0" id="q3b">
+                                <label for="q3b">True (it's connected to the internet)</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q3Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q4 -->
+                    <div class="question">
+                        <div class="question-text">4. What's the biggest limitation of AI for education?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q4" value="1" id="q4a">
+                                <label for="q4a">It can't replace human judgment, mentorship, and connection</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q4" value="0" id="q4b">
+                                <label for="q4b">It's too slow for classroom use</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q4" value="0" id="q4c">
+                                <label for="q4c">It only works in English</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q4" value="0" id="q4d">
+                                <label for="q4d">It requires a lot of expensive equipment</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q4Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q5 -->
+                    <div class="question">
+                        <div class="question-text">5. You ask AI to write quiz questions on photosynthesis. The questions look good but one has a factual error. What should you do?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q5" value="0" id="q5a">
+                                <label for="q5a">Never use AI for this task again</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q5" value="1" id="q5b">
+                                <label for="q5b">Fix the error and use the questions—this is why humans review AI output</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q5" value="0" id="q5c">
+                                <label for="q5c">Use it anyway; students will learn to fact-check</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q5" value="0" id="q5d">
+                                <label for="q5d">Report the AI tool to its creators</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q5Error">Please select an answer</div>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Navigation Buttons -->
-            <div class="nav-buttons" id="navButtons">
-                <button type="button" class="btn-prev" onclick="previousSection()" style="display: none;">← Previous</button>
-                <button type="button" class="btn-next" onclick="nextSection()">Next →</button>
-            </div>
-        </form>
+                <!-- Section 2: Skills -->
+                <div class="quiz-section">
+                    <div class="section-title">Section 2: Prompting & Critique Skills</div>
+
+                    <!-- Q6 -->
+                    <div class="question">
+                        <div class="question-text">6. Which prompt is most effective?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q6" value="0" id="q6a">
+                                <label for="q6a">"Tell me about marketing"</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q6" value="1" id="q6b">
+                                <label for="q6b">"Explain customer segmentation for first-year business students. Use a retail example. Keep it to 150 words."</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q6" value="0" id="q6c">
+                                <label for="q6c">"Make me something good about marketing"</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q6" value="0" id="q6d">
+                                <label for="q6d">"What do you think about marketing?"</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q6Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q7 -->
+                    <div class="question">
+                        <div class="question-text">7. You ask AI: "Generate an essay outline on supply chain ethics." It gives you something generic. What's the problem?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q7" value="1" id="q7a">
+                                <label for="q7a">Your prompt was too vague—you didn't specify audience, length, or unique angle</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q7" value="0" id="q7b">
+                                <label for="q7b">AI is just bad at outlines</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q7" value="0" id="q7c">
+                                <label for="q7c">You should use a different AI tool</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q7" value="0" id="q7d">
+                                <label for="q7d">You can't use AI for academic work</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q7Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q8 -->
+                    <div class="question">
+                        <div class="question-text">8. When evaluating AI output, what's most important to check first?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q8" value="1" id="q8a">
+                                <label for="q8a">Accuracy of key facts and claims (verify against reliable sources)</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q8" value="0" id="q8b">
+                                <label for="q8b">The length and word count</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q8" value="0" id="q8c">
+                                <label for="q8c">Grammar and spelling</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q8" value="0" id="q8d">
+                                <label for="q8d">Whether it sounds impressive</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q8Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q9 -->
+                    <div class="question">
+                        <div class="question-text">9. How confident are you in creating effective AI prompts?</div>
+                        <div class="question-type-label">Confidence Scale</div>
+                        <div class="likert-scale">
+                            <div class="likert-label">Not at all</div>
+                            <div class="likert-options">
+                                <div class="likert-option">
+                                    <input type="radio" name="q9" value="0">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q9" value="1">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q9" value="2">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q9" value="3">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q9" value="4">
+                                </div>
+                            </div>
+                            <div class="likert-label">Very confident</div>
+                        </div>
+                        <div class="error-message" id="q9Error">Please select a response</div>
+                    </div>
+
+                    <!-- Q10 -->
+                    <div class="question">
+                        <div class="question-text">10. You use AI to generate discussion questions for your class. What's your responsibility as the educator?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q10" value="1" id="q10a">
+                                <label for="q10a">Review, evaluate, and refine the questions to match your learning objectives</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q10" value="0" id="q10b">
+                                <label for="q10b">Use them exactly as generated</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q10" value="0" id="q10c">
+                                <label for="q10c">Never use AI-generated content with students</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q10" value="0" id="q10d">
+                                <label for="q10d">Don't tell students it was AI-generated</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q10Error">Please select an answer</div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Attitudes & Concerns -->
+                <div class="quiz-section">
+                    <div class="section-title">Section 3: Your Concerns & Priorities</div>
+
+                    <!-- Q11 -->
+                    <div class="question">
+                        <div class="question-text">11. What concerns you MOST about AI in education?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q11" value="0" id="q11a">
+                                <label for="q11a">Students will use AI to cheat on assignments</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q11" value="1" id="q11b">
+                                <label for="q11b">Loss of human connection and mentorship in teaching</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q11" value="2" id="q11c">
+                                <label for="q11c">Bias and fairness issues in AI systems</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q11" value="3" id="q11d">
+                                <label for="q11d">Data privacy and security concerns</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q11" value="4" id="q11e">
+                                <label for="q11e">I need to learn too much new technology too fast</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q11Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q12 -->
+                    <div class="question">
+                        <div class="question-text">12. I worry that AI will make my teaching expertise less valuable</div>
+                        <div class="question-type-label">Opinion Scale</div>
+                        <div class="likert-scale">
+                            <div class="likert-label">Strongly<br>Disagree</div>
+                            <div class="likert-options">
+                                <div class="likert-option">
+                                    <input type="radio" name="q12" value="0">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q12" value="1">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q12" value="2">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q12" value="3">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q12" value="4">
+                                </div>
+                            </div>
+                            <div class="likert-label">Strongly<br>Agree</div>
+                        </div>
+                        <div class="error-message" id="q12Error">Please select a response</div>
+                    </div>
+
+                    <!-- Q13 -->
+                    <div class="question">
+                        <div class="question-text">13. What would MOST help you feel confident using AI in your teaching?</div>
+                        <div class="question-type-label">Multiple Choice - Select One</div>
+                        <div class="options">
+                            <div class="option">
+                                <input type="radio" name="q13" value="0" id="q13a">
+                                <label for="q13a">Understanding its capabilities and limitations</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q13" value="1" id="q13b">
+                                <label for="q13b">Practical examples of how others use it in my discipline</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q13" value="2" id="q13c">
+                                <label for="q13c">Time to experiment safely without affecting students</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q13" value="3" id="q13d">
+                                <label for="q13d">A clear framework for academic integrity and AI use</label>
+                            </div>
+                        </div>
+                        <div class="error-message" id="q13Error">Please select an answer</div>
+                    </div>
+
+                    <!-- Q14 -->
+                    <div class="question">
+                        <div class="question-text">14. I have the time and capacity to learn to use AI tools this year</div>
+                        <div class="question-type-label">Opinion Scale</div>
+                        <div class="likert-scale">
+                            <div class="likert-label">Strongly<br>Disagree</div>
+                            <div class="likert-options">
+                                <div class="likert-option">
+                                    <input type="radio" name="q14" value="0">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q14" value="1">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q14" value="2">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q14" value="3">
+                                </div>
+                                <div class="likert-option">
+                                    <input type="radio" name="q14" value="4">
+                                </div>
+                            </div>
+                            <div class="likert-label">Strongly<br>Agree</div>
+                        </div>
+                        <div class="error-message" id="q14Error">Please select a response</div>
+                    </div>
+
+                    <!-- Q15 -->
+                    <div class="question">
+                        <div class="question-text">15. Any additional comments or concerns about AI in your teaching? (Optional)</div>
+                        <div class="question-type-label">Open Feedback</div>
+                        <textarea name="q15" placeholder="Your thoughts here (not required)..."></textarea>
+                    </div>
+                </div>
+
+                <!-- Results Page -->
+                <div class="results-page">
+                    <div class="results-header">
+                        <h2>Your AI-Literacy Profile</h2>
+                        <p class="results-subtitle">Personalised recommendations below</p>
+                    </div>
+
+                    <div class="score-cards">
+                        <div class="score-card">
+                            <div class="score-card-label">Knowledge</div>
+                            <div class="score-value" id="scoreKnowledge">0%</div>
+                            <div class="score-bar">
+                                <div class="score-bar-fill" id="scoreKnowledgeBar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="score-card">
+                            <div class="score-card-label">Skills</div>
+                            <div class="score-value" id="scoreSkills">0%</div>
+                            <div class="score-bar">
+                                <div class="score-bar-fill" id="scoreSkillsBar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                        <div class="score-card">
+                            <div class="score-card-label">Confidence</div>
+                            <div class="score-value" id="scoreConfidence">0%</div>
+                            <div class="score-bar">
+                                <div class="score-bar-fill" id="scoreConfidenceBar" style="width: 0%;"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profile-section">
+                        <div class="profile-title" id="profileTitle">Your AI-Literacy Profile</div>
+                        <div class="profile-description" id="profileDescription"></div>
+                        <div id="profileBullets"></div>
+                    </div>
+
+                    <div class="recommendations">
+                        <h3>Workshop Recommendations</h3>
+                        <div id="activityRecommendations"></div>
+                    </div>
+
+                    <div class="recommendations" style="background: #fef3e2; border-left-color: #f59e0b;">
+                        <h3 style="color: #d97706;">Pre-Reading Focus</h3>
+                        <div id="readingRecommendations"></div>
+                    </div>
+
+                    <div class="results-actions">
+                        <button type="button" class="btn-result-action" onclick="exportResults()">
+                            📋 Copy Results
+                        </button>
+                        <button type="button" class="btn-result-action secondary" onclick="startFreshAssessment()">
+                            🔄 Retake Assessment
+                        </button>
+                    </div>
+
+                    <div class="required-note">
+                        Your results are saved locally in your browser and never sent to any server. You can revisit anytime to see your results again.
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="nav-buttons" id="navButtons">
+                    <button type="button" class="btn-prev" onclick="previousSection()" style="display: none;">← Previous</button>
+                    <button type="button" class="btn-next" onclick="nextSection()">Next →</button>
+                </div>
+            </form>
+        </div>
     </div>
 
     <script>
         let currentSection = 0;
         const totalSections = 4; // Including results
+
+        // Initialize on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            checkForStoredResults();
+        });
+
+        function checkForStoredResults() {
+            const storedResults = localStorage.getItem('aiLiteracyResults');
+            if (storedResults) {
+                const results = JSON.parse(storedResults);
+                showWelcomeScreen(results);
+            } else {
+                // Show form, hide welcome screen
+                document.getElementById('assessmentForm').style.display = 'block';
+                document.getElementById('welcomeScreen').classList.remove('active');
+                showSection(0);
+            }
+        }
+
+        function showWelcomeScreen(results) {
+            document.getElementById('assessmentForm').style.display = 'none';
+            document.getElementById('welcomeScreen').classList.add('active');
+
+            // Show summary
+            const summary = document.getElementById('welcomeSummary');
+            summary.innerHTML = `
+                <h3>${results.profileName}</h3>
+                <p><strong>Knowledge:</strong> ${results.knowledge}% | <strong>Skills:</strong> ${results.skills}% | <strong>Confidence:</strong> ${results.confidence}%</p>
+            `;
+        }
+
+        function viewStoredResults() {
+            const storedResults = localStorage.getItem('aiLiteracyResults');
+            if (storedResults) {
+                const results = JSON.parse(storedResults);
+                displayStoredResults(results);
+            }
+        }
+
+        function displayStoredResults(results) {
+            document.getElementById('assessmentForm').style.display = 'block';
+            document.getElementById('welcomeScreen').classList.remove('active');
+
+            // Populate the results page with stored data
+            document.getElementById('scoreKnowledge').textContent = results.knowledge + '%';
+            document.getElementById('scoreSkills').textContent = results.skills + '%';
+            document.getElementById('scoreConfidence').textContent = results.confidence + '%';
+
+            document.getElementById('scoreKnowledgeBar').style.width = results.knowledge + '%';
+            document.getElementById('scoreSkillsBar').style.width = results.skills + '%';
+            document.getElementById('scoreConfidenceBar').style.width = results.confidence + '%';
+
+            document.getElementById('profileTitle').textContent = results.profileName;
+            document.getElementById('profileDescription').textContent = results.profileDescription;
+
+            let bulletsHTML = '';
+            results.bullets.forEach(bullet => {
+                bulletsHTML += `<div class="profile-bullet">${bullet}</div>`;
+            });
+            document.getElementById('profileBullets').innerHTML = bulletsHTML;
+
+            let activitiesHTML = '';
+            results.activities.forEach(item => {
+                activitiesHTML += `
+                    <div class="recommendation-item">
+                        <span class="recommendation-arrow">→</span>
+                        <strong>${item.activity}</strong><br>
+                        <span style="margin-left: 24px; display: inline-block; font-size: 13px; color: #666;">${item.note}</span>
+                    </div>
+                `;
+            });
+            document.getElementById('activityRecommendations').innerHTML = activitiesHTML;
+
+            let readingsHTML = '';
+            results.readings.forEach(reading => {
+                readingsHTML += `
+                    <div class="recommendation-item">
+                        <span class="recommendation-arrow">→</span>
+                        <code style="background: #f0f0f0; padding: 2px 6px; border-radius: 3px; font-size: 13px;">${reading}</code>
+                    </div>
+                `;
+            });
+            document.getElementById('readingRecommendations').innerHTML = readingsHTML;
+
+            // Hide form sections and show results
+            document.querySelectorAll('.quiz-section').forEach(s => s.classList.remove('active'));
+            document.querySelector('.results-page').classList.add('active');
+            document.getElementById('navButtons').style.display = 'none';
+        }
+
+        function startFreshAssessment() {
+            localStorage.removeItem('aiLiteracyResults');
+            location.reload();
+        }
 
         function showSection(index) {
             // Hide all sections
@@ -1022,7 +1279,7 @@
             document.getElementById('scoreSkillsBar').style.width = skillsScore + '%';
             document.getElementById('scoreConfidenceBar').style.width = attitudeScore + '%';
 
-            // Generate profile text
+            // Generate profile text and save to localStorage
             generateProfile(knowledgeScore, skillsScore, attitudeScore);
         }
 
@@ -1159,6 +1416,20 @@
                 `;
             });
             document.getElementById('readingRecommendations').innerHTML = readingsHTML;
+
+            // Save results to localStorage
+            const resultsToStore = {
+                profileName: profile.name,
+                profileDescription: profile.description,
+                knowledge: knowledge,
+                skills: skills,
+                confidence: Math.round(confidence),
+                bullets: profile.bullets,
+                activities: profile.activities,
+                readings: profile.readings,
+                timestamp: new Date().toLocaleString()
+            };
+            localStorage.setItem('aiLiteracyResults', JSON.stringify(resultsToStore));
         }
 
         function exportResults() {
@@ -1194,7 +1465,11 @@ Generated: ${new Date().toLocaleString()}
         }
 
         // Initialize
-        showSection(0);
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', checkForStoredResults);
+        } else {
+            checkForStoredResults();
+        }
     </script>
 </body>
 </html>
