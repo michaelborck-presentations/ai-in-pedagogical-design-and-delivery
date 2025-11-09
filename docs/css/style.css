@@ -168,6 +168,10 @@ nav .dropdown-menu {
     box-shadow: var(--shadow);
     z-index: 1000;
     margin-top: 0.5rem;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: opacity 0.2s ease, visibility 0.2s ease, transform 0.2s ease;
 }
 
 nav .dropdown-menu a {
@@ -190,6 +194,9 @@ nav .dropdown-menu a:hover {
 
 nav li.dropdown:hover .dropdown-menu {
     display: block;
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
 }
 
 /* Layout */
