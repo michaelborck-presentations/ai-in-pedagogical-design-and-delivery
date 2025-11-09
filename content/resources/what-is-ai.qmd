@@ -22,10 +22,6 @@ format:
 
 # What is AI? A Non-Technical Introduction
 
-**Reading time:** 10 minutes
-
----
-
 ## The Big Picture: What AI Actually Is
 
 **Artificial Intelligence (AI)** is software that can perform tasks that typically require human intelligence.
@@ -43,8 +39,6 @@ When we say "intelligence," we mean things like:
 - **Generating content** - "Write a summary of this report"
 
 AI doesn't "think" the way humans do. It processes data using mathematical patterns. But the results can look remarkably intelligent.
-
----
 
 ## Why Now? What Changed?
 
@@ -71,8 +65,6 @@ AI isn't new. The term was coined in 1956. So why is everyone talking about it n
 - Example: GPT (the technology behind ChatGPT) was invented in 2017
 
 **Result:** AI that was science fiction 10 years ago is now practical and affordable.
-
----
 
 ## The AI Family Tree: Different Types for Different Jobs
 
@@ -104,8 +96,6 @@ THEN offer premium membership
 
 **Real-world use:** Tax software, simple chatbots, spam filters (old-school)
 
----
-
 ### **Type 2: Machine Learning** (Learning from Examples)
 
 **How it works:** Show the AI thousands of examples, and it figures out patterns
@@ -134,8 +124,6 @@ You don't program rules for "what is a cat?" Instead:
 - Fraud detection (learning patterns of fraudulent transactions)
 - Product recommendations (learning what people who bought X also bought)
 - Medical diagnosis (learning patterns in X-rays)
-
----
 
 ### **Type 3: Deep Learning** (The Most Powerful)
 
@@ -166,8 +154,6 @@ Think of it like this:
 - Voice assistants (understanding what you said)
 - Language translation
 - Large Language Models like ChatGPT
-
----
 
 ### **Type 4: Large Language Models (LLMs)** - The Current Excitement
 
@@ -204,8 +190,6 @@ Think of it like this:
 - Code writing assistance
 - Document analysis
 
-**Note:** We have a separate reading just on LLMs because they're what most people encounter now.
-
 ---
 
 ## What AI Can and Cannot Do
@@ -230,15 +214,13 @@ Think of it like this:
 - Maximize clicks on ads
 - Minimise delivery time
 - Predict customer churn
-- Optimize pricing
+- Optimise pricing
 
 **Narrow, Well-Defined Problems**
 
 - "Classify this email as spam or not spam"
 - "What's the sentiment of this review?"
 - "Translate this sentence to French"
-
----
 
 ### **What AI Struggles With:**
 
@@ -309,8 +291,6 @@ All successful AI projects:
 4. **Keep humans in the loop** (especially at first)
 5. **Focus on repetitive tasks** (where AI adds most value)
 
----
-
 ## The AI Hype vs. Reality
 
 ### **The Hype Says:**
@@ -342,7 +322,6 @@ All successful AI projects:
   - You don't need GPT-4 to predict inventory needs
   - Start simple, add complexity only if needed
 
----
 
 ## Key Concepts for Leaders
 
@@ -358,8 +337,6 @@ AI learns from data. If your data is:
 
 **Lesson:** Data quality matters more than algorithm sophistication.
 
----
-
 ### **2. AI Optimizes for What You Tell It To**
 
 AI does exactly what you ask—which might not be what you want.
@@ -372,8 +349,6 @@ AI does exactly what you ask—which might not be what you want.
 
 **Lesson:** Choose your success metrics carefully. AI will find the fastest path to that number.
 
----
-
 ### **3. AI Doesn't "Understand" Like Humans**
 
 AI finds statistical patterns. It doesn't understand meaning or context the way humans do.
@@ -384,8 +359,6 @@ AI finds statistical patterns. It doesn't understand meaning or context the way 
 - AI: Might interpret literally, might not understand it's a request, might not know what "window" means in context
 
 **Lesson:** Don't assume AI understands nuance, sarcasm, context, or implied meaning.
-
----
 
 ### **4. The Black Box Problem**
 
@@ -400,8 +373,6 @@ Deep learning AI can't always explain its decisions.
 
 **Lesson:** For decisions that affect people (hiring, lending, healthcare), you need explainability. Choose simpler AI that can explain, or have humans review AI decisions.
 
----
-
 ### **5. AI Needs Continuous Maintenance**
 
 AI isn't "set it and forget it." The world changes, and AI needs to adapt.
@@ -412,10 +383,6 @@ AI isn't "set it and forget it." The world changes, and AI needs to adapt.
 - COVID changes everything in 2020
 - Your AI is now making predictions based on outdated patterns
 - It needs to be retrained
-
-**Lesson:** Budget for ongoing monitoring, updating, and retraining. AI is like a garden, not a statue.
-
----
 
 ## Common Misconceptions
 
@@ -437,96 +404,6 @@ AI isn't "set it and forget it." The world changes, and AI needs to adapt.
 ### **"More data is always better"**
 **Reality:** More relevant data is better. A million irrelevant examples teach AI nothing. 10,000 high-quality examples are better than 1 million noisy examples.
 
----
-
-## What This Means for Your Projects
-
-As you go through this masterclass, you'll be working with AI project scenarios. Keep in mind:
-
-1. **AI is a tool to solve business problems**
-   - Start with the problem, not the technology
-   - Ask: "What task takes too long, costs too much, or has too many errors?"
-
-2. **AI projects have unique risks**
-   - Data quality issues
-   - Bias and fairness concerns
-   - "Black box" decision-making
-   - Need for ongoing maintenance
-
-3. **Success requires more than good AI**
-   - Change management (will people use it?)
-   - Data infrastructure (do you have the right data?)
-   - Clear metrics (how do you know it's working?)
-   - Ethical guardrails (are you using it responsibly?)
-
-4. **Small pilots beat big launches**
-   - Test with 10% of customers first
-   - Learn what works and what breaks
-   - Scale only after proving value
-
----
-
-## Questions to Ask About Any AI Project
-
-Before you start:
-
-- **What specific problem does this solve?**
-- **How will we measure success?**
-- **Do we have the data needed to train this?**
-- **What happens if the AI makes a mistake?**
-- **Who needs to trust this AI for it to work?**
-
-During the pilot:
-
-- **Is the AI performing as expected?**
-- **What unintended consequences are emerging?**
-- **Are people actually using it?**
-- **Are we making decisions based on criteria we set upfront?**
-
-Before scaling:
-
-- **Did we hit our success criteria?**
-- **Can we handle 10x the volume?**
-- **Have we addressed bias and fairness concerns?**
-- **Do we have a plan for ongoing maintenance?**
-
----
-
-## Recommended Reading
-
-If you want to learn more:
-
-**Non-Technical:**
-
-- "Prediction Machines" by Ajay Agrawal (economics of AI)
-- "AI Superpowers" by Kai-Fu Lee (AI in business and society)
-- "The Alignment Problem" by Brian Christian (AI ethics and safety)
-
-**Case Studies:**
-
-- Harvard Business Review: "How AI Will Transform Project Management"
-- McKinsey: "Notes from the AI frontier"
-
-**Practice:**
-
-- Try ChatGPT or Claude for 30 minutes
-- Ask it to explain concepts, write summaries, answer questions
-- Notice where it's helpful and where it struggles
-
----
-
-## Coming Up in the Masterclass
-
-Now that you understand what AI is, the masterclass will focus on:
-
-- **How to scope AI pilots** (Activity 1)
-- **How to handle crises when AI projects hit problems** (Activity 2)
-- **How to decide whether to scale, pivot, or kill an AI project** (Activity 3)
-
-You'll be using decision frameworks, not building AI. Leadership, not engineering.
-
----
-
 ## Summary: The Five Things to Remember
 
 1. **AI is software that performs tasks requiring intelligence** - pattern recognition, prediction, decision-making, language understanding
@@ -539,4 +416,3 @@ You'll be using decision frameworks, not building AI. Leadership, not engineerin
 
 5. **Most value comes from simple, well-scoped applications** - you don't need cutting-edge AI to get 80% of the benefits
 
-**See you in the masterclass!**

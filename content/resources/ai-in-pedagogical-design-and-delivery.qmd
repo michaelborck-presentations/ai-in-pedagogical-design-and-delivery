@@ -26,31 +26,31 @@ The integration of Artificial Intelligence in Education (AIED) is fundamentally 
 
 The following five topics successfully organise the discussion across the technology itself (ITS), the impact on professional roles (The Architect, The Practitioner), the systemic obstacles (Challenges & Limitations), and the resulting transformation of the human professional (The Evolving Role of the Educator).
 
-### 1. Intelligent Tutoring Systems (ITS)
+## 1. Intelligent Tutoring Systems (ITS)
 
 **Key Takeaway:** ITS deliver **personalised, one-on-one instruction** by relying on an integrated architecture of four key components: the **Domain Model** (what is taught), the **Learner Model** (who is learning, including successes and misconceptions), the **Tutoring Model** (how to teach), and the **User Interface Model** (interaction). The quality of instruction is directly determined by the sophistication of these underlying models, which collectively ensure that the system adjusts the pace, difficulty, and focus of lessons in real-time.
 
 **Analogy:** Intelligent Tutoring Systems function much like an automated personal trainer at a gym. Just as the trainer analyzes your current fitness level, pace, and weaknesses (the **Student Model**), knows the curriculum of exercises (the **Domain Model**), and determines the optimal routine to challenge you without overwhelming you (the **Tutoring Model**), the ITS continuously adjusts the learning path to ensure instruction is both challenging and achievable, promoting deeper understanding.
 
-### 2. Impact on Pedagogical Design (The Architect)
+## 2. Impact on Pedagogical Design (The Architect)
 
 **Key Takeaway:** AI fundamentally transforms the pedagogical designer's role from a manual content creator to a **Strategic Architect** by automating previously slow and tedious tasks, such as generating course outlines, assessments, and multimedia. This automation forces the designer to focus on **high-level, human-centric design**—creating flexible, dynamic frameworks and addressing emotional barriers to learning, rather than formatting slides or writing quiz questions.
 
 **Analogy:** If traditional pedagogical design was like crafting a single, hand-built ship (a static course) that everyone had to sail on, the AI era redesigns the role of the architect. The new Pedagogical Architect now designs a complex, adaptive fleet where each ship (module) can adjust its sails, speed, and navigation (difficulty, pace, content) based on the real-time weather (student performance data), ensuring everyone reaches their destination, but along a personalised route. The architect’s most critical new job is ensuring the human crew (teachers and students) still communicate and build rapport, not just follow the automated navigation system.
 
-### 3. Impact on Pedagogical Delivery (The Practitioner)
+## 3. Impact on Pedagogical Delivery (The Practitioner)
 
 **Key Takeaway:** AI revolutionizes pedagogical delivery by collapsing the feedback loop and providing educators with **real-time data insights** into student progress, performance patterns, and cognitive states. This data-driven delivery allows the human teacher to transition into a **"real-time interventionist,"** enabling them to abandon content presentation to the "average" student and instead focus on targeted, high-value interventions based on immediate, actionable data.  It can be viewed the impact of AI on pedagogical delivery not as a replacement for the teacher, but as an augmented reality for the classroom. AI handles the mechanics of instruction and data analysis, allowing the human practitioner to execute their craft with surgical precision, focusing their limited time on high-value, empathetic, and complex human interactions.
 
 **Analogy:**. AI in the classroom functions as an AI Co-Pilot. The AI (co-pilot) handles the routine mechanics of flight (content delivery, system monitoring, and performance tracking), allowing the human pilot (the educator) to focus on complex navigation, communicating with the crew (students), and managing unexpected turbulence (misconceptions or emotional barriers) with surgical precision.
 
-### 4. Challenges & Limitations
+## 4. Challenges & Limitations
 
 **Key Takeaway:** Despite the technological promise, a critical challenge for AIED is the **risk of eroding the human element** and exacerbating **educational inequity** through algorithmic bias. Over-reliance on ITS can reduce valuable face-to-face interactions, while studies show that students using AI sometimes feel **less connected to their teachers** (the "paradox of connection"). Furthermore, predictive models trained on historical data risk perpetuating existing biases against marginalized groups when allocating resources or flagging "at-risk" learners.
 
 **Analogy:** Think of AIED as a new, highly efficient Automated Factory. While it produces learning materials at scale (efficiency), it risks creating a sterile, one-size-fits-all product that lacks the "human touch" (eroding connection). More dangerously, if the factory's blueprints (the algorithm) have a flaw (bias), it doesn't just create one bad product; it replicates that flaw thousands of times, perpetuating the inequity at scale.
 
-### 5. The Evolving Human-Centric Educator
+## 5. The Evolving Human-Centric Educator
 
 **Key Takeaway:** The long-term impact of AI is a **forced re-humanization** of the educator's role, where the practitioner is compelled to abandon the commoditized, technical tasks (which AI can perform) and focus on the **Human Edge of AI**. This means prioritizing **empathy, creativity, strategic thinking, mentorship, and socio-emotional support**—the unique human skills vital for holistic student development that AI fundamentally cannot replicate. Educators must also become proficient in **interpreting AI data** and developing **ethical reasoning** to guide responsible technology use.
 
