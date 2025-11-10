@@ -56,7 +56,7 @@ The good news? **Understanding and managing context is a learnable skill** that 
 **Why it works:**
 - Distributes output tokens efficiently (each step gets focus)
 - Reduces hallucination risk (smaller scope per prompt)
-- Gives you a plan to follow (more organized)
+- Gives you a plan to follow (more organised)
 - Lets you quality-check each step before moving forward
 
 ### Example 1: Teaching Design
@@ -265,7 +265,7 @@ Keep total output under [X words/lines]. Prioritize clarity over completeness.
 **Better approach:**
 
 **Prompt:**
-> "I need 5 discussion questions for a unit on organizational leadership. They should:\n- Progress from basic understanding to critical analysis\n- Each take 5–10 minutes of discussion\n- Spark respectful debate (not yes/no questions)\n\nTopics: 1) Leadership styles, 2) Ethical decision-making, 3) Team conflict, 4) Change management, 5) Inclusive leadership.\n\nProvide all 5 questions with a note about why each one works."
+> "I need 5 discussion questions for a unit on organisational leadership. They should:\n- Progress from basic understanding to critical analysis\n- Each take 5–10 minutes of discussion\n- Spark respectful debate (not yes/no questions)\n\nTopics: 1) Leadership styles, 2) Ethical decision-making, 3) Team conflict, 4) Change management, 5) Inclusive leadership.\n\nProvide all 5 questions with a note about why each one works."
 
 *Single exchange. AI understands the pattern. Higher quality.*
 

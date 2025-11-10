@@ -74,7 +74,7 @@ That's it! Quarto will:
 ### PDF Files
 - **Professional:** Formatted for printing
 - **Navigation:** Table of contents with clickable links
-- **Color-coded:** Headings and links in color
+- **Color-coded:** Headings and links in colour
 - **Metadata:** Title, author, date in document properties
 
 ### PowerPoint (PPTX)
@@ -106,7 +106,7 @@ format:
   
   pdf:
     toc: true                  # PDF also has TOC
-    colorlinks: true           # Colored links in PDF
+    colorlinks: true           # Coloured links in PDF
 
 execute:
   freeze: auto                 # Cache execution results

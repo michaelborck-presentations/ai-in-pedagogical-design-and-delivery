@@ -287,7 +287,7 @@ This guide helps you discover *what's right for you*:
 - What are you struggling with that AI could help with?
 - What's possible that you hadn't considered?
 
-By asking AI to diagnose before recommending, you get personalized guidance instead of generic advice.
+By asking AI to diagnose before recommending, you get personalised guidance instead of generic advice.
 
 ---
 

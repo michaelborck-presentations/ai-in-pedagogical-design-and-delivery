@@ -143,7 +143,7 @@ Pre-reading suggestion:
 **What it is:** Interactive assessment measuring current AI literacy  
 **When:** First 15 minutes of workshop (or on arrival)  
 **Duration:** 12-15 minutes  
-**Purpose:** Personalize workshop recommendations in real-time
+**Purpose:** Personalise workshop recommendations in real-time
 
 **Structure (15 questions):**
 
@@ -172,7 +172,7 @@ Knowledge:   ████░░░░░░ 40% (Developing)
 Prompting:   ███░░░░░░░ 30% (Novice)
 Confidence:  ███████░░░ 70% (Good!)
 
-PERSONALIZED WORKSHOP PATH:
+PERSONALISED WORKSHOP PATH:
 ───────────────────────────
 
 Activity 1 (Automate the Tedious):
@@ -207,13 +207,13 @@ provide extra support. Raise your hand anytime!
 ### 1 Week Before Workshop
 - Email: Reflective Profile link + info sheet
 - Participant completes (8 min)
-- Receives personalized profile + reading suggestions
+- Receives personalised profile + reading suggestions
 - They choose what to read based on their results
 
 ### Day Of (First 15 minutes)
 1. Participants arrive, access Diagnostic Quiz (via link/laptop)
 2. Complete quiz (12-15 min)
-3. Get instant personalized guidance card
+3. Get instant personalised guidance card
 4. Facilitator can adjust pacing/emphasis based on aggregate results
 
 ### During Workshop
@@ -239,12 +239,12 @@ provide extra support. Raise your hand anytime!
 - Professional look
 - Better user experience
 - Free tier allows ~10 questions
-- Can auto-email personalized results
+- Can auto-email personalised results
 
 ### Diagnostic Quiz (During Workshop)
 **Custom HTML/JavaScript** (Best Control)
 - Runs offline (no internet dependency during workshop)
-- Instant results, personalized guidance
+- Instant results, personalised guidance
 - Easy to modify questions
 - Can log results to email or spreadsheet
 - Professional look (matches your website)
@@ -330,4 +330,4 @@ website/*.tmp
 
 4. **Create minimal HTML template** (I can draft)
 
-Would you like me to start building the custom HTML template, or do you want to finalize the structure first?
+Would you like me to start building the custom HTML template, or do you want to finalise the structure first?

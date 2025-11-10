@@ -5,8 +5,8 @@ This guide explains how to set up and use both assessment quizzes for your works
 ## Two-Quiz Strategy
 
 ### 1. Reflective Profile Quiz (Week Before)
-**Purpose:** Surface anxieties and motivations; personalize pre-reading  
-**Platform:** MS Forms (your organization)  
+**Purpose:** Surface anxieties and motivations; personalise pre-reading  
+**Platform:** MS Forms (your organisation)  
 **Timing:** Send via email 1 week before workshop  
 **Duration:** 8-10 minutes  
 **Participant Action:** Complete optional form, receive profile + reading suggestions
@@ -49,7 +49,7 @@ Section 3: Values
 ---
 
 ### 2. Diagnostic Quiz (Day Of)
-**Purpose:** Measure AI literacy; provide real-time personalized guidance  
+**Purpose:** Measure AI literacy; provide real-time personalised guidance  
 **Platform:** Custom HTML/JavaScript (included in repo)  
 **Timing:** First 15 minutes of workshop  
 **Duration:** 12-15 minutes  
@@ -81,7 +81,7 @@ Section 3: Values
 
 **Introduce the diagnostic:**
 
-> "Before we start, I want to understand where you're starting from so I can make this most useful for you. You'll spend 15 minutes on a quick assessment—not for grades, just to personalize your learning path. You'll get instant results with specific recommendations for what to focus on in our two hours together."
+> "Before we start, I want to understand where you're starting from so I can make this most useful for you. You'll spend 15 minutes on a quick assessment—not for grades, just to personalise your learning path. You'll get instant results with specific recommendations for what to focus on in our two hours together."
 
 **Set expectations:**
 
@@ -90,7 +90,7 @@ Section 3: Values
 ### During Quiz (15 min)
 
 - Participants access quiz on laptops/tablets
-- Tell them to minimize distractions (Slack, email, etc.)
+- Tell them to minimise distractions (Slack, email, etc.)
 - You watch aggregate responses if possible (optional: look at most common concerns)
 
 ### Immediately After (5 min)
@@ -267,7 +267,7 @@ The quiz runs 100% locally. If you want to collect results:
 - Send Reflective Profile email exactly 1 week before (people forget if earlier)
 - Have fun with the quiz language—make it feel safe, not evaluative
 - Reference profiles throughout workshop to help people feel "seen"
-- Follow up with personalized recommendations
+- Follow up with personalised recommendations
 - Use results to improve next iteration
 
 ❌ **Don't:**

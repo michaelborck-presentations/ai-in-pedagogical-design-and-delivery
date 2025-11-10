@@ -73,7 +73,7 @@ Once you master basic prompting, you can ask AI to take on complex roles: simula
 ## Skill 6: Document Creation (From Conversation to Deliverable)
 
 **Conceptual Summary:**
-The magic happens when you chain prompts: first generate ideas, then refine them, then adapt for different audiences, then format for delivery. A teaching strategy that emerges from dialogue (not one-shot generation) is higher quality and more personally aligned. The workflow is: *explore → review → refine → adapt → finalize*.
+The magic happens when you chain prompts: first generate ideas, then refine them, then adapt for different audiences, then format for delivery. A teaching strategy that emerges from dialogue (not one-shot generation) is higher quality and more personally aligned. The workflow is: *explore → review → refine → adapt → finalise*.
 
 **Why it matters:** One conversation rarely produces a finished document. Iterative dialogue—where you provide feedback after each step—produces outputs that actually match what you need.
 
@@ -82,7 +82,7 @@ The magic happens when you chain prompts: first generate ideas, then refine them
 2. *Review*: "I like option 3. Tell me more about implementation."
 3. *Refine*: "That's good, but make it feasible for a class of 80."
 4. *Adapt*: "Now turn this into a 1-page faculty handout."
-5. *Finalize*: "Great. Make it more encouraging and less technical."
+5. *Finalise*: "Great. Make it more encouraging and less technical."
 
 **Go deeper:** [Prompt Chaining Techniques](content/resources/prompt-chaining-techniques.html)
 
@@ -155,7 +155,7 @@ Read all seven skills in order over 1–2 sessions. Each has a resource link for
 
 **Sophisticated Apps = Rubric generation, scenario simulation, assessment design—AI as a pedagogical instrument**
 
-**Document Creation = Explore → Review → Refine → Adapt → Finalize (iterative dialogue, not one-shot generation)**
+**Document Creation = Explore → Review → Refine → Adapt → Finalise (iterative dialogue, not one-shot generation)**
 
 **Advanced Topics = Agents, automation, multi-modal prompting—the horizon of what's coming**
 
@@ -183,7 +183,7 @@ The skills above aren't about becoming an AI expert. They're about becoming prof
 | "I know the basics but want more options" | Skill 3 (Core Techniques) | Try a different prompting approach for your discipline |
 | "My conversations are messy and long" | Skill 4 (Context Management) | Break into smaller conversations, focus one task at a time |
 | "I'm not sure how to use AI pedagogically" | Skill 5 (Sophisticated Applications) | See examples of AI as rubric-builder, simulator, evaluator |
-| "I get good ideas but can't turn them into deliverables" | Skill 6 (Document Creation) | Use prompt chaining: explore → refine → adapt → finalize |
+| "I get good ideas but can't turn them into deliverables" | Skill 6 (Document Creation) | Use prompt chaining: explore → refine → adapt → finalise |
 | "What's coming next?" | Skill 7 (Advanced Topics) | Explore agents, automation, and emerging capabilities |
 
 ---

@@ -13,7 +13,7 @@ An interactive, self-contained HTML/JavaScript quiz that assesses AI literacy ac
 ### When to Use
 **Timing:** First 15 minutes of the workshop (or on arrival)
 
-Participants complete the quiz individually, receive instant results with personalized guidance, and use those recommendations to focus their workshop engagement.
+Participants complete the quiz individually, receive instant results with personalised guidance, and use those recommendations to focus their workshop engagement.
 
 ### How It Works
 
@@ -38,7 +38,7 @@ Participants complete the quiz individually, receive instant results with person
 #### Opening Statement
 You might introduce it as:
 
-> "This 15-minute assessment helps personalize your learning. You're not being graded—we're just understanding where you're starting so we can focus on what's most useful for you. Your results stay with you."
+> "This 15-minute assessment helps personalise your learning. You're not being graded—we're just understanding where you're starting so we can focus on what's most useful for you. Your results stay with you."
 
 #### During the Quiz
 - Run locally (no internet needed)
@@ -46,7 +46,7 @@ You might introduce it as:
 - Participants access: `http://localhost:8000/ai-literacy-diagnostic.html`
 
 #### Processing Results
-Participants get instant personalized guidance:
+Participants get instant personalised guidance:
 - If Novice skills: "Activity 2 will level up your prompting significantly"
 - If proficient knowledge but low confidence: "Your understanding is solid; practice will build confidence"
 - If concerned about cheating: "Activity 4 directly addresses assessment design with AI"
@@ -95,7 +95,7 @@ Pre-Reading Focus:
 
 After workshop, send results + facilitator notes:
 - Aggregate feedback ("Most common concern was academic integrity")
-- Personalized recommendations for continued learning
+- Personalised recommendations for continued learning
 - Link to "next steps" resources on website
 
 ---

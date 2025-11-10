@@ -50,14 +50,14 @@ Complete workshop and companion website for building AI literacy among marketing
 - `website/content/assessment/ai-literacy-diagnostic.html`
 - 15 interactive questions
 - 4 adaptive profiles (Novice → Advanced)
-- Instant personalized results
+- Instant personalised results
 - Runs entirely offline
 - Recommend: Day-of workshop (first 15 minutes)
 
 **Reflective Profile:**
 - Design using MS Forms (template in QUIZ-SETUP-GUIDE.md)
 - 10 questions about concerns and motivations
-- Personalized reading suggestions
+- Personalised reading suggestions
 - Recommend: Send 1 week before workshop
 
 ### 4. Companion Website
@@ -169,12 +169,12 @@ ai-in-pedagogical-design-and-delivery/
 ### Phase 1: Reflective Profile (Week Before)
 - **Tool:** MS Forms (10 questions)
 - **Purpose:** Surface anxieties, understand motivations
-- **Output:** Personalized reading suggestions
+- **Output:** Personalised reading suggestions
 - **Time:** 8-10 minutes
 
 ### Phase 2: Diagnostic Quiz (Day Of)
 - **Tool:** Custom HTML/JavaScript
-- **Purpose:** Measure AI literacy, personalize learning path
+- **Purpose:** Measure AI literacy, personalise learning path
 - **Output:** Instant adaptive profile + activity recommendations
 - **Time:** 12-15 minutes
 - **Features:** Offline, no backend, instant results
@@ -206,7 +206,7 @@ ai-in-pedagogical-design-and-delivery/
 ### Accessibility
 - Semantic HTML5
 - Proper heading hierarchy
-- Color contrast compliance
+- Colour contrast compliance
 - Mobile-friendly touch targets
 
 ### Performance
@@ -241,7 +241,7 @@ ai-in-pedagogical-design-and-delivery/
 
 ### After Workshop
 
-- [ ] Send results + personalized recommendations
+- [ ] Send results + personalised recommendations
 - [ ] Include group insights (aggregate data)
 - [ ] Share follow-up resources
 - [ ] Optionally: Set up 3-month re-test
@@ -250,7 +250,7 @@ ai-in-pedagogical-design-and-delivery/
 
 ## Customization Guide
 
-### Change Colors
+### Change Colours
 
 Edit `/website/src/css/style.css`:
 ```css
@@ -343,7 +343,7 @@ In same file, search for `const profiles = {`
 - Create new resource cards with metadata
 
 **Rebrand:**
-- Change CSS colors
+- Change CSS colours
 - Update logo text (website/src/index.html)
 - Modify footer content
 
@@ -385,7 +385,7 @@ In same file, search for `const profiles = {`
 4. **Deploy** - Push to GitHub Pages
 5. **Share** - Send pre-reading email 1 week before workshop
 6. **Present** - Run workshop with diagnostic quiz
-7. **Follow-up** - Send results and personalized recommendations
+7. **Follow-up** - Send results and personalised recommendations
 
 ---
 

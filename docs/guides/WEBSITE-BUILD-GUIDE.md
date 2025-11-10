@@ -177,7 +177,7 @@ git push origin main
 ### Accessibility
 - Semantic HTML5
 - Proper heading hierarchy
-- Color contrast meets WCAG standards
+- Colour contrast meets WCAG standards
 - Mobile-accessible navigation
 
 ### Performance
@@ -199,16 +199,16 @@ git push origin main
 
 ## Customization
 
-### Change Colors
+### Change Colours
 
 Edit CSS variables in `website/src/css/style.css`:
 
 ```css
 :root {
-    --primary: #667eea;          /* Main color */
+    --primary: #667eea;          /* Main colour */
     --primary-dark: #764ba2;     /* Darker shade */
-    --accent: #f59e0b;           /* Accent color */
-    --text-dark: #1f2937;        /* Text color */
+    --accent: #f59e0b;           /* Accent colour */
+    --text-dark: #1f2937;        /* Text colour */
     --text-light: #6b7280;       /* Secondary text */
     --bg-light: #f9fafb;         /* Light background */
 }

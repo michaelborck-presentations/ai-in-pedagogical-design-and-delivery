@@ -276,7 +276,7 @@ Here are real examples from companies of different sizes:
 - **Loan Decisions:** AI pre-screens loan applications
 - **Risk Assessment:** Predicts probability of default
 - **Regulatory Compliance:** Scans documents for compliance issues
-- **Personalized Marketing:** Targets offers based on customer behaviour
+- **Personalised Marketing:** Targets offers based on customer behaviour
 - **Chatbots:** Handles millions of routine customer inquiries
 
 ### **What They Have in Common**

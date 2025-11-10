@@ -87,7 +87,7 @@ Choose something simple and low-stakes:
 
 **Bad prompt:** "Make some questions"
 
-**Better prompt:** "Generate 3 discussion questions for a second-year marketing course on consumer behavior. Focus on ethical considerations. Make them open-ended to encourage debate."
+**Better prompt:** "Generate 3 discussion questions for a second-year marketing course on consumer behaviour. Focus on ethical considerations. Make them open-ended to encourage debate."
 
 **Formula:** Task + Context + Specifics + Constraints
 

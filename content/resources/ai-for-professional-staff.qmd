@@ -8,7 +8,7 @@ format:
 
 ## Introduction
 
-If you're a Teaching Support Officer, Learning Designer, Academic Coordinator, Curriculum Specialist, Student Support Advisor, or Compliance Officer, this guide is for you.
+If you're a Teaching Support Officer, Academic Coordinator, Curriculum Specialist, Student Support Advisor, Finance Officer, Compliance Officer, or other professional staff role, this guide is for you.
 
 While many AI workshops focus on teaching (how educators use AI *with* students), your role is different. You work *across* teaching and research, often managing:
 - Data analysis and reporting
