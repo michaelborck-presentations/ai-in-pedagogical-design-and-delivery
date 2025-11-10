@@ -2714,69 +2714,19 @@ border-width: 0;
 </style>
 </head>
 
-<body class="quarto-light">
+<body class="fullcontent quarto-light">
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
-<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-  <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#managing-context-with-ai-why-it-matters-and-how-to-do-it-well" id="toc-managing-context-with-ai-why-it-matters-and-how-to-do-it-well" class="nav-link active" data-scroll-target="#managing-context-with-ai-why-it-matters-and-how-to-do-it-well">Managing Context with AI: Why It Matters and How to Do It Well</a>
-  <ul class="collapse">
-  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#why-context-management-matters" id="toc-why-context-management-matters" class="nav-link" data-scroll-target="#why-context-management-matters">Why Context Management Matters</a>
-  <ul class="collapse">
-  <li><a href="#problem-1-the-long-conversation-problem" id="toc-problem-1-the-long-conversation-problem" class="nav-link" data-scroll-target="#problem-1-the-long-conversation-problem">Problem 1: The Long Conversation Problem</a></li>
-  <li><a href="#problem-2-output-token-scarcity" id="toc-problem-2-output-token-scarcity" class="nav-link" data-scroll-target="#problem-2-output-token-scarcity">Problem 2: Output Token Scarcity</a></li>
-  <li><a href="#problem-3-hallucination-acceleration" id="toc-problem-3-hallucination-acceleration" class="nav-link" data-scroll-target="#problem-3-hallucination-acceleration">Problem 3: Hallucination Acceleration</a></li>
-  <li><a href="#problem-4-lost-context-across-sessions" id="toc-problem-4-lost-context-across-sessions" class="nav-link" data-scroll-target="#problem-4-lost-context-across-sessions">Problem 4: Lost Context Across Sessions</a></li>
-  </ul></li>
-  <li><a href="#core-strategy-1-break-complex-tasks-into-steps" id="toc-core-strategy-1-break-complex-tasks-into-steps" class="nav-link" data-scroll-target="#core-strategy-1-break-complex-tasks-into-steps">Core Strategy 1: Break Complex Tasks Into Steps</a>
-  <ul class="collapse">
-  <li><a href="#example-1-teaching-design" id="toc-example-1-teaching-design" class="nav-link" data-scroll-target="#example-1-teaching-design">Example 1: Teaching Design</a></li>
-  <li><a href="#example-2-research-planning" id="toc-example-2-research-planning" class="nav-link" data-scroll-target="#example-2-research-planning">Example 2: Research Planning</a></li>
-  </ul></li>
-  <li><a href="#core-strategy-2-one-task-per-prompt-usually" id="toc-core-strategy-2-one-task-per-prompt-usually" class="nav-link" data-scroll-target="#core-strategy-2-one-task-per-prompt-usually">Core Strategy 2: One Task Per Prompt (Usually)</a>
-  <ul class="collapse">
-  <li><a href="#example-good-vs.-poor-task-assignment" id="toc-example-good-vs.-poor-task-assignment" class="nav-link" data-scroll-target="#example-good-vs.-poor-task-assignment">Example: Good vs. Poor Task Assignment</a></li>
-  <li><a href="#exception-when-multiple-things-are-okay" id="toc-exception-when-multiple-things-are-okay" class="nav-link" data-scroll-target="#exception-when-multiple-things-are-okay">Exception: When Multiple Things Are Okay</a></li>
-  </ul></li>
-  <li><a href="#core-strategy-3-use-output-constraints-to-manage-tokens" id="toc-core-strategy-3-use-output-constraints-to-manage-tokens" class="nav-link" data-scroll-target="#core-strategy-3-use-output-constraints-to-manage-tokens">Core Strategy 3: Use Output Constraints to Manage Tokens</a>
-  <ul class="collapse">
-  <li><a href="#example" id="toc-example" class="nav-link" data-scroll-target="#example">Example</a></li>
-  <li><a href="#template-for-token-aware-requests" id="toc-template-for-token-aware-requests" class="nav-link" data-scroll-target="#template-for-token-aware-requests">Template for Token-Aware Requests</a></li>
-  </ul></li>
-  <li><a href="#core-strategy-4-keep-conversations-focused-and-modular" id="toc-core-strategy-4-keep-conversations-focused-and-modular" class="nav-link" data-scroll-target="#core-strategy-4-keep-conversations-focused-and-modular">Core Strategy 4: Keep Conversations Focused and Modular</a>
-  <ul class="collapse">
-  <li><a href="#when-to-start-a-new-conversation" id="toc-when-to-start-a-new-conversation" class="nav-link" data-scroll-target="#when-to-start-a-new-conversation">When to Start a New Conversation</a></li>
-  <li><a href="#when-one-conversation-is-fine" id="toc-when-one-conversation-is-fine" class="nav-link" data-scroll-target="#when-one-conversation-is-fine">When One Conversation Is Fine</a></li>
-  </ul></li>
-  <li><a href="#core-strategy-5-summarize-and-handoff-for-long-conversations" id="toc-core-strategy-5-summarize-and-handoff-for-long-conversations" class="nav-link" data-scroll-target="#core-strategy-5-summarize-and-handoff-for-long-conversations">Core Strategy 5: Summarize and Handoff for Long Conversations</a>
-  <ul class="collapse">
-  <li><a href="#how-to-do-it" id="toc-how-to-do-it" class="nav-link" data-scroll-target="#how-to-do-it">How to Do It</a></li>
-  </ul></li>
-  <li><a href="#core-strategy-6-make-context-explicit-and-structured" id="toc-core-strategy-6-make-context-explicit-and-structured" class="nav-link" data-scroll-target="#core-strategy-6-make-context-explicit-and-structured">Core Strategy 6: Make Context Explicit and Structured</a>
-  <ul class="collapse">
-  <li><a href="#checklist-for-explicit-context" id="toc-checklist-for-explicit-context" class="nav-link" data-scroll-target="#checklist-for-explicit-context">Checklist for Explicit Context</a></li>
-  </ul></li>
-  <li><a href="#advanced-strategy-batch-similar-tasks" id="toc-advanced-strategy-batch-similar-tasks" class="nav-link" data-scroll-target="#advanced-strategy-batch-similar-tasks">Advanced Strategy: Batch Similar Tasks</a></li>
-  <li><a href="#common-mistakes-and-how-to-fix-them" id="toc-common-mistakes-and-how-to-fix-them" class="nav-link" data-scroll-target="#common-mistakes-and-how-to-fix-them">Common Mistakes and How to Fix Them</a></li>
-  <li><a href="#practical-workflow-for-managing-context" id="toc-practical-workflow-for-managing-context" class="nav-link" data-scroll-target="#practical-workflow-for-managing-context">Practical Workflow for Managing Context</a>
-  <ul class="collapse">
-  <li><a href="#phase-1-planning" id="toc-phase-1-planning" class="nav-link" data-scroll-target="#phase-1-planning">Phase 1: Planning</a></li>
-  <li><a href="#phase-2-execution" id="toc-phase-2-execution" class="nav-link" data-scroll-target="#phase-2-execution">Phase 2: Execution</a></li>
-  <li><a href="#phase-3-management" id="toc-phase-3-management" class="nav-link" data-scroll-target="#phase-3-management">Phase 3: Management</a></li>
-  <li><a href="#phase-4-quality-check" id="toc-phase-4-quality-check" class="nav-link" data-scroll-target="#phase-4-quality-check">Phase 4: Quality Check</a></li>
-  </ul></li>
-  <li><a href="#real-world-example-managing-context-well" id="toc-real-world-example-managing-context-well" class="nav-link" data-scroll-target="#real-world-example-managing-context-well">Real-World Example: Managing Context Well</a></li>
-  <li><a href="#summary-the-core-principles" id="toc-summary-the-core-principles" class="nav-link" data-scroll-target="#summary-the-core-principles">Summary: The Core Principles</a></li>
-  <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
-  </ul></li>
-  </ul>
-</nav>
-</div>
+
 <main class="content" id="quarto-document-content">
+<header style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 0; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+    <div style="max-width: 900px; margin: 0 auto; padding: 0 1rem; display: flex; align-items: center; justify-content: space-between;">
+        <h1 style="margin: 0; font-size: 1.5rem; font-weight: 600;">AI in Pedagogical Design and Delivery</h1>
+        <a href="https://michaelborck-presentations.github.io/ai-in-pedagogical-design-and-delivery/index.html" style="color: white; text-decoration: none; font-weight: 500; padding: 0.5rem 1rem; background: rgba(255,255,255,0.2); border-radius: 4px; transition: background 0.3s; display: flex; align-items: center; gap: 0.5rem;">
+            ← Back
+        </a>
+    </div>
+</header>
 
 
 
@@ -3109,6 +3059,17 @@ Keep total output under [X words/lines]. Prioritize clarity over completeness.</
 
 </main>
 <!-- /main column -->
+<footer style="background: #f8f9fa; border-top: 1px solid #e0e0e0; padding: 2rem 1rem; margin-top: 3rem;">
+    <div style="max-width: 900px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+        <div style="color: #666; font-size: 0.9rem;">
+            <p style="margin: 0;">AI in Pedagogical Design and Delivery Workshop</p>
+            <p style="margin: 0.25rem 0 0 0; color: #999;">Curtin University</p>
+        </div>
+        <a href="https://michaelborck-presentations.github.io/ai-in-pedagogical-design-and-delivery/index.html" style="color: #667eea; text-decoration: none; font-weight: 600; padding: 0.5rem 1rem; background: white; border: 2px solid #667eea; border-radius: 4px; transition: all 0.3s; display: inline-flex; align-items: center; gap: 0.5rem;">
+            ← Back to Workshop
+        </a>
+    </div>
+</footer>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

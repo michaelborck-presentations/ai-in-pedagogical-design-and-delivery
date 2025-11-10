@@ -5,9 +5,7 @@ date: today
 format:
   html:
     embed-resources: true
-    toc: false
   pdf:
-    toc: false
     colorlinks: true
   pptx:
     slide-level: 1

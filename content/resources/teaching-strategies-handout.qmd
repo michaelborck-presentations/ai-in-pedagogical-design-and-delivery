@@ -2,14 +2,10 @@
 format: 
   pptx: default
   pdf:
-    toc: false
     colorlinks: true
   docx:
-    toc: false
     highlight-style: github
   html:
-    toc: true
-    toc-expand: 2
     embed-resources: true
 ---
 

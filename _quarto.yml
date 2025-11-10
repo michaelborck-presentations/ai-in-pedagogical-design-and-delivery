@@ -16,6 +16,8 @@ format:
     toc: false
     embed-resources: true
     css: docs/css/style.css
+    include-before-body: _extensions/header.html
+    include-after-body: _extensions/footer.html
     
   pdf:
     toc: false

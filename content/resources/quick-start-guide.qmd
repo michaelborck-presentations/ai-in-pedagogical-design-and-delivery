@@ -6,7 +6,6 @@ date: today
 format:
   html:
     embed-resources: true
-    toc: false
   pdf:
     page-size: A4
     margin-left: 2cm

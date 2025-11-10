@@ -6,7 +6,6 @@ date: today
 format:
   html:
     embed-resources: true
-    toc: true
     toc-depth: 2
   pdf:
     page-size: A4
@@ -14,7 +13,6 @@ format:
     margin-right: 2cm
     margin-top: 2.5cm
     margin-bottom: 2cm
-    toc: true
     toc-depth: 2
     colorlinks: true
     fontsize: 11pt
