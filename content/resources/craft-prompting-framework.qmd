@@ -165,27 +165,142 @@ Whether you do that through CRAFT, through examples, through step-by-step instru
 
 ---
 
-## Prompting as a Conversation
+## Prompting as a Conversation: The Real Power
 
-CRAFT is a great **starting point**, but don't stop there. The real power emerges when you use AI as a **collaborator** through follow-up prompts.
+Here's something important: **One-shot prompts tend toward sameness and averageness.** When you ask AI a single question and take the first answer, you get polished, predictable, middle-of-the-road output. That's not because AI is limited—it's because you haven't had a conversation yet.
 
-### Example Flow:
+The real exploration happens in the **follow-up prompts**. That's where you push thinking deeper, challenge assumptions, ask for nuance, and steer toward *your* specific context and needs.
 
-**Prompt 1 (Initial CRAFT prompt):**
-> "I teach engineering students in a design studio. You are a pedagogy expert. How can I use AI tools to scaffold student problem-solving without reducing cognitive challenge? Format as 3 strategies with classroom examples. Use language suitable for colleague workshops."
+> **Think of AI prompting like a conversation with a capable colleague, not like asking a search engine for an answer.**
 
-**Prompt 2 (Follow-up - Refine & Extend):**
-> "Those are helpful. Now add one example of how to assess whether students are developing critical thinking versus just using AI to bypass thinking."
+### Why Conversation Matters
 
-**Prompt 3 (Follow-up - Adapt Audience):**
-> "Great. Now rewrite the first strategy as an email I can send to first-year coordinators who are skeptical of AI."
+1. **First answers are drafts, not final thoughts.** AI hasn't yet understood your actual needs, constraints, or what matters to you.
+2. **Follow-ups reveal depth.** "What am I missing?" or "Now dig deeper on that second point" pushes AI toward more thoughtful output.
+3. **You shape the thinking through dialogue.** Each question you ask steers the conversation in new directions.
+4. **Specificity emerges through iteration.** Vague initial responses become sharp and contextual through rounds of back-and-forth.
+5. **Your expertise guides the exploration.** You know your discipline, your students, your institution. AI should adapt to that, not the other way around.
 
-**Why this matters:**
-- You're not just extracting information; you're building on it
-- Each turn gets more specific and tailored
-- You're thinking **with** AI, not just getting outputs **from** it
+### Example: How Conversation Changes Everything
 
-> The best prompts are rarely the first ones. The magic happens in the conversation.
+**One-shot prompt (what many people do):**
+> "How can I use AI in my teaching?"
+
+*Output: Generic, average, 3–4 safe suggestions that apply to everyone*
+
+---
+
+**Conversational approach (what actually works):**
+
+**Prompt 1 (CRAFT starting point):**
+> "I teach business ethics to 2nd-year students. You are a pedagogy expert. What are 3 ways to use AI that *deepen* ethical thinking rather than replacing it? Include one activity for each. Format for colleague discussion."
+
+*Output: Reasonable, but still somewhat generic*
+
+**Prompt 2 (Follow-up - push toward depth):**
+> "Those are helpful. The third one about 'AI bias analysis'—that's interesting. Can you walk me through what a student would actually *do* in that activity? What would the AI's role be, what would the student's role be, and how would you know if they're thinking critically versus just using AI?"
+
+*Output: Much more specific. You're now co-designing the activity.*
+
+**Prompt 3 (Follow-up - address your specific concern):**
+> "Here's my real worry: won't students just copy what the AI says instead of forming their own ethical positions? How would you redesign this to force genuine student thinking?"
+
+*Output: Now AI is addressing your actual concern, not a hypothetical one.*
+
+**Prompt 4 (Follow-up - make it practical):**
+> "I like that. Now create a rubric I could actually use to grade this. What would 'demonstrates genuine ethical reasoning' look like versus 'used AI as a crutch'? Make it specific enough that I can show it to students."
+
+*Output: Practical tool, directly usable in your classroom.*
+
+**Prompt 5 (Follow-up - iterate toward refinement):**
+> "Good rubric. But I think 'Excellent' is too hard to achieve. Can you adjust the criteria so that most engaged students could reach 'Proficient'? I don't want to discourage them."
+
+*Output: Refined rubric that matches your teaching philosophy.*
+
+---
+
+### See the Difference?
+
+- **One-shot:** Generic advice, moderate usefulness, minimal iteration
+- **Conversation:** Specific to your context, increasingly useful, deeply refined
+
+The first prompt got you in the ballpark. **Prompts 2–5 got you a tool you'll actually use.**
+
+---
+
+## Start With CRAFT (or Your Preferred Approach), Then Explore
+
+Here's the workflow that actually works:
+
+1. **Use CRAFT (or another framework) for your first prompt.** This ensures clarity and sets a good foundation.
+
+2. **Review the output.** What's helpful? What's missing? What surprised you?
+
+3. **Ask follow-up questions.** This is where the real thinking happens:
+   - "Tell me more about..."
+   - "Why would that work for...?"
+   - "How would I actually implement that?"
+   - "What am I not considering?"
+   - "Now adapt that for [specific context]..."
+   - "Push back on that idea—what are the risks?"
+
+4. **Use CRAFT in your follow-ups too.** You can apply the framework again (Context, Role, Action, Format, Tone) to make follow-up prompts just as clear as your first one.
+
+5. **Keep exploring until you have what you need.** There's no "right" number of follow-ups. Stop when the output matches your thinking, not before.
+
+### Example of CRAFT in Follow-Up Prompts
+
+**Initial Prompt (CRAFT):**
+> Context: I teach supply chain management. Role: You are a operations expert. Action: Suggest assessment methods for sustainability thinking. Format: 3 approaches with pros/cons. Tone: Suitable for faculty planning.
+
+**Follow-up 1 (Simple follow-up):**
+> "That middle approach about portfolio assessment—tell me more. What would students actually submit? How often?"
+
+**Follow-up 2 (CRAFT framework in follow-up):**
+> "Context: We have 60 students per semester. Role: You're a teaching coordinator worried about marking time. Action: Adapt portfolio approach to be feasible with 60 students. What can be automated, what must be human-marked? Format: Step-by-step implementation. Tone: Realistic about constraints."
+
+**Follow-up 3 (Simple exploration):**
+> "That's helpful. What are the trade-offs? What would we lose by streamlining it that way?"
+
+---
+
+## The Nuance: Conversational AI Isn't Magic, It's Dialogue
+
+Here's what's actually happening in this back-and-forth:
+
+- **You're not training the AI.** (It doesn't learn or remember between sessions)
+- **You're narrowing the scope.** (Each question focuses attention on what matters to *you*)
+- **You're surfacing your expertise.** (Your follow-ups reveal what you know and what you care about)
+- **You're iterating toward clarity.** (Neither you nor the AI knew exactly what you wanted until you started talking)
+- **You're quality-checking.** (You catch generic advice and push for specificity)
+
+The conversation works because **you're applying human judgment** throughout. You're not accepting outputs blindly; you're critically engaging with them, asking for depth, pushing back, and steering toward what actually matters in your context.
+
+That's where value emerges.
+
+---
+
+## Why One-Shot Prompts Tend Toward Average
+
+When you ask a single question and take the first answer:
+
+- **No context refinement.** The AI made assumptions; you didn't correct them.
+- **Surface-level output.** First answers are often polished but generic.
+- **No personal touch.** You got advice for "educators" generally, not advice for *you* specifically.
+- **Missed opportunities.** The AI has more to offer, but you didn't ask.
+
+Conversely, when you engage in dialogue:
+
+- **The AI learns your context.** (Within the conversation)
+- **You surface your expertise.** (Through follow-up questions)
+- **Output becomes increasingly specific.** (With each round of refinement)
+- **You maintain agency.** (You're steering, not just receiving)
+
+### A Simple Rule of Thumb
+
+> **If your first output feels generic or "average," you haven't asked enough follow-up questions yet.**
+
+That's not a failure. That's a signal to keep exploring.
 
 ---
 
