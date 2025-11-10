@@ -1,0 +1,209 @@
+---
+format:
+  html:
+    toc: true
+    toc-expand: 2
+    embed-resources: true
+---
+
+# Skills-Based Summary: AI Prompting from Concept to Application
+
+> **Missed the workshop?** This guide distils the core prompting skills into digestible summaries. Each skill is presented as a conceptual foundation (2 sentences) plus pointers to deeper resources. Think of this as your "cheat sheet for AI competence."
+
+---
+
+## Skill 1: Basic Prompting (C.R.A.F.T. Framework)
+
+**Conceptual Summary:**
+C.R.A.F.T. is a structured framework for clarity—**Context** (background), **Role** (what perspective should AI take), **Action** (what do you want it to do), **Format** (how should output be structured), and **Tone/Target** (who's the audience). The underlying principle: *clear input produces clear output*, and most disappointing AI results come from vague prompts, not AI limitations.
+
+**Why it matters:** Prompting isn't magic—it's communication. A 30-second investment in clarity saves 10 minutes of revision.
+
+**Go deeper:** [C.R.A.F.T. Prompting Framework](content/resources/craft-prompting-framework.html)
+
+---
+
+## Skill 2: Personal Strategy Discovery (AI-to-Help-You-Use-AI)
+
+**Conceptual Summary:**
+Rather than guessing how AI might help you, use AI as a diagnostic tool—have it interview you about your role, challenges, and context, then it recommends both obvious and non-obvious applications tailored specifically to you. This meta-skill (using AI to teach you how to use AI) is uniquely powerful because AI can adapt to your specific situation in ways generic advice cannot.
+
+**Why it matters:** You already know your work better than anyone. Let AI help you surface possibilities *you* would find valuable, not generic suggestions.
+
+**Go deeper:** [Using AI to Help You Use AI](content/resources/ai-to-help-you-use-ai.html)
+
+---
+
+## Skill 3: Core Techniques (Seven Essential Prompt Techniques)
+
+**Conceptual Summary:**
+Beyond CRAFT, there are discipline-specific techniques proven to work in educational contexts: asking AI to role-play pedagogical scenarios, building scaffolded questions that match Bloom's Taxonomy, using AI as a "thought partner" for course design, having it simulate student misconceptions, and more. These aren't random tricks—they're grounded in learning science and pedagogy.
+
+**Why it matters:** Different contexts need different approaches. Knowing multiple techniques lets you choose the right tool for your teaching challenge.
+
+**Go deeper:** [Seven Essential Prompt Techniques for Business Teaching](content/materials/seven-techniques.html)
+
+---
+
+## Skill 4: Context Management (Managing Conversations Effectively)
+
+**Conceptual Summary:**
+Long conversations have limits—AI attention fades, hallucination risk increases, and output tokens get divided among multiple asks. The solution: break complex projects into focused sub-tasks, use separate conversations for different topics, and ask AI to summarize progress before starting fresh. Context management isn't optional; it's the difference between shallow and deep outputs.
+
+**Why it matters:** A 5-minute conversation about one thing beats a 50-exchange conversation trying to do everything. Better outputs, fewer errors, clearer thinking.
+
+**Go deeper:** [Managing Context with AI](content/resources/managing-context-with-ai.html)
+
+---
+
+## Skill 5: Sophisticated Applications (Simulators, Assessments, Interactive Tools)
+
+**Conceptual Summary:**
+Once you master basic prompting, you can ask AI to take on complex roles: simulating difficult student conversations, generating assessment rubrics and test items, role-playing stakeholder meetings, or even designing interactive learning simulations. These aren't harder prompts—they're skilled applications of CRAFT and context management where you're asking AI to perform a specific pedagogical function.
+
+**Why it matters:** AI becomes most valuable when you stop treating it as a text-generation tool and start using it as a pedagogical instrument—a simulator, evaluator, or learning partner.
+
+**Applications:**
+- **Assessment design**: "You are an assessment specialist. Design a rubric for evaluating student critical thinking. Here are my learning outcomes: [paste]."
+- **Simulation**: "You are a difficult student. I'll present my unit redesign; you ask challenging questions."
+- **Scenario planning**: "You are a department chair. I'm proposing this teaching change. What concerns would you raise?"
+
+**Go deeper:** [AI in Pedagogical Design & Delivery](content/resources/ai-in-pedagogical-design-and-delivery.html) | [Cognitive Prompting in Education](content/resources/cognitive-prompting-in-education.html)
+
+---
+
+## Skill 6: Document Creation (From Conversation to Deliverable)
+
+**Conceptual Summary:**
+The magic happens when you chain prompts: first generate ideas, then refine them, then adapt for different audiences, then format for delivery. A teaching strategy that emerges from dialogue (not one-shot generation) is higher quality and more personally aligned. The workflow is: *explore → review → refine → adapt → finalize*.
+
+**Why it matters:** One conversation rarely produces a finished document. Iterative dialogue—where you provide feedback after each step—produces outputs that actually match what you need.
+
+**Example workflow:**
+1. *Explore*: "What are 5 ways to integrate AI without replacing authentic student work?"
+2. *Review*: "I like option 3. Tell me more about implementation."
+3. *Refine*: "That's good, but make it feasible for a class of 80."
+4. *Adapt*: "Now turn this into a 1-page faculty handout."
+5. *Finalize*: "Great. Make it more encouraging and less technical."
+
+**Go deeper:** [Prompt Chaining Techniques](content/resources/prompt-chaining-techniques.html)
+
+---
+
+## Skill 7: Advanced Topics (Agents, Automation, Emerging Capabilities)
+
+**Conceptual Summary:**
+The bleeding edge includes AI agents (multi-step autonomous systems that solve problems without human intervention between steps), prompt automation (tools that run complex prompt chains without you typing each step), and emerging capabilities like real-time data access, image generation, and code execution. These aren't essential for most educators, but they're the horizon—understanding what's possible helps you think strategically about future integration.
+
+**Why it matters:** The AI landscape changes quarterly. Staying aware of emerging tools and approaches means you're not caught off-guard when new capabilities arrive, and you can evaluate them thoughtfully rather than reactively.
+
+**Emerging areas to watch:**
+- **Agentic workflows**: AI systems that plan, execute, and evaluate their own work
+- **Multi-modal prompting**: Combining text, images, audio, and code in single prompts
+- **Custom knowledge bases**: Uploading your own documents so AI learns your context
+- **Real-time data**: AI access to current information (weather, news, institutional databases)
+- **Integration with learning platforms**: AI embedded directly in your LMS
+
+**Current resources:**
+- [References & Further Reading](content/materials/references.html) (research and emerging papers)
+- Industry blogs: OpenAI, Anthropic, Google DeepMind
+
+---
+
+## Quick Reference: Skill Progression
+
+Think of these skills as layers:
+
+| Level | Skills | Focus |
+|-------|--------|-------|
+| **Foundational** | Basic prompting (CRAFT), Personal strategy discovery | How to communicate clearly with AI, what AI can do for you |
+| **Core** | Seven techniques, Context management | How to apply AI thoughtfully in your discipline, how to structure complex work |
+| **Applied** | Sophisticated applications, Document creation | How to use AI as a pedagogical tool, how to produce polished deliverables |
+| **Advanced** | Advanced topics | What's coming next, how to think strategically about AI evolution |
+
+---
+
+## How to Use This Guide
+
+**If you're starting out:**
+1. Read Skill 1 (CRAFT) and Skill 2 (Personal Strategy)
+2. Try the CRAFT framework with 2–3 prompts
+3. Move to Skill 3 (Core Techniques) once CRAFT feels natural
+
+**If you're intermediate:**
+1. Review Skill 1 and 2 quickly
+2. Focus on Skill 3 (Techniques) and Skill 4 (Context Management)
+3. Experiment with Skill 5 (Sophisticated Applications)
+
+**If you're advanced:**
+1. Use this as reference/refresh
+2. Focus on Skill 6 (Document Creation via Chaining) and Skill 7 (Advanced Topics)
+3. Consider mentoring colleagues using Skills 1–3 as your teaching framework
+
+**If you missed the workshop:**
+Read all seven skills in order over 1–2 sessions. Each has a resource link for deeper learning. You'll get the core content without the interactive activities, but the principles are complete.
+
+---
+
+## One-Page Cheat Sheet
+
+**CRAFT = Context + Role + Action + Format + Tone**
+
+**Personal Strategy = Ask AI "How should I use you?" and listen to its diagnostic interview**
+
+**Seven Techniques = Role-play, scaffolding, simulation, misconception generation, and more—choose by pedagogical need**
+
+**Context Management = Break big tasks into small ones, use separate conversations, summarize and handoff for long work**
+
+**Sophisticated Apps = Rubric generation, scenario simulation, assessment design—AI as a pedagogical instrument**
+
+**Document Creation = Explore → Review → Refine → Adapt → Finalize (iterative dialogue, not one-shot generation)**
+
+**Advanced Topics = Agents, automation, multi-modal prompting—the horizon of what's coming**
+
+---
+
+## The Underlying Principle
+
+All seven skills rest on one foundation: **respecting AI's strengths while working around its limitations**.
+
+- AI is brilliant at pattern-matching and idea generation but needs human judgment to verify facts and evaluate fit.
+- AI works best with clear, focused asks, not vague multi-part requests.
+- AI improves dramatically through iteration and feedback, not through hoping the first output is perfect.
+- AI is a tool for *your* thinking, not a replacement for it.
+
+The skills above aren't about becoming an AI expert. They're about becoming proficient in a tool that increasingly matters for your work—much like email or spreadsheets before it.
+
+---
+
+## Quick Troubleshooting
+
+| Problem | Skill to Review | Fix |
+|---------|-----------------|-----|
+| "My prompts aren't working" | Skill 1 (CRAFT) | Add context, define role, clarify action |
+| "I don't know what AI could do for me" | Skill 2 (Personal Strategy) | Run the diagnostic conversation |
+| "I know the basics but want more options" | Skill 3 (Core Techniques) | Try a different prompting approach for your discipline |
+| "My conversations are messy and long" | Skill 4 (Context Management) | Break into smaller conversations, focus one task at a time |
+| "I'm not sure how to use AI pedagogically" | Skill 5 (Sophisticated Applications) | See examples of AI as rubric-builder, simulator, evaluator |
+| "I get good ideas but can't turn them into deliverables" | Skill 6 (Document Creation) | Use prompt chaining: explore → refine → adapt → finalize |
+| "What's coming next?" | Skill 7 (Advanced Topics) | Explore agents, automation, and emerging capabilities |
+
+---
+
+## Final Thought
+
+You don't need to master all seven skills to be effective with AI. Most educators find Skill 1 (CRAFT) and Skill 5 (Sophisticated Applications) cover 80% of their use cases.
+
+But understanding all seven gives you flexibility: you can diagnose what's not working, choose the right approach for the task at hand, and think strategically about where AI fits in your teaching and professional life.
+
+> **The best prompts aren't the longest or the most complex. They're the ones that respect what AI does well, acknowledge what it can't do, and position you as the expert making final decisions.**
+
+---
+
+## Further Resources
+
+- **Quick Start Guide** - 5-minute essentials
+- **Foundation Learning** - What is AI, What are LLMs
+- **Pedagogical Context** - AI in Pedagogical Design, Cognitive Prompting
+- **Hands-On Guides** - CRAFT, Prompt Chaining, Managing Context
+- **For Professional Staff** - AI for operations and analysis work

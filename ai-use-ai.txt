@@ -1,9 +1,0 @@
-You can give an AI a prompt. For example, how should I answer this question? Or you could give an AI the question, 
-I want to ask how I should answer this question. What's the best way of framing that question to an AI? So, you see what 
-I did there? I asked AI for how to ask AI my question. But you can use AI to use AI, which is you couldn't use Excel to use Excel. 
-PowerPoint can't teach you how to use PowerPoint. Email can't teach you how to use email. AI strangely can teach you how to use 
-itself if you think to ask. Go to your language model of choice and just say the following. Hey, you're an AI expert. I would 
-love your help and a consultation with you as an AI expert. Would you please ask me questions one question at a time until 
-you have enough context about my workflows and responsibilities and KPIs and objectives that you could make to obvious 
-recommendations and two nonobvious recommendations for how I could leverage AI in my work? You will have one of the most enlightening 
-and illuminating conversations you've ever had. And it's all because of AI's ability to evaluate its own work.

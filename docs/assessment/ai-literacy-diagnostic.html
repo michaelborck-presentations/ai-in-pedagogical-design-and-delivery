@@ -1040,6 +1040,11 @@
                         <div id="readingRecommendations"></div>
                     </div>
 
+                    <div class="recommendations" style="background: #e0f2fe; border-left-color: #0284c7;">
+                        <h3 style="color: #0369a1;">Recommended Resources</h3>
+                        <div id="recommendedResources"></div>
+                    </div>
+
                     <div class="results-actions">
                         <button type="button" class="btn-result-action" onclick="exportResults()">
                             📋 Copy Results
@@ -1314,6 +1319,12 @@
                         'what-is-ai.qmd (foundation)',
                         'what-are-llms.qmd (understand limitations)',
                         'quick-start-guide.md (practical first steps)'
+                    ],
+                    resources: [
+                        { title: 'Using AI to Help You Use AI', link: 'content/resources/ai-to-help-you-use-ai.html', note: 'START HERE: Discover your own AI path through guided questions' },
+                        { title: 'Skills-Based Summary', link: 'content/resources/skills-based-summary.html', note: 'Quick guide to all 7 core prompting skills—your roadmap from beginner to confident user' },
+                        { title: 'C.R.A.F.T. Prompting Framework', link: 'content/resources/craft-prompting-framework.html', note: 'Learn a structured approach to writing better prompts' },
+                        { title: 'What is AI?', link: 'content/resources/what-is-ai.html', note: 'Foundation concepts explained clearly' }
                     ]
                 },
                 developing: {
@@ -1335,6 +1346,14 @@
                         'what-are-llms.qmd (refresh your knowledge)',
                         'teaching-strategies-handout.md (integration ideas)',
                         'ai-in-pedagogical-design-and-delivery.md (bigger picture)'
+                    ],
+                    resources: [
+                        { title: 'Skills-Based Summary', link: 'content/resources/skills-based-summary.html', note: 'Comprehensive skill overview—use as a roadmap to see where you are and what comes next' },
+                        { title: 'Using AI to Help You Use AI', link: 'content/resources/ai-to-help-you-use-ai.html', note: 'Discover both obvious and non-obvious ways to use AI in your teaching' },
+                        { title: 'C.R.A.F.T. Prompting Framework', link: 'content/resources/craft-prompting-framework.html', note: 'Master the structured approach—this will level up your prompting significantly' },
+                        { title: 'Prompt Chaining Techniques', link: 'content/resources/prompt-chaining-techniques.html', note: 'Build multi-step workflows for complex teaching tasks' },
+                        { title: 'Managing Context with AI', link: 'content/resources/managing-context-with-ai.html', note: 'Learn why context matters and how to structure longer conversations for better results' },
+                        { title: 'Seven Essential Prompt Techniques', link: 'content/materials/seven-techniques.html', note: 'Ready-to-use pedagogical prompts for your students' }
                     ]
                 },
                 proficient: {
@@ -1356,6 +1375,14 @@
                         'ai-in-pedagogical-design-and-delivery.md (theory)',
                         'cognitive-prompting-in-education.md (advanced approaches)',
                         'teaching-strategies-handout.md (implementation)'
+                    ],
+                    resources: [
+                        { title: 'Prompt Chaining Techniques', link: 'content/resources/prompt-chaining-techniques.html', note: 'Advanced multi-step workflows for strategic pedagogy' },
+                        { title: 'Managing Context with AI', link: 'content/resources/managing-context-with-ai.html', note: 'Master context management for complex, multi-step projects—critical for scaling AI work' },
+                        { title: 'Seven Essential Prompt Techniques', link: 'content/materials/seven-techniques.html', note: 'Deep dive into proven pedagogical approaches—ready to adapt for your discipline' },
+                        { title: 'AI in Pedagogical Design & Delivery', link: 'content/resources/ai-in-pedagogical-design-and-delivery.html', note: 'Theoretical foundation for strategic integration' },
+                        { title: 'Cognitive Prompting in Education', link: 'content/resources/cognitive-prompting-in-education.html', note: 'Advanced approaches grounded in learning science' },
+                        { title: 'Skills-Based Summary', link: 'content/resources/skills-based-summary.html', note: 'Reference guide for keeping all 7 skills sharp and mentoring others' }
                     ]
                 },
                 advanced: {
@@ -1377,6 +1404,14 @@
                         'cognitive-prompting-in-education.md (advanced)',
                         'ai-in-pedagogical-design-and-delivery.md (theory and practice)',
                         'references.md (research and current thinking)'
+                    ],
+                    resources: [
+                        { title: 'Seven Essential Prompt Techniques', link: 'content/materials/seven-techniques.html', note: 'Use as reference for mentoring colleagues—each technique works across disciplines' },
+                        { title: 'Managing Context with AI', link: 'content/resources/managing-context-with-ai.html', note: 'Essential reference for designing and scaling complex AI workflows at institutional level' },
+                        { title: 'Skills-Based Summary', link: 'content/resources/skills-based-summary.html', note: 'Comprehensive framework for developing institutional AI competence across colleagues' },
+                        { title: 'AI in Pedagogical Design & Delivery', link: 'content/resources/ai-in-pedagogical-design-and-delivery.html', note: 'Theoretical foundation for institutional strategy' },
+                        { title: 'Cognitive Prompting in Education', link: 'content/resources/cognitive-prompting-in-education.html', note: 'Deep theory grounded in learning science—reference for research or policy work' },
+                        { title: 'References & Further Reading', link: 'content/materials/references.html', note: 'Current research and scholarship on AI in education' }
                     ]
                 }
             };
@@ -1417,6 +1452,19 @@
             });
             document.getElementById('readingRecommendations').innerHTML = readingsHTML;
 
+            // Resource recommendations
+            let resourcesHTML = '';
+            profile.resources.forEach(resource => {
+                resourcesHTML += `
+                    <div class="recommendation-item">
+                        <span class="recommendation-arrow">→</span>
+                        <strong><a href="${resource.link}" style="color: #0369a1; text-decoration: none; border-bottom: 2px solid #0284c7;">${resource.title}</a></strong><br>
+                        <span style="margin-left: 24px; display: inline-block; font-size: 13px; color: #666;">${resource.note}</span>
+                    </div>
+                `;
+            });
+            document.getElementById('recommendedResources').innerHTML = resourcesHTML;
+
             // Save results to localStorage
             const resultsToStore = {
                 profileName: profile.name,
@@ -1427,6 +1475,7 @@
                 bullets: profile.bullets,
                 activities: profile.activities,
                 readings: profile.readings,
+                resources: profile.resources,
                 timestamp: new Date().toLocaleString()
             };
             localStorage.setItem('aiLiteracyResults', JSON.stringify(resultsToStore));
