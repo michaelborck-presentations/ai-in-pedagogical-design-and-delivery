@@ -17,7 +17,7 @@ C.R.A.F.T. is a structured framework for clarity—**Context** (background), **R
 
 **Why it matters:** Prompting isn't magic—it's communication. A 30-second investment in clarity saves 10 minutes of revision.
 
-**Go deeper:** [C.R.A.F.T. Prompting Framework](content/resources/craft-prompting-framework.html)
+**Go deeper:** [C.R.A.F.T. Prompting Framework](craft-prompting-framework.html)
 
 ---
 
@@ -28,7 +28,7 @@ Rather than guessing how AI might help you, use AI as a diagnostic tool—have i
 
 **Why it matters:** You already know your work better than anyone. Let AI help you surface possibilities *you* would find valuable, not generic suggestions.
 
-**Go deeper:** [Using AI to Help You Use AI](content/resources/ai-to-help-you-use-ai.html)
+**Go deeper:** [Using AI to Help You Use AI](ai-to-help-you-use-ai.html)
 
 ---
 
@@ -39,7 +39,7 @@ Beyond CRAFT, there are discipline-specific techniques proven to work in educati
 
 **Why it matters:** Different contexts need different approaches. Knowing multiple techniques lets you choose the right tool for your teaching challenge.
 
-**Go deeper:** [Seven Essential Prompt Techniques for Business Teaching](content/materials/seven-techniques.html)
+**Go deeper:** [Seven Essential Prompt Techniques for Business Teaching](seven-techniques.html)
 
 ---
 
@@ -50,7 +50,7 @@ Long conversations have limits—AI attention fades, hallucination risk increase
 
 **Why it matters:** A 5-minute conversation about one thing beats a 50-exchange conversation trying to do everything. Better outputs, fewer errors, clearer thinking.
 
-**Go deeper:** [Managing Context with AI](content/resources/managing-context-with-ai.html)
+**Go deeper:** [Managing Context with AI](managing-context-with-ai.html)
 
 ---
 
@@ -66,7 +66,7 @@ Once you master basic prompting, you can ask AI to take on complex roles: simula
 - **Simulation**: "You are a difficult student. I'll present my unit redesign; you ask challenging questions."
 - **Scenario planning**: "You are a department chair. I'm proposing this teaching change. What concerns would you raise?"
 
-**Go deeper:** [AI in Pedagogical Design & Delivery](content/resources/ai-in-pedagogical-design-and-delivery.html) | [Cognitive Prompting in Education](content/resources/cognitive-prompting-in-education.html)
+**Go deeper:** [AI in Pedagogical Design & Delivery](ai-in-pedagogical-design-and-delivery.html) | [Cognitive Prompting in Education](cognitive-prompting-in-education.html)
 
 ---
 
@@ -84,7 +84,7 @@ The magic happens when you chain prompts: first generate ideas, then refine them
 4. *Adapt*: "Now turn this into a 1-page faculty handout."
 5. *Finalise*: "Great. Make it more encouraging and less technical."
 
-**Go deeper:** [Prompt Chaining Techniques](content/resources/prompt-chaining-techniques.html)
+**Go deeper:** [Prompt Chaining Techniques](prompt-chaining-techniques.html)
 
 ---
 
@@ -103,7 +103,7 @@ The bleeding edge includes AI agents (multi-step autonomous systems that solve p
 - **Integration with learning platforms**: AI embedded directly in your LMS
 
 **Current resources:**
-- [References & Further Reading](content/materials/references.html) (research and emerging papers)
+- [References & Further Reading](references.html) (research and emerging papers)
 - Industry blogs: OpenAI, Anthropic, Google DeepMind
 
 ---

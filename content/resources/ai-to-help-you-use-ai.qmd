@@ -278,11 +278,13 @@ The AI is a thinking partner, not a replacement for your thinking.
 ## Why This is Different From Everything Else
 
 Most guides tell you *what* to do:
+
 - "Use these seven techniques with your students"
 - "Structure your prompts using CRAFT"
 - "Chain prompts together for complex analysis"
 
 This guide helps you discover *what's right for you*:
+
 - What matters in your context?
 - What are you struggling with that AI could help with?
 - What's possible that you hadn't considered?

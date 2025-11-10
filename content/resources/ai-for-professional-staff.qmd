@@ -74,7 +74,7 @@ Step 4: "Turn this analysis into a one-page faculty board summary
 with clear recommendations."
 ```
 
-→ **See also:** Prompt Chaining Techniques guide
+→ **See also:** [Prompt Chaining Techniques](prompt-chaining-techniques.html) guide
 
 ---
 
@@ -110,7 +110,7 @@ on meeting assessment standards.
 Use plain language—they're busy people."
 ```
 
-→ **See also:** C.R.A.F.T. Prompting Framework
+→ **See also:** [C.R.A.F.T. Prompting Framework](craft-prompting-framework.html)
 
 ---
 

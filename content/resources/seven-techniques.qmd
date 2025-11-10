@@ -18,7 +18,7 @@ The seven techniques in this guide are *pedagogical prompts* (teaching technique
 
 For example, when creating a Reverse Prompting exercise (Technique 1), you'd use C.R.A.F.T. to write clearer instructions to the AI about what kind of questions to generate.
 
-→ **Learn more:** See the [C.R.A.F.T. Prompting Framework](../resources/craft-prompting-framework.html) guide for a complete overview.
+→ **Learn more:** See the [C.R.A.F.T. Prompting Framework](craft-prompting-framework.html) guide for a complete overview.
 
 ---
 
