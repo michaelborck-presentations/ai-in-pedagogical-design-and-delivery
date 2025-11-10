@@ -10,7 +10,11 @@ format:
 
 ## Introduction
 
-The C.R.A.F.T. framework is a practical, structured approach to writing better prompts for AI tools. Whether you're an educator, researcher, or professional staff member, CRAFT helps you communicate clearly with AI and get more relevant, high-quality results.
+The C.R.A.F.T. framework is a practical, structured approach to writing better prompts for AI tools.
+
+> **Getting started?** If you're new to AI or unsure where to begin, consider starting with **"Using AI to Help You Use AI"** first. That meta-skill will help you discover your own starting point, and then CRAFT becomes a powerful tool for structuring the prompts you actually need.
+
+Whether you're an educator, researcher, or professional staff member, CRAFT helps you communicate clearly with AI and get more relevant, high-quality results.
 
 Most disappointing AI outputs result from vague or context-free prompts. The good news? Structured prompts produce dramatically better results with less rework.
 

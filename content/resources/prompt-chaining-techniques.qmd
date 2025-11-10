@@ -8,6 +8,12 @@ format:
 
 # Prompt Chaining Techniques: Multi-Step Reasoning with AI
 
+## Getting Started
+
+Before diving into specific techniques, consider reading **"Using AI to Help You Use AI"** if you're new to AI prompting. That meta-skill will help you discover what kinds of complex tasks you actually want to tackle with prompt chaining.
+
+---
+
 ## Introduction
 
 Prompt chaining is the practice of using multiple, sequential prompts to break complex tasks into manageable steps. Rather than asking AI to "do everything at once," you guide it through a structured workflow—like having a conversation with a thinking partner.
