@@ -2276,6 +2276,67 @@ color: var(--primary);
 border-bottom: 2px solid var(--primary);
 padding-bottom: 0.25rem;
 }
+nav a.btn-nav {
+background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+color: white !important;
+padding: 0.5rem 1rem;
+border-radius: 6px;
+font-weight: 600;
+transition: var(--transition);
+}
+nav a.btn-nav:hover {
+transform: translateY(-2px);
+box-shadow: var(--shadow);
+text-decoration: none;
+}
+
+nav li.dropdown {
+position: relative;
+}
+nav .dropdown > a::after {
+content: ' ▼';
+font-size: 0.7rem;
+}
+nav .dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: white;
+border: 1px solid var(--border);
+border-radius: 6px;
+min-width: 200px;
+box-shadow: var(--shadow);
+z-index: 1000;
+margin-top: 0.5rem;
+opacity: 0;
+visibility: hidden;
+transform: translateY(-8px);
+transition: opacity 1.0s ease, visibility 1.0s ease, transform 1.0s ease;
+pointer-events: none;
+}
+nav .dropdown-menu a {
+display: block;
+padding: 0.75rem 1rem;
+color: var(--text-dark);
+border-bottom: 1px solid var(--border);
+transition: var(--transition);
+}
+nav .dropdown-menu a:last-child {
+border-bottom: none;
+}
+nav .dropdown-menu a:hover {
+background: var(--bg-light);
+color: var(--primary);
+text-decoration: none;
+}
+nav li.dropdown:hover .dropdown-menu {
+display: block;
+opacity: 1;
+visibility: visible;
+transform: translateY(0);
+pointer-events: auto;
+}
 
 .container {
 max-width: 1200px;
@@ -2660,16 +2721,36 @@ border-width: 0;
   <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
     <h2 id="toc-title">Table of contents</h2>
    
-  <ul class="collapse">
+  <ul>
   <li><a href="#prompt-chaining-techniques-multi-step-reasoning-with-ai" id="toc-prompt-chaining-techniques-multi-step-reasoning-with-ai" class="nav-link active" data-scroll-target="#prompt-chaining-techniques-multi-step-reasoning-with-ai">Prompt Chaining Techniques: Multi-Step Reasoning with AI</a>
   <ul class="collapse">
   <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#why-prompt-chaining-works" id="toc-why-prompt-chaining-works" class="nav-link" data-scroll-target="#why-prompt-chaining-works">Why Prompt Chaining Works</a></li>
-  <li><a href="#three-prompt-chaining-approaches" id="toc-three-prompt-chaining-approaches" class="nav-link" data-scroll-target="#three-prompt-chaining-approaches">Three Prompt Chaining Approaches</a></li>
-  <li><a href="#practical-templates" id="toc-practical-templates" class="nav-link" data-scroll-target="#practical-templates">Practical Templates</a></li>
-  <li><a href="#advanced-techniques" id="toc-advanced-techniques" class="nav-link" data-scroll-target="#advanced-techniques">Advanced Techniques</a></li>
-  <li><a href="#examples-from-start-to-finish" id="toc-examples-from-start-to-finish" class="nav-link" data-scroll-target="#examples-from-start-to-finish">Examples: From Start to Finish</a></li>
+  <li><a href="#three-prompt-chaining-approaches" id="toc-three-prompt-chaining-approaches" class="nav-link" data-scroll-target="#three-prompt-chaining-approaches">Three Prompt Chaining Approaches</a>
+  <ul class="collapse">
+  <li><a href="#approach-1-guided-workflow-full-chain-in-one-prompt" id="toc-approach-1-guided-workflow-full-chain-in-one-prompt" class="nav-link" data-scroll-target="#approach-1-guided-workflow-full-chain-in-one-prompt">Approach 1: Guided Workflow (Full Chain in One Prompt)</a></li>
+  <li><a href="#approach-2-modular-prompt-chain-explicit-sequential-steps" id="toc-approach-2-modular-prompt-chain-explicit-sequential-steps" class="nav-link" data-scroll-target="#approach-2-modular-prompt-chain-explicit-sequential-steps">Approach 2: Modular Prompt Chain (Explicit Sequential Steps)</a></li>
+  <li><a href="#approach-3-interactive-chain-pause-between-steps" id="toc-approach-3-interactive-chain-pause-between-steps" class="nav-link" data-scroll-target="#approach-3-interactive-chain-pause-between-steps">Approach 3: Interactive Chain (Pause Between Steps)</a></li>
+  </ul></li>
+  <li><a href="#practical-templates" id="toc-practical-templates" class="nav-link" data-scroll-target="#practical-templates">Practical Templates</a>
+  <ul class="collapse">
+  <li><a href="#template-1-analysis-chain-for-data-documents-or-research" id="toc-template-1-analysis-chain-for-data-documents-or-research" class="nav-link" data-scroll-target="#template-1-analysis-chain-for-data-documents-or-research">Template 1: Analysis Chain (For Data, Documents, or Research)</a></li>
+  <li><a href="#template-2-design-chain-for-creating-teaching-materials-assessments-rubrics" id="toc-template-2-design-chain-for-creating-teaching-materials-assessments-rubrics" class="nav-link" data-scroll-target="#template-2-design-chain-for-creating-teaching-materials-assessments-rubrics">Template 2: Design Chain (For Creating Teaching Materials, Assessments, Rubrics)</a></li>
+  <li><a href="#template-3-argument-chain-for-building-systematic-analysis" id="toc-template-3-argument-chain-for-building-systematic-analysis" class="nav-link" data-scroll-target="#template-3-argument-chain-for-building-systematic-analysis">Template 3: Argument Chain (For Building Systematic Analysis)</a></li>
+  </ul></li>
+  <li><a href="#advanced-techniques" id="toc-advanced-techniques" class="nav-link" data-scroll-target="#advanced-techniques">Advanced Techniques</a>
+  <ul class="collapse">
+  <li><a href="#technique-1-iterative-refinement" id="toc-technique-1-iterative-refinement" class="nav-link" data-scroll-target="#technique-1-iterative-refinement">Technique 1: Iterative Refinement</a></li>
+  <li><a href="#technique-2-format-shifting" id="toc-technique-2-format-shifting" class="nav-link" data-scroll-target="#technique-2-format-shifting">Technique 2: Format Shifting</a></li>
+  <li><a href="#technique-3-perspective-shifting" id="toc-technique-3-perspective-shifting" class="nav-link" data-scroll-target="#technique-3-perspective-shifting">Technique 3: Perspective Shifting</a></li>
+  <li><a href="#technique-4-evidence-layering" id="toc-technique-4-evidence-layering" class="nav-link" data-scroll-target="#technique-4-evidence-layering">Technique 4: Evidence Layering</a></li>
+  </ul></li>
+  <li><a href="#examples-from-start-to-finish" id="toc-examples-from-start-to-finish" class="nav-link" data-scroll-target="#examples-from-start-to-finish">Examples: From Start to Finish</a>
+  <ul class="collapse">
+  <li><a href="#example-1-teaching-assessment-design" id="toc-example-1-teaching-assessment-design" class="nav-link" data-scroll-target="#example-1-teaching-assessment-design">Example 1: Teaching Assessment Design</a></li>
+  <li><a href="#example-2-research-methods-development" id="toc-example-2-research-methods-development" class="nav-link" data-scroll-target="#example-2-research-methods-development">Example 2: Research Methods Development</a></li>
+  </ul></li>
   <li><a href="#when-not-to-use-prompt-chaining" id="toc-when-not-to-use-prompt-chaining" class="nav-link" data-scroll-target="#when-not-to-use-prompt-chaining">When NOT to Use Prompt Chaining</a></li>
   <li><a href="#best-practices" id="toc-best-practices" class="nav-link" data-scroll-target="#best-practices">Best Practices</a></li>
   <li><a href="#practice-exercise" id="toc-practice-exercise" class="nav-link" data-scroll-target="#practice-exercise">Practice Exercise</a></li>

@@ -2,26 +2,23 @@ project:
   type: default
   output-dir: ./docs
   resources:
-    - src/images/
+    - docs/images/
 
-# Render all .qmd files in content/
-# Each folder renders to output-dir root (flattened structure)
+# Render all .qmd files in content/resources/
+# Renders to output-dir root (flattened structure)
 render:
   - content/resources/*.qmd
-  - content/materials/*.qmd
 
 # Default format settings for all documents
 format:
   html:
     theme: default
-    toc: true
-    toc-depth: 2
+    toc: false
     embed-resources: true
-    css: src/css/style.css
+    css: docs/css/style.css
     
   pdf:
-    toc: true
-    toc-depth: 2
+    toc: false
     colorlinks: true
     fontsize: 11pt
 

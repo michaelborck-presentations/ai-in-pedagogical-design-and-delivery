@@ -2276,6 +2276,67 @@ color: var(--primary);
 border-bottom: 2px solid var(--primary);
 padding-bottom: 0.25rem;
 }
+nav a.btn-nav {
+background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+color: white !important;
+padding: 0.5rem 1rem;
+border-radius: 6px;
+font-weight: 600;
+transition: var(--transition);
+}
+nav a.btn-nav:hover {
+transform: translateY(-2px);
+box-shadow: var(--shadow);
+text-decoration: none;
+}
+
+nav li.dropdown {
+position: relative;
+}
+nav .dropdown > a::after {
+content: ' ▼';
+font-size: 0.7rem;
+}
+nav .dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: white;
+border: 1px solid var(--border);
+border-radius: 6px;
+min-width: 200px;
+box-shadow: var(--shadow);
+z-index: 1000;
+margin-top: 0.5rem;
+opacity: 0;
+visibility: hidden;
+transform: translateY(-8px);
+transition: opacity 1.0s ease, visibility 1.0s ease, transform 1.0s ease;
+pointer-events: none;
+}
+nav .dropdown-menu a {
+display: block;
+padding: 0.75rem 1rem;
+color: var(--text-dark);
+border-bottom: 1px solid var(--border);
+transition: var(--transition);
+}
+nav .dropdown-menu a:last-child {
+border-bottom: none;
+}
+nav .dropdown-menu a:hover {
+background: var(--bg-light);
+color: var(--primary);
+text-decoration: none;
+}
+nav li.dropdown:hover .dropdown-menu {
+display: block;
+opacity: 1;
+visibility: visible;
+transform: translateY(0);
+pointer-events: auto;
+}
 
 .container {
 max-width: 1200px;
@@ -2660,17 +2721,59 @@ border-width: 0;
   <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
     <h2 id="toc-title">Table of contents</h2>
    
-  <ul class="collapse">
+  <ul>
   <li><a href="#ai-for-professional-staff-practical-guides-for-teaching-support-operations-coordination" id="toc-ai-for-professional-staff-practical-guides-for-teaching-support-operations-coordination" class="nav-link active" data-scroll-target="#ai-for-professional-staff-practical-guides-for-teaching-support-operations-coordination">AI for Professional Staff: Practical Guides for Teaching Support, Operations &amp; Coordination</a>
   <ul class="collapse">
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#what-makes-professional-staff-roles-different" id="toc-what-makes-professional-staff-roles-different" class="nav-link" data-scroll-target="#what-makes-professional-staff-roles-different">What Makes Professional Staff Roles Different</a></li>
-  <li><a href="#core-ai-tasks-for-professional-staff" id="toc-core-ai-tasks-for-professional-staff" class="nav-link" data-scroll-target="#core-ai-tasks-for-professional-staff">Core AI Tasks for Professional Staff</a></li>
-  <li><a href="#practical-prompting-patterns-for-professional-staff" id="toc-practical-prompting-patterns-for-professional-staff" class="nav-link" data-scroll-target="#practical-prompting-patterns-for-professional-staff">Practical Prompting Patterns for Professional Staff</a></li>
-  <li><a href="#real-workflows-start-to-finish" id="toc-real-workflows-start-to-finish" class="nav-link" data-scroll-target="#real-workflows-start-to-finish">Real Workflows: Start to Finish</a></li>
-  <li><a href="#key-principles-for-professional-staff-using-ai" id="toc-key-principles-for-professional-staff-using-ai" class="nav-link" data-scroll-target="#key-principles-for-professional-staff-using-ai">Key Principles for Professional Staff Using AI</a></li>
-  <li><a href="#common-use-cases-by-role" id="toc-common-use-cases-by-role" class="nav-link" data-scroll-target="#common-use-cases-by-role">Common Use Cases by Role</a></li>
-  <li><a href="#advanced-techniques" id="toc-advanced-techniques" class="nav-link" data-scroll-target="#advanced-techniques">Advanced Techniques</a></li>
+  <li><a href="#core-ai-tasks-for-professional-staff" id="toc-core-ai-tasks-for-professional-staff" class="nav-link" data-scroll-target="#core-ai-tasks-for-professional-staff">Core AI Tasks for Professional Staff</a>
+  <ul class="collapse">
+  <li><a href="#data-analysis-insight" id="toc-data-analysis-insight" class="nav-link" data-scroll-target="#data-analysis-insight">1. Data Analysis &amp; Insight</a></li>
+  <li><a href="#compliance-policy" id="toc-compliance-policy" class="nav-link" data-scroll-target="#compliance-policy">2. Compliance &amp; Policy</a></li>
+  <li><a href="#stakeholder-communication" id="toc-stakeholder-communication" class="nav-link" data-scroll-target="#stakeholder-communication">3. Stakeholder Communication</a></li>
+  <li><a href="#strategic-planning-operations" id="toc-strategic-planning-operations" class="nav-link" data-scroll-target="#strategic-planning-operations">4. Strategic Planning &amp; Operations</a></li>
+  <li><a href="#documentation-process-improvement" id="toc-documentation-process-improvement" class="nav-link" data-scroll-target="#documentation-process-improvement">5. Documentation &amp; Process Improvement</a></li>
+  </ul></li>
+  <li><a href="#practical-prompting-patterns-for-professional-staff" id="toc-practical-prompting-patterns-for-professional-staff" class="nav-link" data-scroll-target="#practical-prompting-patterns-for-professional-staff">Practical Prompting Patterns for Professional Staff</a>
+  <ul class="collapse">
+  <li><a href="#pattern-1-data-analysis-insight" id="toc-pattern-1-data-analysis-insight" class="nav-link" data-scroll-target="#pattern-1-data-analysis-insight">Pattern 1: Data Analysis &amp; Insight</a></li>
+  <li><a href="#pattern-2-compliance-policy-analysis" id="toc-pattern-2-compliance-policy-analysis" class="nav-link" data-scroll-target="#pattern-2-compliance-policy-analysis">Pattern 2: Compliance &amp; Policy Analysis</a></li>
+  <li><a href="#pattern-3-stakeholder-communication-multi-format" id="toc-pattern-3-stakeholder-communication-multi-format" class="nav-link" data-scroll-target="#pattern-3-stakeholder-communication-multi-format">Pattern 3: Stakeholder Communication (Multi-Format)</a></li>
+  <li><a href="#pattern-4-strategic-analysis-options-implications" id="toc-pattern-4-strategic-analysis-options-implications" class="nav-link" data-scroll-target="#pattern-4-strategic-analysis-options-implications">Pattern 4: Strategic Analysis (Options &amp; Implications)</a></li>
+  <li><a href="#pattern-5-process-documentation-improvement" id="toc-pattern-5-process-documentation-improvement" class="nav-link" data-scroll-target="#pattern-5-process-documentation-improvement">Pattern 5: Process Documentation &amp; Improvement</a></li>
+  </ul></li>
+  <li><a href="#real-workflows-start-to-finish" id="toc-real-workflows-start-to-finish" class="nav-link" data-scroll-target="#real-workflows-start-to-finish">Real Workflows: Start to Finish</a>
+  <ul class="collapse">
+  <li><a href="#workflow-1-teaching-support-officer-enrolment-analysis" id="toc-workflow-1-teaching-support-officer-enrolment-analysis" class="nav-link" data-scroll-target="#workflow-1-teaching-support-officer-enrolment-analysis">Workflow 1: Teaching Support Officer – Enrolment Analysis</a></li>
+  <li><a href="#workflow-2-curriculum-coordinator-new-unit-approval" id="toc-workflow-2-curriculum-coordinator-new-unit-approval" class="nav-link" data-scroll-target="#workflow-2-curriculum-coordinator-new-unit-approval">Workflow 2: Curriculum Coordinator – New Unit Approval</a></li>
+  <li><a href="#workflow-3-academic-operations-manager-budget-allocation" id="toc-workflow-3-academic-operations-manager-budget-allocation" class="nav-link" data-scroll-target="#workflow-3-academic-operations-manager-budget-allocation">Workflow 3: Academic Operations Manager – Budget Allocation</a></li>
+  </ul></li>
+  <li><a href="#key-principles-for-professional-staff-using-ai" id="toc-key-principles-for-professional-staff-using-ai" class="nav-link" data-scroll-target="#key-principles-for-professional-staff-using-ai">Key Principles for Professional Staff Using AI</a>
+  <ul class="collapse">
+  <li><a href="#use-ai-for-analysis-insight-not-decision-making" id="toc-use-ai-for-analysis-insight-not-decision-making" class="nav-link" data-scroll-target="#use-ai-for-analysis-insight-not-decision-making">1. Use AI for Analysis &amp; Insight, Not Decision-Making</a></li>
+  <li><a href="#maintain-professional-judgment" id="toc-maintain-professional-judgment" class="nav-link" data-scroll-target="#maintain-professional-judgment">2. Maintain Professional Judgment</a></li>
+  <li><a href="#use-chaining-for-complex-tasks" id="toc-use-chaining-for-complex-tasks" class="nav-link" data-scroll-target="#use-chaining-for-complex-tasks">3. Use Chaining for Complex Tasks</a></li>
+  <li><a href="#use-craft-for-individual-prompts" id="toc-use-craft-for-individual-prompts" class="nav-link" data-scroll-target="#use-craft-for-individual-prompts">4. Use CRAFT for Individual Prompts</a></li>
+  <li><a href="#protect-sensitive-information" id="toc-protect-sensitive-information" class="nav-link" data-scroll-target="#protect-sensitive-information">5. Protect Sensitive Information</a></li>
+  <li><a href="#document-your-process" id="toc-document-your-process" class="nav-link" data-scroll-target="#document-your-process">6. Document Your Process</a></li>
+  <li><a href="#combine-ai-with-human-expertise" id="toc-combine-ai-with-human-expertise" class="nav-link" data-scroll-target="#combine-ai-with-human-expertise">7. Combine AI with Human Expertise</a></li>
+  </ul></li>
+  <li><a href="#common-use-cases-by-role" id="toc-common-use-cases-by-role" class="nav-link" data-scroll-target="#common-use-cases-by-role">Common Use Cases by Role</a>
+  <ul class="collapse">
+  <li><a href="#teaching-support-officer" id="toc-teaching-support-officer" class="nav-link" data-scroll-target="#teaching-support-officer">Teaching Support Officer</a></li>
+  <li><a href="#learning-designer-curriculum-specialist" id="toc-learning-designer-curriculum-specialist" class="nav-link" data-scroll-target="#learning-designer-curriculum-specialist">Learning Designer / Curriculum Specialist</a></li>
+  <li><a href="#academic-operations-manager" id="toc-academic-operations-manager" class="nav-link" data-scroll-target="#academic-operations-manager">Academic Operations Manager</a></li>
+  <li><a href="#compliance-quality-officer" id="toc-compliance-quality-officer" class="nav-link" data-scroll-target="#compliance-quality-officer">Compliance / Quality Officer</a></li>
+  <li><a href="#student-support-coordinator" id="toc-student-support-coordinator" class="nav-link" data-scroll-target="#student-support-coordinator">Student Support Coordinator</a></li>
+  </ul></li>
+  <li><a href="#advanced-techniques" id="toc-advanced-techniques" class="nav-link" data-scroll-target="#advanced-techniques">Advanced Techniques</a>
+  <ul class="collapse">
+  <li><a href="#technique-1-comparative-analysis" id="toc-technique-1-comparative-analysis" class="nav-link" data-scroll-target="#technique-1-comparative-analysis">Technique 1: Comparative Analysis</a></li>
+  <li><a href="#technique-2-scenario-planning" id="toc-technique-2-scenario-planning" class="nav-link" data-scroll-target="#technique-2-scenario-planning">Technique 2: Scenario Planning</a></li>
+  <li><a href="#technique-3-stakeholder-analysis" id="toc-technique-3-stakeholder-analysis" class="nav-link" data-scroll-target="#technique-3-stakeholder-analysis">Technique 3: Stakeholder Analysis</a></li>
+  <li><a href="#technique-4-risk-mitigation" id="toc-technique-4-risk-mitigation" class="nav-link" data-scroll-target="#technique-4-risk-mitigation">Technique 4: Risk &amp; Mitigation</a></li>
+  <li><a href="#technique-5-iterative-improvement" id="toc-technique-5-iterative-improvement" class="nav-link" data-scroll-target="#technique-5-iterative-improvement">Technique 5: Iterative Improvement</a></li>
+  </ul></li>
   <li><a href="#what-not-to-use-ai-for-as-professional-staff" id="toc-what-not-to-use-ai-for-as-professional-staff" class="nav-link" data-scroll-target="#what-not-to-use-ai-for-as-professional-staff">What NOT to Use AI For (as Professional Staff)</a></li>
   <li><a href="#getting-started" id="toc-getting-started" class="nav-link" data-scroll-target="#getting-started">Getting Started</a></li>
   <li><a href="#key-resources" id="toc-key-resources" class="nav-link" data-scroll-target="#key-resources">Key Resources</a></li>

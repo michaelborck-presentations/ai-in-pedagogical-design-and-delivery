@@ -2276,6 +2276,67 @@ color: var(--primary);
 border-bottom: 2px solid var(--primary);
 padding-bottom: 0.25rem;
 }
+nav a.btn-nav {
+background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+color: white !important;
+padding: 0.5rem 1rem;
+border-radius: 6px;
+font-weight: 600;
+transition: var(--transition);
+}
+nav a.btn-nav:hover {
+transform: translateY(-2px);
+box-shadow: var(--shadow);
+text-decoration: none;
+}
+
+nav li.dropdown {
+position: relative;
+}
+nav .dropdown > a::after {
+content: ' ▼';
+font-size: 0.7rem;
+}
+nav .dropdown-menu {
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+background: white;
+border: 1px solid var(--border);
+border-radius: 6px;
+min-width: 200px;
+box-shadow: var(--shadow);
+z-index: 1000;
+margin-top: 0.5rem;
+opacity: 0;
+visibility: hidden;
+transform: translateY(-8px);
+transition: opacity 1.0s ease, visibility 1.0s ease, transform 1.0s ease;
+pointer-events: none;
+}
+nav .dropdown-menu a {
+display: block;
+padding: 0.75rem 1rem;
+color: var(--text-dark);
+border-bottom: 1px solid var(--border);
+transition: var(--transition);
+}
+nav .dropdown-menu a:last-child {
+border-bottom: none;
+}
+nav .dropdown-menu a:hover {
+background: var(--bg-light);
+color: var(--primary);
+text-decoration: none;
+}
+nav li.dropdown:hover .dropdown-menu {
+display: block;
+opacity: 1;
+visibility: visible;
+transform: translateY(0);
+pointer-events: auto;
+}
 
 .container {
 max-width: 1200px;
@@ -2660,22 +2721,53 @@ border-width: 0;
   <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="2">
     <h2 id="toc-title">Table of contents</h2>
    
-  <ul class="collapse">
+  <ul>
   <li><a href="#c.r.a.f.t.-prompting-framework" id="toc-c.r.a.f.t.-prompting-framework" class="nav-link active" data-scroll-target="#c.r.a.f.t.-prompting-framework">C.R.A.F.T. Prompting Framework</a>
   <ul class="collapse">
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#the-c.r.a.f.t.-framework" id="toc-the-c.r.a.f.t.-framework" class="nav-link" data-scroll-target="#the-c.r.a.f.t.-framework">The C.R.A.F.T. Framework</a></li>
   <li><a href="#why-craft-works" id="toc-why-craft-works" class="nav-link" data-scroll-target="#why-craft-works">Why CRAFT Works</a></li>
-  <li><a href="#craft-is-a-starting-point-not-a-rule" id="toc-craft-is-a-starting-point-not-a-rule" class="nav-link" data-scroll-target="#craft-is-a-starting-point-not-a-rule">CRAFT is a Starting Point, Not a Rule</a></li>
+  <li><a href="#craft-is-a-starting-point-not-a-rule" id="toc-craft-is-a-starting-point-not-a-rule" class="nav-link" data-scroll-target="#craft-is-a-starting-point-not-a-rule">CRAFT is a Starting Point, Not a Rule</a>
+  <ul class="collapse">
+  <li><a href="#other-simple-techniques-that-work-well" id="toc-other-simple-techniques-that-work-well" class="nav-link" data-scroll-target="#other-simple-techniques-that-work-well">Other Simple Techniques That Work Well:</a></li>
+  </ul></li>
   <li><a href="#experiment-and-find-what-works-for-you" id="toc-experiment-and-find-what-works-for-you" class="nav-link" data-scroll-target="#experiment-and-find-what-works-for-you">Experiment and Find What Works for You</a></li>
   <li><a href="#key-principle-clarity-over-framework" id="toc-key-principle-clarity-over-framework" class="nav-link" data-scroll-target="#key-principle-clarity-over-framework">Key Principle: Clarity Over Framework</a></li>
-  <li><a href="#examples-improving-prompts-with-craft" id="toc-examples-improving-prompts-with-craft" class="nav-link" data-scroll-target="#examples-improving-prompts-with-craft">Examples: Improving Prompts with CRAFT</a></li>
-  <li><a href="#prompting-as-a-conversation-the-real-power" id="toc-prompting-as-a-conversation-the-real-power" class="nav-link" data-scroll-target="#prompting-as-a-conversation-the-real-power">Prompting as a Conversation: The Real Power</a></li>
-  <li><a href="#start-with-craft-or-your-preferred-approach-then-explore" id="toc-start-with-craft-or-your-preferred-approach-then-explore" class="nav-link" data-scroll-target="#start-with-craft-or-your-preferred-approach-then-explore">Start With CRAFT (or Your Preferred Approach), Then Explore</a></li>
+  <li><a href="#examples-improving-prompts-with-craft" id="toc-examples-improving-prompts-with-craft" class="nav-link" data-scroll-target="#examples-improving-prompts-with-craft">Examples: Improving Prompts with CRAFT</a>
+  <ul class="collapse">
+  <li><a href="#example-1-teaching-learning" id="toc-example-1-teaching-learning" class="nav-link" data-scroll-target="#example-1-teaching-learning">Example 1: Teaching &amp; Learning</a></li>
+  <li><a href="#example-2-research-analysis" id="toc-example-2-research-analysis" class="nav-link" data-scroll-target="#example-2-research-analysis">Example 2: Research &amp; Analysis</a></li>
+  <li><a href="#example-3-professional-operations" id="toc-example-3-professional-operations" class="nav-link" data-scroll-target="#example-3-professional-operations">Example 3: Professional Operations</a></li>
+  </ul></li>
+  <li><a href="#prompting-as-a-conversation-the-real-power" id="toc-prompting-as-a-conversation-the-real-power" class="nav-link" data-scroll-target="#prompting-as-a-conversation-the-real-power">Prompting as a Conversation: The Real Power</a>
+  <ul class="collapse">
+  <li><a href="#why-conversation-matters" id="toc-why-conversation-matters" class="nav-link" data-scroll-target="#why-conversation-matters">Why Conversation Matters</a></li>
+  <li><a href="#example-how-conversation-changes-everything" id="toc-example-how-conversation-changes-everything" class="nav-link" data-scroll-target="#example-how-conversation-changes-everything">Example: How Conversation Changes Everything</a></li>
+  <li><a href="#see-the-difference" id="toc-see-the-difference" class="nav-link" data-scroll-target="#see-the-difference">See the Difference?</a></li>
+  </ul></li>
+  <li><a href="#start-with-craft-or-your-preferred-approach-then-explore" id="toc-start-with-craft-or-your-preferred-approach-then-explore" class="nav-link" data-scroll-target="#start-with-craft-or-your-preferred-approach-then-explore">Start With CRAFT (or Your Preferred Approach), Then Explore</a>
+  <ul class="collapse">
+  <li><a href="#example-of-craft-in-follow-up-prompts" id="toc-example-of-craft-in-follow-up-prompts" class="nav-link" data-scroll-target="#example-of-craft-in-follow-up-prompts">Example of CRAFT in Follow-Up Prompts</a></li>
+  </ul></li>
   <li><a href="#the-nuance-conversational-ai-isnt-magic-its-dialogue" id="toc-the-nuance-conversational-ai-isnt-magic-its-dialogue" class="nav-link" data-scroll-target="#the-nuance-conversational-ai-isnt-magic-its-dialogue">The Nuance: Conversational AI Isn’t Magic, It’s Dialogue</a></li>
-  <li><a href="#why-one-shot-prompts-tend-toward-average" id="toc-why-one-shot-prompts-tend-toward-average" class="nav-link" data-scroll-target="#why-one-shot-prompts-tend-toward-average">Why One-Shot Prompts Tend Toward Average</a></li>
-  <li><a href="#craft-in-action-step-by-step" id="toc-craft-in-action-step-by-step" class="nav-link" data-scroll-target="#craft-in-action-step-by-step">CRAFT in Action: Step-by-Step</a></li>
-  <li><a href="#craft-prompt-templates" id="toc-craft-prompt-templates" class="nav-link" data-scroll-target="#craft-prompt-templates">CRAFT Prompt Templates</a></li>
+  <li><a href="#why-one-shot-prompts-tend-toward-average" id="toc-why-one-shot-prompts-tend-toward-average" class="nav-link" data-scroll-target="#why-one-shot-prompts-tend-toward-average">Why One-Shot Prompts Tend Toward Average</a>
+  <ul class="collapse">
+  <li><a href="#a-simple-rule-of-thumb" id="toc-a-simple-rule-of-thumb" class="nav-link" data-scroll-target="#a-simple-rule-of-thumb">A Simple Rule of Thumb</a></li>
+  </ul></li>
+  <li><a href="#craft-in-action-step-by-step" id="toc-craft-in-action-step-by-step" class="nav-link" data-scroll-target="#craft-in-action-step-by-step">CRAFT in Action: Step-by-Step</a>
+  <ul class="collapse">
+  <li><a href="#step-1-identify-your-goal" id="toc-step-1-identify-your-goal" class="nav-link" data-scroll-target="#step-1-identify-your-goal">Step 1: Identify Your Goal</a></li>
+  <li><a href="#step-2-build-your-craft-prompt" id="toc-step-2-build-your-craft-prompt" class="nav-link" data-scroll-target="#step-2-build-your-craft-prompt">Step 2: Build Your CRAFT Prompt</a></li>
+  <li><a href="#step-3-try-it" id="toc-step-3-try-it" class="nav-link" data-scroll-target="#step-3-try-it">Step 3: Try It</a></li>
+  <li><a href="#step-4-iterate" id="toc-step-4-iterate" class="nav-link" data-scroll-target="#step-4-iterate">Step 4: Iterate</a></li>
+  <li><a href="#step-5-document-your-process" id="toc-step-5-document-your-process" class="nav-link" data-scroll-target="#step-5-document-your-process">Step 5: Document Your Process</a></li>
+  </ul></li>
+  <li><a href="#craft-prompt-templates" id="toc-craft-prompt-templates" class="nav-link" data-scroll-target="#craft-prompt-templates">CRAFT Prompt Templates</a>
+  <ul class="collapse">
+  <li><a href="#for-teaching-learning-design" id="toc-for-teaching-learning-design" class="nav-link" data-scroll-target="#for-teaching-learning-design">For Teaching &amp; Learning Design</a></li>
+  <li><a href="#for-research-analysis" id="toc-for-research-analysis" class="nav-link" data-scroll-target="#for-research-analysis">For Research &amp; Analysis</a></li>
+  <li><a href="#for-professional-operations" id="toc-for-professional-operations" class="nav-link" data-scroll-target="#for-professional-operations">For Professional Operations</a></li>
+  </ul></li>
   <li><a href="#key-principles" id="toc-key-principles" class="nav-link" data-scroll-target="#key-principles">Key Principles</a></li>
   <li><a href="#common-mistakes-to-avoid" id="toc-common-mistakes-to-avoid" class="nav-link" data-scroll-target="#common-mistakes-to-avoid">Common Mistakes to Avoid</a></li>
   <li><a href="#practice-exercise" id="toc-practice-exercise" class="nav-link" data-scroll-target="#practice-exercise">Practice Exercise</a></li>

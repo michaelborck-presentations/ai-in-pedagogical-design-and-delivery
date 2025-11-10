@@ -171,7 +171,7 @@ nav .dropdown-menu {
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
-    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+    transition: opacity 1.0s ease, visibility 1.0s ease, transform 1.0s ease;
     pointer-events: none;
 }
 
