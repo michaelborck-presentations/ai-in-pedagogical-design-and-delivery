@@ -42,6 +42,76 @@ The framework has five elements. You don't need to use all of them every time, b
 
 ---
 
+## CRAFT is a Starting Point, Not a Rule
+
+**Important:** CRAFT is one framework among many. Different prompting techniques work better for different people and different tasks. There's no single "correct" way to prompt AI.
+
+Some educators and professionals find CRAFT helpful and structured. Others prefer simpler, more conversational approaches. **The goal is clarity—not adherence to a framework.**
+
+### Other Simple Techniques That Work Well:
+
+**1. Ask for step-by-step thinking**
+Instead of asking for a final answer, ask the AI to walk through its reasoning first:
+> "Before answering, walk me through how you'd approach this problem. Then provide your recommendation."
+
+**2. Request explicit reasoning**
+Ask the AI to show its work:
+> "Explain your thinking before providing the assessment rubric."
+> "How did you arrive at that conclusion?"
+
+**3. Provide good and bad examples**
+Show the AI what you want (and what you don't):
+> "Here's an example of a good discussion question: [example]. Here's a weak one: [bad example]. Now create three questions in the style of the good example."
+
+**4. Use comparative framing**
+Ask the AI to compare or contrast:
+> "Show me three different ways to explain this concept. What are the trade-offs of each?"
+
+**5. Break tasks into explicit steps**
+Similar to prompt chaining, but simpler:
+> "First, summarise this. Then identify problems. Finally, suggest solutions."
+
+**6. Ask for constraints**
+Tell the AI what matters:
+> "Keep this under 150 words. Make it suitable for high school students. Use simple language."
+
+**7. Request revision and refinement**
+Most first drafts improve with feedback:
+> "That's a good start. Now make it more concise / more detailed / more critical / more encouraging."
+
+---
+
+## Experiment and Find What Works for You
+
+The best approach is the one that:
+- **Makes sense to you** (you understand why you're structuring the prompt that way)
+- **Works for your context** (some frameworks fit teaching, others fit analysis)
+- **Gets consistent results** (you can repeat it and improve it)
+
+Some people love the CRAFT framework. Others find it overly formal. Some prefer conversational, exploratory prompting. Others prefer ultra-specific, constraint-based prompting.
+
+**Try different techniques and notice what works:**
+- Does CRAFT help you think through what you need?
+- Or do you prefer just asking clearly and iterating?
+- Do you like step-by-step structure, or does it feel rigid?
+- Do examples help you, or do you work better with descriptions?
+
+There's no "wrong" answer—just what works for your brain and your context.
+
+---
+
+## Key Principle: Clarity Over Framework
+
+Whatever technique you use, the underlying principle is the same:
+
+> **Help the AI understand what you actually want.**
+
+Whether you do that through CRAFT, through examples, through step-by-step instructions, or through something else entirely—the goal is clarity. If your current approach isn't getting good results, try something different.
+
+**No framework is universal.** CRAFT happens to be structured and teachable, which is why we highlight it. But your own conversational style, combined with iteration, is often just as effective.
+
+---
+
 ## Examples: Improving Prompts with CRAFT
 
 ### Example 1: Teaching & Learning
