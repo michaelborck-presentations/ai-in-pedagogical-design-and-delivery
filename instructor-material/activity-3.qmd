@@ -1,0 +1,131 @@
+---
+title: "Instructor Notes – Activity 3: 5-Step Critique Framework"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Overview
+
+**Purpose:** Give participants a simple, reusable **5‑step check** for any AI output so they can decide whether to **keep and refine**, **re‑prompt in a new direction**, or **start again**.
+
+**The 5 steps:**
+
+1. **Purpose** – What is this output for, and for whom?  
+2. **Plausibility** – Does it pass a basic sense check?  
+3. **Evidence** – How do we know it’s true / appropriate?  
+4. **Stakes** – What happens if it’s wrong or weak?  
+5. **Action** – What should we change, keep, or do next?
+
+This activity links directly to the **“human in the loop”** message: AI produces drafts, humans apply judgement.
+
+It is also the place to pick up the **cognitive offloading / “is this good for learning?”** concerns you lightly flagged in Activity 1. You can say, for example:
+
+> “Earlier we saw how quickly AI can help us draft summaries and announcements. Now we’re asking the harder question: **Is this actually good enough for learning, or are we building cognitive debt by letting the system do too much of the thinking?** The 5‑step critique is how we surface those issues and decide what *we* need to change.”
+
+---
+
+# Suggested Flow (≈15 minutes)
+
+- **2–3 minutes – Explain the 5 steps** (slide/handout).  
+- **8–9 minutes – Pairs apply the framework** to a real AI output from Activities 1–2.  
+- **3–4 minutes – Optional AI self‑critique demo + bridge to Activity 4**.
+
+---
+
+# Introduce the Framework (2–3 minutes)
+
+Put this on a slide or handout:
+
+- **Purpose** – What job is this text trying to do? Who is it for?  
+- **Plausibility** – Does anything sound obviously wrong, vague, or oversimplified?  
+- **Evidence** – Are important claims supported by examples, data, or references?  
+- **Stakes** – Is this low‑stakes (ideas) or high‑stakes (assessment, advice)? What happens if it’s wrong?  
+- **Action** – What should I keep, change, or delete? Do I refine, re‑prompt, or start again?
+
+You can say:
+
+> “You don’t need to memorise the labels – just walk through these five questions in order.”
+
+Optional **student‑friendly questions** you can share:
+
+- Purpose: “What is this trying to do?” “Is the tone right for the audience?”  
+- Plausibility: “Does it fit with what I already know?”  
+- Evidence: “What would I need to check before trusting this?”  
+- Stakes: “If this is wrong, who could be misled or harmed?”  
+- Action: “What should I change, and what should I do next?”
+
+---
+
+# Hands‑On: Critique One AI Output (8–9 minutes)
+
+Ask participants to work in pairs.
+
+**Step 1 – Choose an AI output**
+
+- From Activities 1–2:  
+  - summary, LMS announcement, quiz, rewritten brief, or teaching idea.  
+- Or another AI output they have on hand.
+
+**Step 2 – Apply the 5 steps**
+
+On the slide:
+
+1. Choose one AI output you generated earlier.  
+2. In pairs, apply the 5‑step critique:  
+   - Spend 1–2 minutes per step.  
+   - Jot down at least one **strength** and one **concern** for each step.  
+3. Decide together:  
+   - **Keep and lightly edit?**  
+   - **Re‑prompt in a new direction?**  
+   - **Discard and start from scratch?**
+
+You can also give them a simple grid on paper:
+
+- Columns: **Purpose | Plausibility | Evidence | Stakes | Action**  
+- Rows: **Strengths | Concerns / Risks | What I’ll do next**.
+
+---
+
+# Optional: AI Self‑Critique Demo (3–4 minutes)
+
+This is just for your screen, if time allows.
+
+1. Take one volunteer’s AI output (with permission).  
+2. Run a **self‑critique prompt**:
+
+   > Using the following 5‑step critique framework:  
+   > 1) Purpose, 2) Plausibility, 3) Evidence, 4) Stakes, 5) Action,  
+   > critically evaluate the output you just produced.  
+   >  
+   > For each step, briefly comment on:  
+   > - Strengths of the output  
+   > - Limitations or risks  
+   > - One concrete suggestion to improve it for use with university students in **[discipline]**.
+
+3. Ask the room:
+   - “What did it notice that you also saw?”  
+   - “What did *you* see that it missed?”  
+   - “Would you trust it to do the critique for you?”
+
+You can summarise:
+
+> “Even critique can be co‑piloted, but not outsourced. This framework is really for *you* – to decide whether to keep and refine, change direction, or start again.”
+
+---
+
+# Links to Other Activities
+
+- **From Activities 1–2:** The AI outputs they produced (summaries, announcements, quizzes, redesigned prompts) are exactly what they now **critique**.  
+- **To Activity 4 (Assessment Stress‑Test):** The same mindset scales up:
+  - Instead of critiquing a short output, they’ll stress‑test **whole assessments**:  
+    - Can AI do this task?  
+    - How plausible is its response?  
+    - What are the stakes?  
+    - What actions should we take in redesign?
+
+Use this line to bridge:
+
+> “We’ve used the 5 steps on low‑stakes outputs: summaries, announcements, quiz questions. Next we’ll use similar thinking on **whole assessments**: if AI can do this task easily, what does that mean for how we design it?”

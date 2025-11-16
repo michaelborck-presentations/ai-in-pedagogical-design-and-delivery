@@ -1,0 +1,144 @@
+---
+title: "Instructor Notes – Activity 5: Secure, Safe, and Sustainable AI"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Overview
+
+**Purpose:** End the workshop with **one small, realistic commitment** about how participants will use (and talk about) AI in their own unit, project, or role.
+
+This activity assumes that some ethics/privacy/Assessment 2030 content may already have been covered earlier in the day. The focus here is **practical next steps**, not another long ethics lecture.
+
+---
+
+# Quick Framing (2–3 minutes)
+
+Slide idea: **“Secure, Safe, Sustainable AI – Why it matters”**
+
+Key points:
+
+- We now have **enterprise Copilot** (data protection) and tools like **Turnitin Clarity**.  
+- Security ≠ safety ≠ good pedagogy.  
+- We still need simple, explicit norms for:  
+  - How *we* use AI in teaching/research/work.  
+  - What we ask / allow from *students*.  
+  - How this aligns with **Assessment 2030** (human irreplaceability).
+
+Talking line:
+
+> “The tools give us guardrails, but they don’t make decisions for us. This activity is about **one small, concrete step** you can take in your own unit or role.”
+
+---
+
+# Option A – Full Micro‑Task (10–15 minutes)
+
+Use this when people still have energy to work directly with AI.
+
+## Step 1 – Choose ONE micro‑task
+
+Ask them to pick whichever is most useful right now:
+
+1. Draft a short **“AI use in this unit/team” guideline**.  
+2. Run a **risk/benefit check** on one planned AI use.  
+3. Draft a **Week‑1 statement** to say to students/staff about AI.
+
+They can do this **with AI** (using the prompts below) or just write by hand.
+
+## Option 1 – Unit/Team AI Use Guideline
+
+Prompt template:
+
+> You are advising educators / professional staff at an Australian university on safe use of generative AI tools (e.g., Microsoft Copilot).  
+>  
+> Draft a short **"AI use in this unit/team"** guideline.  
+> Include:  
+> - 3–4 **"Do"** points (good use cases)  
+> - 3–4 **"Don't"** points (e.g., student data, confidential documents, unacknowledged AI use)  
+> - A one‑sentence reminder to check institutional policy.  
+> Keep it under **200 words** and use plain language.
+
+Ask them to **edit** the output so it fits their tone and local policy.
+
+## Option 2 – Risk/Benefit Check for One Planned AI Use
+
+Prompt template:
+
+> You are an AI risk advisor.  
+> I plan to use AI in this way in my work:  
+> `[describe intended use, e.g., "Use Copilot to draft weekly announcements and example feedback comments"]`.  
+>  
+> Identify:  
+> - Key benefits for my workload and for students/staff.  
+> - Main risks (privacy, bias, over‑reliance, academic integrity, misinformation).  
+> - 3 practical safeguards I should put in place to manage these risks in line with typical Australian university policies.
+
+They then decide which benefits/risks/safeguards **actually apply** for them.
+
+## Option 3 – Week‑1 Statement for Students or Staff
+
+Prompt template:
+
+> You are helping me frame AI use in my **[unit / team / project]** in a way that supports **"human irreplaceability"** (e.g., Assessment 2030).  
+>  
+> Suggest **3 short statements** I can say in Week 1 that:  
+> - Acknowledge that AI tools exist and can be helpful.  
+> - Emphasise that people's unique value is in their judgement, experience, and context.  
+> - Encourage **transparent, responsible use**, not hidden or over‑reliant use.  
+> Keep each statement under **40 words** and use friendly, clear language.
+
+They choose one they like and then **rewrite it in their own voice**.
+
+---
+
+# Option B – Light Version (5–7 minutes)
+
+Use this when there has already been a **heavy ethics/policy session** and energy is low. No AI required.
+
+## Step 1 – Draft ONE Clear Sentence
+
+Ask them to write **one sentence** they could say in Week 1 about AI use in their context. For example:
+
+- To students in a unit they teach.  
+- To HDR students in a research group.  
+- To staff they support in a professional service.
+
+The sentence should:
+
+- Acknowledge that AI tools exist.  
+- Emphasise that **human judgement/learning** still matters.  
+- Indicate what is **allowed/expected** in their context.
+
+Examples they can adapt:
+
+- “You are welcome to use AI tools to brainstorm and draft ideas in this unit, but you are responsible for **checking accuracy** and making the final decisions.”  
+- “AI can help with first drafts and summaries, but your unique value is in your judgement, experience, and ability to **improve** on those drafts.”  
+- “If you use AI for your work, be **transparent**: tell me what you used it for and what you changed.”
+
+## Step 2 – Optional Share
+
+If time allows, invite a few volunteers to share their sentences. Highlight different ways people balance **openness, trust, and integrity**.
+
+---
+
+# Micro‑Debrief & Close (2–3 minutes)
+
+Invite 2–3 quick contributions:
+
+- One “Do/Don’t” they like.  
+- One safeguard they’ll apply.  
+- One sentence for students/staff that resonates.
+
+Closing line:
+
+> “If you leave with just one thing from Activity 5, let it be:  
+> – a **clear sentence** to your students or colleagues about AI, or  
+> – a **small guideline** in your outline, or  
+> – a **safeguard** around a planned AI use.  
+>  
+> Tools like Copilot and Turnitin Clarity are helpful, but it’s these small, explicit choices that make AI use secure, safe, and sustainable in our context.”
+
+This lands the **balanced approach** without turning the end of the workshop into another long policy talk.

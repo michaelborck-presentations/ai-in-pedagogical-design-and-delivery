@@ -1,0 +1,178 @@
+---
+title: "Instructor Notes – Alternative Variants for Researchers & Professional Staff"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Overview
+
+These notes give **lightweight variants** of each activity for participants who are mainly:
+
+- **Researchers**, or  
+- **Professional staff** (e.g., Teaching Support Officers, Learning Designers, Coordinators, Academic Operations).
+
+Use them as verbal prompts in the room rather than full slide content.
+
+Suggested phrasing:
+
+> “If you’re mainly here as a researcher or professional staff member, feel free to adapt each activity to your world. Here are a few options…”
+
+---
+
+# Activity 1 – Automate the Tedious (Summariser + Twist)
+
+**Core pattern:** summarise → recast for a purpose.
+
+## Researchers
+
+- Summarise a **paper abstract** or **methods section**, then:  
+  - Twist: “Write a plain‑English summary for a **funding application’s non‑technical summary** section.”  
+  - Twist: “Turn this into **3 conference slide headings + bullets**.”
+- Summarise **reviewer comments**, then:  
+  - Twist: “Draft a **polite, point‑by‑point response letter**.”
+
+## Professional Staff
+
+- Summarise a **policy / procedure / meeting paper**, then:  
+  - Twist: “Turn this into a **staff bulletin** or **FAQ** for students.”  
+  - Twist: “Draft an **internal email** explaining what’s changed and what actions are needed.”
+
+---
+
+# Activity 2 – The Art of the Prompt (Prompt Makeover)
+
+**Core pattern:** vague → structured prompt for their own work.
+
+## Researchers
+
+- Vague: “Help me with my literature review.”  
+- Structured:  
+  - Context: field, topic, stage of PhD/project.  
+  - Role: “You are a research assistant…”  
+  - Action: “Cluster these papers into **3–5 themes + gaps**.”  
+  - Format: table with **“Theme”, “Key papers”, “Open questions”**.
+
+Other uses:
+
+- Designing prompts to:  
+  - Generate **potential journal venues**.  
+  - Draft **conference abstracts**.  
+  - Suggest **interview questions** or **survey items**.
+
+## Professional Staff
+
+- Vague: “Write an email about enrolment.”  
+- Structured:  
+  - Context: office/function, target group, timelines.  
+  - Role: “You are a student communications officer…”  
+  - Action: “Draft **2 versions** of this message: one formal email, one short LMS announcement.”  
+  - Format/constraints: word limits, tone, bullet points, calls to action.
+
+---
+
+# Activity 3 – 5‑Step Critique Framework
+
+**Core pattern:** critique AI outputs using Purpose, Plausibility, Evidence, Stakes, Action.
+
+## Researchers
+
+Examples to critique:
+
+- AI‑generated:  
+  - **literature summary**  
+  - **draft abstract**  
+  - **“related work”** paragraph
+
+Prompt questions:
+
+- Purpose: “Is this fit for the **intended venue** (journal/conference)?”  
+- Plausibility/Evidence: “Does this reflect how our field actually talks?” “Are key authors/theories missing?”  
+- Stakes: “What happens if I trust this in a **grant or paper**?”
+
+## Professional Staff
+
+Examples to critique:
+
+- AI‑generated:  
+  - **student information email**  
+  - **web page copy** about a process (extensions, scholarships, progress)  
+  - **FAQ** for staff or students
+
+Prompt questions:
+
+- Plausibility: “Does this really match how our systems/policies work?”  
+- Stakes: “What if a student acts on wrong or incomplete information?”
+
+---
+
+# Activity 4 – Unlocking the Impossible (Assessment Stress‑Test Variant)
+
+**Core pattern:** 3‑step chain – AI does task → critique → redesign.
+
+## Researchers
+
+Use a **research‑adjacent task** that feels “impossible”, for example:
+
+- Designing a **data collection plan**.  
+- Drafting a **grant impact/significance** section.
+
+Workflow:
+
+1. Ask AI to draft the plan/section.  
+2. Critique: Is it generic? Feasible? Ethically sound?  
+3. Ask AI for **2–3 improvements**, then decide what you would actually keep.
+
+## Professional Staff
+
+Stress‑test a **process communication**, not an assessment:
+
+1. Paste a real process description (e.g., special consideration, course transfer).  
+2. Ask AI to produce a **student‑facing explanation**.  
+3. Critique: Where is it misleading, incomplete, or tone‑deaf?  
+4. Ask AI for improvements, then apply your own judgement.
+
+If you’re running the strict **assessment stress‑test** with the room, researchers/professional staff can simply **mentally map** to parallel processes in their roles.
+
+---
+
+# Activity 5 – Secure, Safe, and Sustainable AI
+
+**Core pattern:** one concrete, context‑specific guideline / statement / risk check.
+
+## Researchers
+
+Possible micro‑tasks:
+
+- Draft a short **“AI in this project”** statement, including:  
+  - What AI **can/can’t** be used for (e.g., coding, drafting text, *not* analysing identifiable data without ethics approval).  
+  - How AI use will be **documented** (lab notebook, methods section, appendix).
+- Run a risk/benefit check for using AI to:  
+  - analyse **interview transcripts**, or  
+  - draft parts of an **ethics application**.
+
+## Professional Staff
+
+Possible micro‑tasks:
+
+- Draft a one‑paragraph **“AI use in this team/office”** guideline, identifying:  
+  - Allowed uses (drafting comms, summarising docs, idea generation).  
+  - Prohibited uses (student records, HR data, confidential documents).
+- Draft a **Week‑1 statement** for a staff training or induction session that explains:  
+  - How AI may be used to support staff.  
+  - Expectations around **disclosure** and **checking accuracy**.
+
+---
+
+# Short In‑Room Script
+
+You can summarise all of this verbally, e.g.:
+
+> “If you’re mainly here as a **researcher or professional staff member**, feel free to adapt each activity to your world:  
+> – Activity 1: summarise a **paper or policy**;  
+> – Activity 2: improve a **research/admin prompt**;  
+> – Activity 3: critique an AI‑generated **abstract or email**;  
+> – Activity 4: stress‑test a **grant section or process description**;  
+> – Activity 5: draft one **AI guideline or statement** for your team or project.”

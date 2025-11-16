@@ -259,7 +259,7 @@ Create `website/build.sh`:
 #!/bin/bash
 
 # Render markdown to HTML (plain, no styling)
-quarto render content/resources/*.md --to html
+quarto render content/*.md --to html
 quarto render content/materials/*.md --to html
 
 # Render presentation to multiple formats
@@ -269,7 +269,7 @@ quarto render content/materials/presentation.md --to html
 
 # Copy everything to docs/
 cp -r src/* docs/
-cp -r content/resources/* docs/resources/
+cp -r content/* docs/resources/
 cp -r content/materials/* docs/materials/
 cp -r content/assessment/* docs/assessment/
 

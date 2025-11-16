@@ -7,7 +7,7 @@ project:
 # Render all .qmd files in content/resources/
 # Renders to output-dir root (flattened structure)
 render:
-  - content/resources/*.qmd
+  - content/*.qmd
 
 # Default format settings for all documents
 format:

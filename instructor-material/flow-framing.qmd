@@ -1,0 +1,197 @@
+---
+title: "Instructor Notes – Overall Workshop Flow & Framing"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Overall Stance
+
+- Core message: **“Neither ban nor blindly embrace – design work and assessment so human skills stay irreplaceable.”**  
+- Explicit tie to **Assessment 2030**:  
+  - “We’re in **Lane 2** today: using AI and prompts in ways that make student thinking more visible, not less.”  
+- Frame AI as **infrastructure**, prompts as **literacy**:  
+  - “Tools will change, but the language they speak – prompts – is what you’re really learning.”
+
+---
+
+# Use the Quiz Findings Deliberately
+
+Early in the opening (after your Bloom / AI‑tutor hook), bring in the pre‑workshop quiz results for ~5 minutes to set tone and pace:
+
+- “You’re generally **positive and curious** about AI” → permission to experiment, not to “sell” AI.  
+- “You’re **confident trying new tech**” → but many are beginners with LLMs, so go slowly and scaffold.  
+- “Your main worries are **reliability** and **student misuse**” → promise up front:
+  - You’ll show how to **critique AI output** (Activity 3).  
+  - You’ll explore how to **stress‑test and redesign assessment** (Activity 4).  
+  - You’ll talk specifically about **safe/approved tools** and data (Activity 5).
+
+This makes the workshop feel **tailored**, not generic.
+
+---
+
+# Keep the Existing Structure
+
+Your slides already give a solid arc:
+
+- Welcome & ITS / Architect / Practitioner / Challenges / Evolving Role.  
+- Activities 1–5 anchored on:  
+  - **Automate** → **Prompts** → **Critique** → **Assessment** → **Safety/Next Steps**.
+
+Given **beginners + 2 hours + “go slow”**, aim for **less content, more guided practice**. Avoid adding lots of new conceptual slides.
+
+If you add one new slide, consider a very simple **“AI tools”** slide:
+
+- Show 3–4 logos only (e.g., Copilot, ChatGPT, Claude).  
+- One line:  
+  - “There are hundreds of tools. They mostly differ in interface and integrations – underneath, they respond to prompts.”  
+- Emphasise Copilot as the **approved** one, and reassure:  
+  - “Prompts you develop here will transfer to whatever tool you have.”
+
+Avoid an overwhelming “zoo of tools” slide.
+
+---
+
+# Suggested 2‑Hour Flow (Approximate)
+
+You can adjust timings on the day.
+
+## 0–10 min – Welcome, Hook, Quiz & Assessment 2030 Bridge
+
+- Start with the **Bloom 2‑sigma / AI tutor** hook (from your Welcome slide notes), connecting one‑to‑one tutoring → AI tutors/assistants → “what does this mean for us at Curtin?”.  
+- Then show one slide with the **three quiz insights** to ground things in your participants’ attitudes and concerns.  
+- Connect explicitly to **Assessment 2030**:  
+  - “You just heard a lot about assessment this morning; now we’ll get **hands‑on** with how AI and prompts affect your **design and delivery** in that landscape.”
+
+## 10–25 min – Context Slides
+
+- Welcome, ITS, Architect, Practitioner, Challenges, Evolving Role.  
+- Keep this **high‑level and brisk**; use your notes as talking points, not mini‑lectures.  
+- Make your balanced stance explicit:  
+  - “AI raises real risks – equity, bias, integrity – but we manage those by **better design and critical use**, not by banning tools.”
+
+## 25–40 min – Tiny Copilot Demo + Framing for Activities
+
+- Choose **one simple, low‑risk demo** that doesn’t rely on file downloads, e.g.:  
+  - “Rewrite these assessment instructions for **clarity and inclusivity**.”  
+  - “Brainstorm 5 low‑stakes formative tasks for **[concept]**.”
+- Show:
+  - Naive prompt → output.  
+  - Slightly improved prompt (with context, audience, tone) → better output.
+
+This sets up **Activity 1 (summarise & twist)** and **Activity 2 (prompt design)** without overcomplicating tools.
+
+## 40–60 min – Activity 1: Automate the Tedious
+
+- In pairs, choose a **tedious teaching/design task**, e.g.:  
+  - Draft weekly announcements.  
+  - Generate initial MCQs.  
+  - Rewrite rubric descriptors.
+- Ask them to:
+  - Write a **first prompt** individually.  
+  - Run it (if they have a device) or you run exemplar prompts on screen.  
+  - Share: “What did AI do well? What did it miss?”
+
+Message:
+
+> “Offload drudgery, but you remain the **professional editor**.”
+
+## 60–80 min – Activity 2: The Art of the Prompt
+
+- Introduce one simple, reusable **prompt pattern** (drawing from `craft-prompting-framework.qmd` / `seven-techniques.qmd`):  
+  - Context: who/what/level.  
+  - Task: what you want AI to do.  
+  - Format: bullets, table, rubric, etc.  
+  - Constraints: length, tone, curriculum alignment.
+- Have them iterate:
+  - Start from their **Activity 1 prompt**.  
+  - Apply the pattern/framework.  
+  - Compare outputs.
+
+Emphasise:
+
+> “You don’t need to know about system vs user messages – just be **explicit, structured, and iterative**.”
+
+## 80–95 min – Activity 3: 5‑Step Critique Framework
+
+- Directly addresses **“AI reliability”** concerns from the quiz.  
+- Give them the simple checklist (Purpose, Plausibility, Evidence, Stakes, Action).  
+- Have them critique one of the outputs from Activities 1–2.
+
+Connect back to learning design:
+
+> “This is the kind of critique we want **students** to use as well.”
+
+## 95–115 min – Activity 4: Assessment Stress‑Test
+
+- Bridge to **Assessment 2030 (Lane 1 vs Lane 2)**:  
+  - “Let’s see how an AI handles one of our existing assessment tasks.”
+- In small groups:  
+  - Pick a real assessment (or a stylised version).  
+  - Ask AI:  
+    > “You are a high‑achieving student in **[course]**. Complete this task.”  
+  - Discuss:  
+    - How easily does AI succeed?  
+    - What parts of the task are most “automatable”?  
+    - How could we tweak this to reveal **student judgement/process** rather than just the final product?
+
+This honours the morning session and makes your workshop feel like **follow‑through**, not a separate track.
+
+## 115–120 min – Activity 5: Secure, Safe, Sustainable AI + Wrap‑Up
+
+- Keep it **short**:  
+  - Clarify what’s **approved** (Copilot) and basic data/privacy rules.  
+  - Reiterate: “Use organisational tools where possible; never paste sensitive student data; treat AI as a **draft generator**, not an oracle.”
+- Point them to the **companion website resources**:  
+  - quick‑start guide,  
+  - teaching strategies,  
+  - prompt frameworks.
+- Close with your **balanced approach** message.
+
+---
+
+# What About Agents and Advanced Concepts?
+
+Guidance:
+
+- Keep **agents** firmly **optional**.
+- Mention once, near the end:
+
+> “Once you have prompts that work reliably, many tools let you turn them into reusable ‘assistants’ or ‘agents’. I’ve built a few demos – e.g., a course‑schedule assistant – and I’m happy to show you one if we have time or afterwards.”
+
+- Only demo if:
+  - The group moves quickly and is clearly hungry for “what’s next”, or  
+  - Someone explicitly asks, “Can we save these prompts somewhere?”
+
+This way, advanced participants feel seen, but **beginners are not overwhelmed**.
+
+---
+
+# Handling "Horse Before the Cart" Concerns
+
+If many participants **aren’t yet using AI**:
+
+- Reframe the workshop as **future‑ready design practice**, not tool training:
+
+> “Today is about how you, as pedagogical designers and teachers, would *want* AI to work with you – so when tools are available, you’re ready to use them critically and ethically.”
+
+- Worst case, run everything as **paper prompts**:  
+  - People draft prompts and critique *hypothetical* outputs you bring on slides.  
+  - This still builds conceptual and critical capacity, even without live access.
+
+---
+
+# Copilot Download Limitation – Adapt the Demo
+
+Given you **can’t download files** in your enterprise Copilot setup:
+
+- Drop the “spreadsheet → plots → PPT” chain from the live demo.  
+- Replace it with something entirely **in‑tool**, for example:  
+  - Paste a small, anonymised table into Copilot; have it summarise or suggest insights in text.  
+  - Ask it to draft rubric descriptors or rewrite an assignment brief.
+
+Emphasise:
+
+> “In practice, you may still copy/paste outputs into PowerPoint or Word manually. The conceptual lesson – **prompting and critique** – remains valid even if the last step is manual.”

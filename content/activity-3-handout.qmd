@@ -1,0 +1,190 @@
+---
+title: "Activity 3 – 5-Step Critique Framework"
+subtitle: "Deciding: Refine, Re-Prompt, or Start Over"
+format:
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    fontsize: 11pt
+  html:
+    embed-resources: true
+---
+
+# Purpose
+
+Practice a simple, repeatable **5-step check** to evaluate any AI output and decide whether to **keep and refine it, change direction with a new prompt, or start again**.
+
+---
+
+# The 5 Steps (Quick Reference)
+
+- **Purpose** – What is this output for, and for whom?  
+- **Plausibility** – Does it pass a basic sense check?  
+- **Evidence** – How do we know it’s true / appropriate?  
+- **Stakes** – What happens if it’s wrong or weak?  
+- **Action** – What should we change, keep, or do next?
+
+You don’t need to memorise the labels – just move through these questions in order.
+
+---
+
+# Core Activity (Teaching / Pedagogy)
+
+## Step 1 – Choose an AI output
+
+Pick one AI-generated output from earlier activities, for example:
+
+- A summary or LMS announcement  
+- A short quiz or set of questions  
+- A rewritten assignment brief  
+- A teaching idea or activity design
+
+Paste or describe it here:
+
+> **AI output:**  
+> 
+> 
+
+## Step 2 – Apply the 5-step critique
+
+In pairs or individually, work through the five steps.
+
+Use the questions below to guide you. Jot down **one strength** and **one concern / risk** for each step.
+
+### Purpose
+
+- What job is this text trying to do?  
+- Who is it written for, and is the tone right?
+
+**Strength:**  
+
+**Concern / risk:**  
+
+### Plausibility
+
+- Does anything sound obviously wrong, vague, or oversimplified?  
+- Does it fit with what you already know?
+
+**Strength:**  
+
+**Concern / risk:**  
+
+### Evidence
+
+- Are important claims supported by examples, data, or references?  
+- What would you need to check before trusting this?
+
+**Strength:**  
+
+**Concern / risk:**  
+
+### Stakes
+
+- Is this for low-stakes use (ideas, drafts) or high-stakes use (assessment, policy, advice)?  
+- If this is wrong, who might be misled or harmed?
+
+**Strength / note:**  
+
+**Concern / risk:**  
+
+### Action
+
+- What should you keep, change, or delete?  
+- Do you refine this, re-prompt, or start from scratch?
+
+**What I will do next:**  
+
+## Step 3 – Make a decision
+
+Based on your notes above, decide:
+
+- [ ] **Keep and lightly edit** (good enough with small fixes)  
+- [ ] **Re-prompt in a new direction** (needs clearer instructions)  
+- [ ] **Discard and start over** (fundamentally off-target)
+
+Write one sentence explaining your choice:
+
+> 
+
+Remember: the goal is not to prove the AI is "bad", but to make an informed decision about how (or whether) to use this output in your teaching.
+
+---
+
+# Optional: Let AI Critique Itself
+
+If you have time and access, you can ask the AI to apply a similar critique to its own output, then compare with your judgement.
+
+Example prompt:
+
+> Using the following 5-step critique framework:  
+> 1) Purpose, 2) Plausibility, 3) Evidence, 4) Stakes, 5) Action,  
+> critically evaluate the output you just produced.  
+>  
+> For each step, briefly comment on:  
+> - Strengths of the output  
+> - Limitations or risks  
+> - One concrete suggestion to improve it for use with university students in **[discipline]**.
+
+Ask:
+
+- What did the AI notice that you also saw?  
+- What did **you** see that it missed?  
+- Would you trust it to do this critique for you?
+
+---
+
+# Variants for Researchers and Professional Staff
+
+You can use the same 5-step critique for other AI outputs.
+
+## If you are mainly doing research
+
+Try critiquing an AI-generated:
+
+- **Abstract** for a paper or conference  
+- **"Related work"** paragraph or section  
+- **Summary** of several articles
+
+Ask, for each step:
+
+- Purpose: Is this fit for the **venue / audience** (journal, conference, grant)?  
+- Plausibility: Does it reflect how the field actually talks about this topic?  
+- Evidence: Are citations plausible? Are key authors or theories missing?  
+- Stakes: What happens if I rely on this in a submission?  
+- Action: Do I keep parts, rework heavily, or discard?
+
+## If you are in a professional / administrative role
+
+Try critiquing an AI-generated:
+
+- **Student information email**  
+- **Web page copy** about a process (e.g., special consideration, enrolment)  
+- **FAQ** for staff or students
+
+Consider:
+
+- Purpose: Does it explain the process clearly and appropriately?  
+- Plausibility: Does it actually match how our systems and policies work?  
+- Evidence: Does it give concrete details (deadlines, links, contacts) that need checking?  
+- Stakes: What happens if a student acts on incorrect or incomplete information?  
+- Action: How would you edit or rewrite this before sending/publishing?
+
+---
+
+# Reflection / Notes
+
+Use the prompts below and the space provided.
+
+- Did the 5 steps help you see strengths and risks more clearly?  
+- At which step did you find the **most useful insight** (purpose, plausibility, evidence, stakes, or action)?  
+- How might you adapt this framework for your students, research, or professional context?
+
+(Notes:)
+
+-  
+-  
+-  
+-  

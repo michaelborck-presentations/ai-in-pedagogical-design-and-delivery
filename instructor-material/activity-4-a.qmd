@@ -1,0 +1,132 @@
+---
+title: "Instructor Notes – Activity 4 (Alternative): Unlocking the Impossible (Prompt Chaining)"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Overview
+
+This is an **alternative path** for Activity 4 when participants are:
+
+- Saturated with assessment discussions (after Assessment 2030), or  
+- Keen to explore “what else is possible” beyond assessment.
+
+**Purpose:** Show that some tasks that feel “too big” or “impossible” become manageable when you break them into a **3‑step AI‑supported workflow**:
+
+1. **Clarify** the problem and context.  
+2. **Generate** options or a first draft.  
+3. **Critique and refine** the output.
+
+You stay in charge as the **human orchestrator** – this is a gentle introduction to the idea of “agents” without building formal agents.
+
+---
+
+# Meta‑Strategy: Offer a Fork in the Road
+
+Right before Activity 4, you can say:
+
+> “This morning you spent two hours on Assessment 2030.  
+> Quick show of hands:  
+> – Who would like to keep working hands‑on with assessment tasks?  
+> – Who would rather explore ‘what else is possible’ with AI in design/delivery?”
+
+Then:
+
+- If there’s appetite for more assessment work → run **Assessment Stress‑Test** (main Activity 4).  
+- If they’re clearly saturated → run this **Prompt‑Chaining** activity instead, keeping the same slide title: *Activity 4 – Unlocking the Impossible*.
+
+---
+
+# Framing (2–3 minutes)
+
+Slide suggestion: **“From Assistant to ‘AI Team’”**
+
+Key points:
+
+- So far, we’ve used AI as a **single assistant** (summarise, draft, critique).  
+- Many real problems are **multi‑step**:  
+  - clarify → generate → critique → refine → present  
+- “Unlocking the impossible” = designing a **workflow of prompts** where:  
+  - Each step does a different job.  
+  - You stay in charge of chaining and decisions.
+
+Talking line:
+
+> “You don’t have to build formal ‘agents’ to get value from this idea. Think of it as designing a small **playbook** of prompts for a complex task.”
+
+---
+
+# Demo: A 3‑Step Chain (3–4 minutes)
+
+Pick a meaningful but non‑threatening teaching task, e.g.:
+
+> “Design a new tutorial activity that makes student thinking visible about **[concept]**.”
+
+Show a 3‑step chain:
+
+1. **Step 1 – Clarify the problem**
+
+   > You are a learning designer.  
+   > CONTEXT: I teach **[year level, discipline]**. My students struggle with **[concept]**.  
+   > ACTION: Ask me **5 clarifying questions** that will help you design a tutorial activity that reveals their thinking, not just their final answer.
+
+   Answer 1–2 of the questions briefly.
+
+2. **Step 2 – Generate a first idea**
+
+   > Using my answers, propose **2 different 20‑minute tutorial activities** that help students surface their reasoning about **[concept]**.  
+   > For each activity, include:  
+   > - What students do  
+   > - How I’d run it  
+   > - How student thinking becomes visible (not just final output).
+
+3. **Step 3 – Critique and refine**
+
+   > Now critique your own two activities.  
+   > - Which one is more likely to reveal student thinking? Why?  
+   > - Suggest **3 small modifications** to make it more realistic for my class size and time.
+
+Explain:
+
+> “We’ve just treated the AI as a tiny **team**: one part asked questions, one generated ideas, one critiqued. I’m still the one steering and deciding what to keep.”
+
+---
+
+# Hands‑On: Design Your Own 3‑Step Workflow (8–10 minutes)
+
+Slide: **“Design Your Own 3‑Step Workflow”**
+
+Instructions to participants:
+
+1. In pairs, choose **one ‘impossible’ or daunting task** you’d like help with, e.g.:  
+   - Redesign one lecture or tutorial to be more interactive.  
+   - Generate a bank of feedback comments for a common assignment.  
+   - Sketch out a new assessment idea that aligns with Assessment 2030.  
+   - Plan a new online module or mini‑course.
+2. On paper, design a **3‑step prompt chain**:  
+   - **Step 1 – Clarify:** a prompt to get the AI to ask you clarifying questions about your context and goals.  
+   - **Step 2 – Generate:** a prompt to propose 2–3 options/solutions based on your answers.  
+   - **Step 3 – Critique/Refine:** a prompt to critique its own options and suggest refinements or a small action plan.
+3. If time and tech allow, run **one of the steps** live.
+
+Emphasise:
+
+> “You don’t need to run all three steps here. Even sketching the workflow is useful – it becomes your personal **playbook** you can try later.”
+
+---
+
+# Debrief (3–4 minutes)
+
+Questions:
+
+- “What kind of ‘impossible’ tasks did you pick?”  
+- “Which step of your chain (clarify, generate, critique) do you think will add the most value?”
+
+Closing line:
+
+> “This is basically what people mean by ‘agents’ – a set of roles and steps for AI. You can get most of the benefit just by being deliberate about how you chain prompts, with **you as the conductor**.”
+
+This keeps the concept accessible while giving more advanced participants a sense of “what’s next” beyond single‑prompt use.

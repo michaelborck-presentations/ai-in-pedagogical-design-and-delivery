@@ -39,13 +39,13 @@ That's it! Quarto will:
 ### `.qmd` Files → HTML + PDF
 
 **Resources (pre-reading materials):**
-- `website/content/resources/what-is-ai.qmd` → `docs/what-is-ai.html` + `docs/what-is-ai.pdf`
-- `website/content/resources/what-are-llms.qmd` → `docs/what-are-llms.html` + `docs/what-are-llms.pdf`
-- `website/content/resources/quick-start-guide.qmd` → `docs/quick-start-guide.html` + `docs/quick-start-guide.pdf`
-- `website/content/resources/what-to-expect.qmd` → `docs/what-to-expect.html` + `docs/what-to-expect.pdf`
-- `website/content/resources/ai-in-pedagogical-design-and-delivery.qmd` → `docs/ai-in-pedagogical-design-and-delivery.html` + `.pdf`
-- `website/content/resources/cognitive-prompting-in-education.qmd` → `docs/cognitive-prompting-in-education.html` + `.pdf`
-- `website/content/resources/using-ai-in-education-roles-for-teaching-and-research.qmd` → `docs/using-ai-in-education-roles-for-teaching-and-research.html` + `.pdf`
+- `website/content/what-is-ai.qmd` → `docs/what-is-ai.html` + `docs/what-is-ai.pdf`
+- `website/content/what-are-llms.qmd` → `docs/what-are-llms.html` + `docs/what-are-llms.pdf`
+- `website/content/quick-start-guide.qmd` → `docs/quick-start-guide.html` + `docs/quick-start-guide.pdf`
+- `website/content/what-to-expect.qmd` → `docs/what-to-expect.html` + `docs/what-to-expect.pdf`
+- `website/content/ai-in-pedagogical-design-and-delivery.qmd` → `docs/ai-in-pedagogical-design-and-delivery.html` + `.pdf`
+- `website/content/cognitive-prompting-in-education.qmd` → `docs/cognitive-prompting-in-education.html` + `.pdf`
+- `website/content/using-ai-in-education-roles-for-teaching-and-research.qmd` → `docs/using-ai-in-education-roles-for-teaching-and-research.html` + `.pdf`
 
 **Materials (handouts, presentation, references):**
 - `website/content/materials/teaching-strategies-handout.qmd` → HTML + PDF
@@ -130,7 +130,7 @@ quarto render
 ### Render a specific file
 ```bash
 cd website
-quarto render content/resources/what-is-ai.qmd
+quarto render content/what-is-ai.qmd
 ```
 
 ### Render to specific format

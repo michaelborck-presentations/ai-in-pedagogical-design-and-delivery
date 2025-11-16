@@ -1,0 +1,150 @@
+---
+title: "Instructor Notes – Activity 2: The Art of the Prompt"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Overview
+
+**Purpose:** Help participants move from “I just type something in the box” to **deliberately designing prompts**. Show that adding **context, role, action, format, and constraints** dramatically improves AI output quality.
+
+**Key messages:**
+
+- Small changes in the prompt → **big changes** in relevance and quality.  
+- Prompts are design artefacts, not throwaway sentences.  
+- Activity 2 builds directly on Activity 1’s prompts (summary/announcement/quiz).
+
+---
+
+# Suggested Flow (≈15 minutes)
+
+- **3–4 minutes – Live demo**: vague vs structured prompt.  
+- **7–8 minutes – Hands‑on “prompt makeover”**: they improve their own prompts from Activity 1.  
+- **3–4 minutes – Quick share & link to critique (Activity 3)**.
+
+---
+
+# Live Demo: Vague vs Structured (3–4 minutes)
+
+Use a teaching‑focused example.
+
+- **Vague prompt:**
+
+  > Give me some teaching ideas about marketing.
+
+- **Structured prompt:**
+
+  > You are an experienced marketing educator.  
+  > I teach a **second‑year** unit on **consumer behaviour** with about **120 students** in tutorials of 25.  
+  > Suggest **3 in‑class activities (15–20 minutes each)** to help students apply the concept of **[concept]** to real‑world examples.  
+  > For each activity, provide:  
+  > - A brief description  
+  > - Materials needed  
+  > - Clear instructions I can read out loud  
+  > - One debrief question to link back to theory
+
+Ask the room:
+
+- “What’s better about the second one?”  
+- “What changed in the prompt?”
+
+Then name the pattern (pick your preferred label):
+
+- **CONTEXT + ROLE + ACTION + FORMAT + TONE/CONSTRAINTS**  
+- Or CRAFT (Context, Role, Action, Format, Tone/Target).
+
+---
+
+# Hands‑On: Prompt Makeover (7–8 minutes)
+
+Instructions to participants:
+
+1. **Copy one prompt** you used in Activity 1 (even if it was messy).  
+   - e.g. the prompt they used to get a summary, announcement, quiz, or rewritten brief.
+2. Underneath it, **rewrite the prompt** using:
+   - **CONTEXT** – course, year level, discipline, constraints  
+   - **ROLE** – e.g. “You are a learning designer…”  
+   - **ACTION** – what you want AI to do  
+   - **FORMAT** – bullets, table, slides, email, etc.  
+   - **TONE / CONSTRAINTS** – length, level, formality.
+3. Run **both** prompts and compare the outputs:
+   - Which is more on‑target?  
+   - Which saves you more time?  
+   - What changed in the prompt that made the difference?
+
+If you want to weave in **Prompt Coach/Copilot**:
+
+> “Paste your original prompt into Prompt Coach / Copilot and ask:  
+> *‘Help me improve this prompt so it’s clearer and more specific for **[goal]**.’*  
+> Then refine it yourself.”
+
+Emphasise that Prompt Coach is an **assistant**, not the centrepiece – they still need to apply judgement.
+
+---
+
+# Extra Prompt Patterns You Can Offer
+
+Use these as “ready‑to‑steal” patterns for people who finish quickly or want more examples.
+
+## A. Feedback Helper with Guardrails
+
+> You are an experienced university lecturer.  
+> CONTEXT: I teach **[discipline]**, **[year level]**. This is **formative feedback**, not a final grade.  
+> ACTION: Help me draft feedback on the following student work:  
+> `[paste short excerpt]`  
+>  
+> CONSTRAINTS:  
+> - Start with one positive comment.  
+> - Then give **2–3 specific, actionable suggestions**.  
+> - Do **not** assign a mark or grade.  
+> - Use supportive, professional language.
+
+## B. Rubric Refiner
+
+> You are a learning designer who specialises in assessment.  
+> CONTEXT: This is a rubric for a **[year level]** unit in **[discipline]**.  
+> ACTION: Improve the wording of these criteria so they are:  
+> - Clear to students  
+> - Focused on observable behaviours  
+> - Distinct between performance levels  
+>  
+> FORMAT: Return the revised rubric as a markdown table with columns: **"Criterion", "High", "Mid", "Low"**.  
+>  
+> RUBRIC:  
+> `[paste existing rubric]`
+
+## C. Misconception Diagnostic
+
+> You are a university teacher designing a short diagnostic activity.  
+> CONTEXT: Students in my **[year level, discipline]** unit often misunderstand **[concept]**.  
+> ACTION:  
+> - Propose **3 quick questions or tasks** that are likely to reveal common misconceptions about this concept.  
+> - For each, include: the question/task, the misconception it tests for, and what a strong response would show.  
+> FORMAT: Bullet points.
+
+These patterns highlight that **changing the prompt structure changes the kind of thinking AI supports**.
+
+---
+
+# Summary Pattern for Slides
+
+You can summarise Activity 2 on a slide like this:
+
+- **Goal:** Upgrade prompts → upgrade automation quality.  
+- **Demo:** Vague vs structured (Context + Role + Action + Format + Constraints).  
+- **Hands‑on:** Improve your Activity 1 prompt and compare outputs.  
+- **Takeaway line:**
+
+> “Activity 1 showed that AI can **automate the tedious**.  
+> Activity 2 shows that if we **upgrade our prompts**, we upgrade the quality of that automation.”
+
+---
+
+# Connections to Other Activities
+
+- **From Activity 1:** They already have prompts and outputs (summaries, announcements, quizzes). Activity 2 **refines the prompts** that produced those outputs.  
+- **To Activity 3:** The improved outputs become excellent material for the **5‑step critique** – they can now ask: *“Is this better output actually good enough to use?”*  
+- **To later practice:** The same prompt patterns can be used for feedback, rubrics, activity design, research prompts, and professional communications.

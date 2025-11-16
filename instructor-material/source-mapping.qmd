@@ -1,0 +1,47 @@
+---
+title: "Source Mapping – Slides and References"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Slide → Reference Mapping (Pre‑Activity Slides)
+
+| Slide | Main ideas in presenter notes | Likely supporting references |
+| --- | --- | --- |
+| **Welcome & The AI Landscape** | Bloom’s 2‑sigma result (one‑to‑one tutoring vs classroom); modern claim that AI tutors/assistants might approximate this effect at scale; question of what that means for design/assessment at Curtin. | Bloom (1984); Sal Khan TED *How AI Could Save (Not Destroy) Education* (not in refs); Artificial Analysis (2025); Noroozi et al. (2025); Pireci Sejdiu & Sejdiu (2025). |
+| **Intelligent Tutoring Systems (ITS)** | Four‑component ITS architecture (Domain, Learner, Tutoring, UI models); ITS as personalised, one‑to‑one instruction; analogy of ITS as personal trainer that adapts pace/difficulty in real time. | Park University (2025); Li et al. (2025); Budiman et al. (2025); Kwak (2025); Chen (2025). |
+| **The Architect (Pedagogical Design)** | AI shifts designers from manual content creators to “Strategic Architects” by automating outlines, assessments, multimedia; designers focus on flexible frameworks and human‑centric design. | Rojas (2025); Pireci Sejdiu & Sejdiu (2025); Noroozi et al. (2025); Sabzalieva & Valentini (2023). |
+| **The Practitioner (Pedagogical Delivery)** | AI as co‑pilot; real‑time data insights; teacher as real‑time interventionist rather than content broadcaster; focus on high‑value, empathetic interactions. | Noroozi et al. (2025); Pireci Sejdiu & Sejdiu (2025); Li et al. (2025); Budiman et al. (2025); Kwak (2025); Chen (2025); TEQSA (2025); University Canada West (2025). |
+| **Challenges & Limitations** | Erosion of the human element; paradox of connection; bias and inequity; hallucinations; misinformation/deepfakes; easier to circumvent traditional assessments; need for redesign and guardrails, not bans. | Noroozi et al. (2025); Yin et al. (2025); Dwivedi et al. (2023); Gerlich (2025); Kosmyna et al. (2025); EDUCAUSE (2025); TEQSA (2025); Russell Group (2023); University Canada West (2025); Shackell (2025). |
+| **The Evolving Role of the Educator** | “Forced re‑humanisation” of the educator’s role; AI automates low‑level tasks; educators move to empathy, creativity, mentoring, socio‑emotional support and ethical reasoning. | Noroozi et al. (2025); Pireci Sejdiu & Sejdiu (2025); Sabzalieva & Valentini (2023); Rojas (2025); TEQSA (2025); Russell Group (2023). |
+
+> Note: This mapping is reconstructed from the slide notes and reference list; it is approximate but sufficient for pointing people to the right sources.
+
+---
+
+# Reference → Slide Mapping (Key Sources)
+
+| Reference | Main slide(s) / themes |
+| --- | --- |
+| **Bloom (1984)** – 2 Sigma Problem | Welcome & The AI Landscape (opening hook: one‑to‑one tutoring vs classroom); general framing of “what are we trying to approximate with AI?”. |
+| **Sal Khan TED (2023)** – *How AI Could Save (Not Destroy) Education* | Welcome (claim that AI tutors/assistants might help achieve 2‑sigma‑like effects at scale; idea of tutor for every student and assistant for every teacher). |
+| **Park University (2025)** – AI in Education: The Rise of ITS | Intelligent Tutoring Systems (ITS) slide; baseline explanation of ITS and benefits. |
+| **Li et al. (2025)** – Meta‑analysis of AI‑based teaching | ITS slide (effectiveness of AI‑mediated instruction); Practitioner slide (evidence that AI can support improved outcomes). |
+| **Budiman et al. (2025); Kwak (2025); Chen (2025)** – AI‑driven/personalised learning effectiveness | Support claims on ITS and Practitioner slides about AI improving learning outcomes compared to traditional methods. |
+| **Rojas (2025)** – Future of Instructional Design in the AI Era | Architect slide (role shift from content producer to strategic designer); Evolving Role slide (designers/educators focusing on higher‑order work). |
+| **Noroozi et al. (2025)** – AI in Higher Education: impact depends on support, pedagogy, human agency and purpose | Welcome framing (what AI can/can’t do without pedagogy); Practitioner (human agency, real‑time intervention); Challenges (conditions for positive impact); Evolving Role (human edge). |
+| **Pireci Sejdiu & Sejdiu (2025)** – Quiet Transformation of HE in the AI Era | Architect and Practitioner slides (system‑wide transformation); Evolving Role slide (changing academic roles). |
+| **Artificial Analysis (2025)** – State of AI report | Welcome/context (broader AI landscape, adoption, industry impact). |
+| **Dwivedi et al. (2023)** – “So What If ChatGPT Wrote It?” | Challenges & Limitations (opportunities vs misuse, integrity, policy gaps); informs balanced stance. |
+| **Gerlich (2025)** – AI tools, cognitive offloading & critical thinking | Challenges slide (cognitive offloading concern); Activity 1 & 3 narrative about cognitive debt and human‑in‑the‑loop critique. |
+| **Kosmyna et al. (2025)** – Your Brain on ChatGPT (cognitive debt) | Challenges slide and Activity 3 (framing of cognitive debt in AI‑assisted writing). |
+| **Yin et al. (2025)** – FairAIED | Challenges slide (fairness, bias and ethics in educational AI; Automated Factory analogy). |
+| **EDUCAUSE (2025); TEQSA (2025); Russell Group (2023)** – AI principles and guidance | Challenges & Limitations (guardrails, ethics, institutional responses); Activity 5 (safe/sustainable AI use). |
+| **Sabzalieva & Valentini (2023)** – UNESCO Quick Start Guide | Architect/Evolving Role slides; general guidance on integrating generative AI into HE; informs Assessment 2030 narrative. |
+| **University Canada West (2025)** – Advantages and Disadvantages of AI in Education | Practitioner and Challenges slides (advantages vs disadvantages framing; teacher/learner impact). |
+| **Shackell (2025)** – “Grey Swan” risks | Challenges slide (systemic risk language; possibility of disruptive events in AI). |
+
+This file is intended as a **private mapping** for you and other facilitators when you need to point colleagues to the underlying literature.

@@ -1,0 +1,166 @@
+---
+title: "Activity 4 – Unlocking the Impossible"
+subtitle: "Assessment Stress-Test with AI"
+format:
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    fontsize: 11pt
+  html:
+    embed-resources: true
+---
+
+# Purpose
+
+For many educators, **AI-robust assessment that still feels authentic** currently feels impossible. This activity uses a simple **3-step workflow** to stress-test an assessment task with AI, critique what happens, and sketch small redesigns that make **student thinking and judgement more visible**.
+
+This aligns with the spirit of **Assessment 2030**: assessments where human skills remain irreplaceable, even when AI is available.
+
+---
+
+# Core Activity (Teaching / Pedagogy)
+
+> **3-step workflow:**  
+> 1) Ask AI to complete the task  
+> 2) Critique the AI response  
+> 3) Ask AI for redesign ideas – then apply your judgement
+
+## Step 1 – Choose an assessment task
+
+Work individually or in small groups.
+
+Choose ONE of the following:
+
+- An assessment task from your own unit (preferred)  
+- A sample assignment task provided in the workshop  
+
+Paste or summarise the task here:
+
+> **Task:**  
+> 
+> 
+
+If you have AI access and time, you (or the facilitator) can stress-test it live.
+
+Example completion prompt:
+
+> You are a high-achieving student in a **[year, discipline]** unit at an Australian university.  
+> Here is an assessment task description:  
+> `[paste task]`  
+>  
+> Produce a **strong response** to this task.  
+> Assume you have access only to typical online information and your own reasoning.  
+> After your response, briefly explain what strategies you used to complete the task.
+
+If live AI isn’t available, imagine what a strong AI-generated answer would look like, based on your task.
+
+## Step 2 – Critique the AI’s response
+
+Using the AI response (or your imagined one), ask:
+
+### Purpose & Stakes
+
+- What is this assessment really trying to measure?  
+- Is it high-stakes or low-stakes for students?
+
+### Plausibility & Evidence
+
+- Does the AI answer *look* like a plausible pass or HD?  
+- Does it show genuine understanding, or mainly fluent generic text?  
+- Does it use appropriate evidence/examples (or would they need checking)?
+
+### Human Visibility
+
+- Where can you see **student thinking, judgement, or personal context** in this response (if at all)?  
+- Which parts could almost any AI produce, given your brief?
+
+Jot a few notes:
+
+> **What worries you most about this response?**  
+> 
+> 
+
+## Step 3 – Explore redesign ideas and choose 1–2 tweaks
+
+Now shift from "problem" to "design opportunity".
+
+If you wish, you can ask AI for redesign suggestions, then apply your judgement.
+
+Example redesign prompt:
+
+> You are an educational designer working within an AI-aware assessment policy similar to **Assessment 2030**.  
+> Given this original assessment task:  
+> `[paste task]`  
+>  
+> Suggest **3 specific changes** that would:  
+> - Make student thinking and judgement more visible  
+> - Allow **transparent, limited use of AI** as a tool  
+> - Still be realistic for a typical class size in **[discipline]**.  
+>  
+> Present your answer as bullet points: each bullet = "Change" + "What it achieves".
+
+Whether or not you use AI for this step, brainstorm **2–3 small tweaks** you might make to this task. For example:
+
+- Add a short **in-class component** (oral defence, live explanation, whiteboard sketch)  
+- Require a brief **AI use log** (what was used, why, and what was changed)  
+- Ask students to apply ideas to a **personal or local context** AI is unlikely to know  
+- Emphasise **process documentation** (drafts, annotations) rather than only final product
+
+List 1–2 tweaks you would seriously consider:
+
+> **Possible tweaks:**  
+> 1.  
+> 2.  
+
+---
+
+# Variants for Researchers and Professional Staff
+
+You can apply the same 3-step workflow to other "impossible" or high-stakes tasks.
+
+## If you are mainly doing research
+
+Try stress-testing a research-adjacent task, such as:
+
+- A **grant impact statement**  
+- A **data collection plan**  
+- A **lay summary** for a project
+
+Workflow:
+
+1. Ask AI to draft the section (impact, plan, or summary).  
+2. Critique: Is it plausible? Generic? Feasible? Ethically sound? Missing key theories or methods?  
+3. Ask AI for **2–3 improvements**, then decide which (if any) you would keep.
+
+## If you are in a professional / administrative role
+
+Try a parallel stress-test on a **process communication**, for example:
+
+- Instructions for special consideration, extensions, course transfers  
+- Information about fees, scholarships, or academic progress
+
+Workflow:
+
+1. Paste a real process description and ask AI to produce a **student-facing explanation**.  
+2. Critique: Where is it misleading, incomplete, or tone-deaf? Does it match reality?  
+3. Ask AI for improvements, then apply your **policy knowledge and judgement** before using anything.
+
+---
+
+# Reflection / Notes
+
+Use the prompts below and the space provided.
+
+- What did you learn about how easily AI could complete your task?  
+- Where is student thinking/judgement currently **visible** – and where is it not?  
+- What is one realistic change you could make to move this task closer to **AI-aware, authentic assessment** in your context?
+
+(Notes:)
+
+-  
+-  
+-  
+-  

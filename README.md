@@ -24,7 +24,7 @@ This repository contains materials for a hands-on workshop designed to help educ
 
 ## Repository Contents
 
-### Pre-Reading Materials (in `website/content/resources/`)
+### Pre-Reading Materials (in `website/content/`)
 - `what-to-expect.md` - Workshop overview and preparation guide (3 min)
 - `quick-start-guide.md` - 5-minute essentials (5 min)
 - `what-is-ai.qmd` - Non-technical introduction to AI concepts (10 min)
@@ -57,8 +57,8 @@ This repository contains materials for a hands-on workshop designed to help educ
 ## Quick Start
 
 ### For Participants
-1. Read `website/content/resources/what-to-expect.md` (3 min)
-2. Review `website/content/resources/quick-start-guide.md` (5 min)
+1. Read `website/content/what-to-expect.md` (3 min)
+2. Review `website/content/quick-start-guide.md` (5 min)
 3. Take the diagnostic quiz: `website/content/assessment/ai-literacy-diagnostic.html`
 4. Bring a laptop and one assessment idea to the workshop
 

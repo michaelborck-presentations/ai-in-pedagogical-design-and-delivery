@@ -1,0 +1,166 @@
+---
+title: "Activity 2 – The Art of the Prompt"
+subtitle: "From Vague Requests to Designed Prompts"
+format:
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    fontsize: 11pt
+  html:
+    embed-resources: true
+---
+
+# Purpose
+
+Move from typing vague requests into AI tools to **designing clear, structured prompts** that produce more relevant, useful outputs for your context.
+
+---
+
+# Core Activity (Teaching / Pedagogy)
+
+## Step 1 – Choose a real prompt you used
+
+Take one prompt you actually used earlier in the workshop (for example, in Activity 1) – even if it was messy or vague.
+
+Write it in the space below:
+
+> **Original prompt:**  
+> 
+> 
+
+## Step 2 – Apply a simple prompt structure
+
+Rewrite your prompt using this pattern:
+
+- **CONTEXT** – Who you are, what you teach, level, constraints  
+- **ROLE** – Who you want the AI to pretend to be  
+- **ACTION** – What you want it to do  
+- **FORMAT** – How you want the answer structured  
+- **TONE / CONSTRAINTS** – Style, length, level
+
+Example (teaching idea):
+
+> You are an experienced **[discipline] educator**.  
+> I teach a **[year level]** unit on **[topic]** with about **[class size]** students.  
+> Suggest **3 in-class activities (15–20 minutes each)** to help students apply the concept of **[concept]** to real-world examples.  
+> For each activity, provide:  
+> - A brief description  
+> - Materials needed  
+> - Clear instructions I can read out loud  
+> - One debrief question to link back to theory  
+
+Now rewrite your own prompt using this style:
+
+> **Improved prompt (CONTEXT + ROLE + ACTION + FORMAT + TONE):**  
+> 
+> 
+
+## Step 3 – Compare outputs
+
+Run both prompts (original and improved) in your AI tool.
+
+Compare:
+
+- Which output is **clearer and more relevant** to your context?  
+- Which one would save you **more time** in preparing teaching materials?  
+- What changed in the prompt that made the difference?
+
+## Step 4 – Optional: Use AI to help refine your prompt
+
+If you like, you can ask the AI to be a "prompt coach":
+
+> Here is my prompt:  
+> `[paste your improved prompt]`  
+> 
+> Suggest **3 ways to make this prompt clearer and more specific** for my goal. Then show me a revised version.
+
+Decide whether any of the suggested changes actually help, and adjust your prompt accordingly.
+
+---
+
+# Extra Prompt Patterns (Teaching / Pedagogy)
+
+You can adapt these patterns to your own unit.
+
+### A. Feedback helper with guardrails
+
+> You are an experienced university lecturer.  
+> CONTEXT: I teach **[discipline]**, **[year level]**. This is **formative feedback**, not a final grade.  
+> ACTION: Help me draft feedback on the following student work:  
+> `[paste short excerpt]`  
+>  
+> CONSTRAINTS:  
+> - Start with one positive comment.  
+> - Then give 2–3 specific, actionable suggestions.  
+> - Do not assign a mark or grade.  
+> - Use supportive, professional language.
+
+### B. Redesigning an activity
+
+> You are a learning designer.  
+> CONTEXT: I teach **[unit / year level / discipline]** with about **[class size]** students.  
+> CURRENT ACTIVITY: `[briefly describe what you currently do]`  
+>  
+> ACTION: Suggest **2 alternative activity designs** that:  
+> - Use AI as a support tool, not a replacement for student thinking  
+> - Make students' reasoning more visible (e.g., asking them to annotate or explain AI outputs)  
+> - Can be run in a **30-minute tutorial**  
+>  
+> FORMAT: Return your answer as a table with columns: "Activity Name", "What Students Do", "How AI is Used", "How I Assess or Observe Learning".
+
+---
+
+# Variants for Researchers and Professional Staff
+
+You can use the same prompt makeover pattern for non-teaching work.
+
+## If you are mainly doing research
+
+Try a prompt makeover for:
+
+- **Literature reviews**  
+  - Vague: "Help me with my literature review."  
+  - Structured:  
+    > You are a research assistant in **[field]**.  
+    > I am working on a project about **[topic]** at **[stage: early/late]**.  
+    > Using the following list of papers / abstracts, group them into **3–5 themes** and suggest **one gap** in the literature for each theme.  
+    > FORMAT: table with columns: "Theme", "Key papers", "Possible gap".
+
+- **Grant or ethics documents**  
+  - Ask for structured prompts to draft or improve: impact sections, lay summaries, interview protocols.
+
+## If you are in a professional / administrative role
+
+Try a prompt makeover for:
+
+- **Student communications**  
+  - Vague: "Write an email about enrolment."  
+  - Structured:  
+    > You are a student communications officer at an Australian university.  
+    > CONTEXT: This email is for **[cohort / year]** students about **[issue]**.  
+    > ACTION: Draft a clear, concise email explaining what students need to do and by when.  
+    > FORMAT: 3 short paragraphs + a bullet list of actions.  
+    > TONE: friendly, professional, and non-threatening.
+
+- **Web copy or FAQs**  
+  - Provide CONTEXT, ROLE, ACTION, FORMAT and TONE so the AI writes in a way that fits your audience and channel.
+
+---
+
+# Reflection / Notes
+
+Use the prompts below and the space provided.
+
+- What changed in your improved prompt that made the output better?  
+- Which parts of the CONTEXT / ROLE / ACTION / FORMAT / TONE structure do you find most useful?  
+- Where could a "prompt makeover" help you in your unit, project, or role?
+
+(Notes:)
+
+-  
+-  
+-  
+-  

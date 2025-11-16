@@ -1,0 +1,185 @@
+---
+title: "Instructor Notes – Activity 1: Automate the Tedious"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Overview
+
+**Purpose:** Introduce AI as a **time‑saving assistant** for low‑stakes, routine tasks, and show how simple summarisation can be **recast for different audiences and purposes**.
+
+**Key messages:**
+
+- AI is for **first drafts, ideas, options**; humans are for **judgement, context, final decisions**.  
+- A “summary” is not the end point – it can be turned into announcements, slides, quizzes, posts, etc.  
+- The same source text can produce very different outputs when you specify **audience + purpose**.
+
+Short line you can use on a slide:
+
+> **AI is for first drafts; you decide whether to refine, redirect, or start over.**
+
+---
+
+# Suggested Flow (≈15 minutes)
+
+- **3 minutes – Demo**: you run one example live.  
+- **8–9 minutes – Hands‑on**: participants work in pairs.  
+- **3–4 minutes – Quick debrief**.
+
+## Demo (3 minutes)
+
+1. Take a short, safe text, e.g.:  
+   - An excerpt from an AI/assessment policy  
+   - A trimmed section of an Assessment 2030 resource  
+   - A short teaching/learning article.
+2. Run a **summary prompt** (for you as lecturer):
+
+   > You are an academic in **[discipline]**.  
+   > Summarise the following document in **5–7 bullet points** for me as a lecturer.  
+   > Focus on the key ideas I would need to remember when planning a class.  
+   >  
+   > Text:  
+   > `[paste your text here]`
+
+3. Then run a **twist prompt**, e.g. LMS announcement:
+
+   > Using your summary above, write a short **LMS announcement** for my **[year level]** students.  
+   > Length: **120–150 words**.  
+   > Tone: clear, supportive, and practical.  
+   > End with **2 bullet points**: “Before next class, please…”.
+
+4. Say explicitly:
+
+> “This is the tedious bit I’d like to automate. I still edit and decide if it’s good enough for my students.”
+
+## Hands‑On (8–9 minutes)
+
+Instructions to participants:
+
+1. **Choose a short text** (you can provide 2–3 options):  
+   - 1–2 paragraph reading excerpt  
+   - Assignment brief  
+   - Policy/guidance snippet.
+2. **Step 1 – Summarise** (for students or for yourself):
+
+   > You are an academic in **[discipline]**.  
+   > Summarise the following text for **[year level]** students in **5–7 bullet points**.  
+   > - Use plain language and avoid unnecessary jargon.  
+   > - Highlight **2–3 key ideas** essential for the upcoming class.  
+   > - End with **one open question** I could use for discussion.  
+   >  
+   > Text:  
+   > `[paste your text here]`
+
+3. **Step 2 – Choose one twist** and run a second prompt:
+
+   - **Twist A – LMS announcement**
+
+     > Using the summary above, write a short LMS announcement for my **[unit / year level]** students.  
+     > - Length: 120–150 words  
+     > - Tone: clear, supportive, and practical  
+     > - Explain why this reading/information matters  
+     > - End with 2 bullet points: “Before next class, please…”.
+
+   - **Twist B – 2‑slide outline**
+
+     > Using the summary above, create an outline for **2 PowerPoint slides**:  
+     > - Slide 1: “Why this matters” – 3 bullets  
+     > - Slide 2: “Key ideas to discuss” – 3 bullets + 1 discussion question.
+
+   - **Twist C – Short quiz**
+
+     > Using the summary above, generate **3 multiple‑choice questions**.  
+     > - One clearly correct answer and three plausible distractors for each  
+     > - Label the correct answer  
+     > - Focus on understanding key ideas, not trivial details.
+
+4. Circulate to help with prompts and reassure beginners.
+
+## Debrief (3–4 minutes)
+
+Questions to ask:
+
+- “What tedious part did the AI reduce for you?”  
+- “What did you still need to fix or decide yourself?”
+
+Reinforce the human‑in‑the‑loop message:
+
+> “AI gave you a **first draft / idea**. As the domain expert, you decide whether to keep refining, change direction with a new prompt, or start over.”
+
+### Lightly flag deeper concerns (don’t solve them yet)
+
+You can briefly acknowledge the “Is this good for learning?” concern without derailing Activity 1. For example:
+
+> “Right now we’re just exploring what these tools *can* do with simple prompts. Later we’ll slow down and ask the harder question: **is this actually good enough for learning, or does it create ‘cognitive debt’?** That’s where our critique framework and assessment work come in.”
+
+If a sceptical participant raises concerns (e.g. over‑reliance, loss of critical thinking), validate and park them:
+
+> “Yes – there’s a real risk that if we lean too hard on tools like this, we offload too much thinking. That’s exactly why we’ve built in Activity 3, where we’ll pick apart these outputs with a critique framework. For now, let’s just notice what it does well and what feels uncomfortable.”
+
+This reassures sceptics that their concerns are heard, while keeping Activity 1 as a low‑stakes sandbox.
+
+---
+
+# What Should They Summarise?
+
+Use a layered approach:
+
+- **Default (recommended)** – you provide **2–3 short, safe texts**, for example:  
+  - A 1–2 page excerpt from an AI/assessment policy or guidance.  
+  - A short teaching/learning article or blog post.  
+  - A trimmed version of an Assessment 2030‑related resource.  
+  This avoids hunting for documents and privacy/copyright issues.
+
+- **Optional** – their own material:  
+  - Unit outlines, assessment briefs, rubrics from their teaching.  
+  - Say: “If you have your own assignment brief handy and prefer to use that, go for it.”
+
+- **Email summarisation (demo only)** – Outlook Copilot:
+  - You can show (on your screen):  
+    > “Summarise my recent emails about **[unit code]** into key themes and suggested actions.”  
+  - But avoid asking them to do this individually (access + privacy issues).
+
+---
+
+# Framing Lines You Can Use
+
+Short mantra for slides or speech:
+
+- “**AI is for** first drafts, ideas, options.  
+  **Humans are for** judgement, context, final decisions.”
+
+Slightly longer explanation during the activity:
+
+> “What Copilot or any AI gives you here is an initial draft or idea, not a finished product.  
+> Your job, as the domain expert, is to decide:  
+> – Do I keep working with this and refine it?  
+> – Do I change the emphasis or direction?  
+> – Or do I throw it away and start over?  
+> That decision‑making is where your expertise lives, and that’s the part students most need to see.”
+
+Link to the 5‑step critique:
+
+> “The 5‑step critique isn’t about proving AI is bad. It’s how you decide:  
+> – Is this draft good enough to refine?  
+> – Does it need a new prompt and a different direction?  
+> – Or do I start from scratch because it’s fundamentally off?  
+> The tool generates; you curate and steer.”
+
+Student‑facing version:
+
+> “Using AI for a first draft or to spark ideas is fine; what matters is what *you* do next. Can you improve it, correct it, and make it your own? That’s what we actually assess.”
+
+---
+
+# Connections to the Rest of the Workshop
+
+- **Pedagogical design:** “Notice how we’re not just summarising; we’re redesigning the same content for different audiences and purposes. That’s what we do as pedagogical designers.”
+- **Prompting skills (Activity 2):** Activity 1 gives them raw prompts and outputs; Activity 2 will **upgrade those prompts** using CRAFT/structure.  
+- **Critique (Activity 3):** The outputs from Activity 1 are perfect material for the **5‑step critique framework**.  
+- **Assessment 2030:** The same summarise‑and‑recast skill applies when rewriting assessment instructions so students understand what genuine thinking and process look like.
+
+This keeps Activity 1 simple and focused, while setting up Activities 2 and 3 naturally.

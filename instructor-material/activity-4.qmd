@@ -1,0 +1,165 @@
+---
+title: "Instructor Notes – Activity 4: Unlocking the Impossible (Assessment Stress‑Test)"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Overview
+
+**Purpose:** Help staff see that “AI‑robust assessment that still feels authentic” is **not impossible** by:
+
+- Using AI to **probe** an existing assessment task.  
+- Critiquing what happens.  
+- Sketching **small redesigns** that make student thinking and judgement more visible.
+
+The activity itself is a tiny **3‑step prompt chain**:
+
+1. Ask AI to **complete** the task.  
+2. Ask AI (and the group) to **critique** the response.  
+3. Ask AI for **redesign ideas** – then apply human judgement.
+
+It directly supports **Assessment 2030**: assessments where human skills remain irreplaceable, even with AI.
+
+---
+
+# Framing (2–3 minutes)
+
+You can say:
+
+> “For a lot of us, **AI‑robust assessment that still feels authentic** currently feels impossible.  
+> In this activity we’ll ‘stress‑test’ one of our tasks using AI, then tweak it so that student thinking and judgement become more visible.  
+> Think of it as a small workflow:  
+> 1) Ask AI to complete the task  
+> 2) Ask AI (and ourselves) to critique the response  
+> 3) Ask AI for redesign ideas – then we decide what to keep or change.”
+
+Optional link to Assessment 2030:
+
+> “This is very much what Assessment 2030 is pushing us toward: assessments where **human skills** – judgement, context, collaboration – are irreplaceable, even when AI is in the mix.”
+
+---
+
+# Step 1 – Ask AI to Complete the Task (5–7 minutes)
+
+In small groups (2–3):
+
+- Choose **one assessment task**:  
+  - Ideally, a **real assignment** from someone in the group, or  
+  - A **sample** you provide (e.g., a short essay or case task).
+
+On **your screen** (to keep tech simple), run a completion prompt once or twice for the room:
+
+> You are a high‑achieving student in a **[year, discipline]** unit at an Australian university.  
+> Here is an assessment task description:  
+> `[paste task]`  
+>  
+> Produce a **strong response** to this task.  
+> Assume you have access only to typical online information and your own reasoning.  
+> After your response, briefly explain what strategies you used to complete the task.
+
+Ask everyone to read the AI’s response and think:
+
+- “If this came in from a student, how would I feel?”  
+- “How much of this could my strong students produce with **very little actual learning**?”
+
+If live AI is too risky or slow, you can **pre‑generate** a response and put it on a slide.
+
+---
+
+# Step 2 – Critique the AI’s Response (5–7 minutes)
+
+Now scale up the **5‑step critique mindset** to task level.
+
+On the slide, prompt discussion:
+
+- **Purpose & Stakes**  
+  - What is this assessment really trying to measure?  
+  - Is it high‑stakes or low‑stakes for students?  
+- **Plausibility & Evidence**  
+  - Does the AI answer look like a plausible pass or HD?  
+  - Does it show genuine understanding, or mainly fluent generic text?  
+  - Does it use appropriate evidence/examples?  
+- **Human Visibility**  
+  - Where, if at all, can you see **student thinking/judgement** in this response?  
+  - Which parts could almost any AI produce, given the brief?
+
+Optional AI self‑critique (demo only):
+
+> You are a skeptical peer reviewer.  
+> Here is an AI‑generated answer to an assessment task:  
+> `[paste output]`  
+>  
+> Identify at least **3 potential weaknesses** (e.g., generic, missing context, shallow reasoning) and suggest how a human student could improve it.
+
+Then ask the room:
+
+- “What did *you* see that this critique missed?”  
+- “Does this make you more or less confident in using AI as a checker?”
+
+---
+
+# Step 3 – Ask AI for Redesign Ideas, Then Apply Human Judgement (7–8 minutes)
+
+Now move from “problem” to “design opportunity”.
+
+On your screen, run a redesign prompt **for the same task**:
+
+> You are an educational designer working within an AI‑aware assessment policy similar to Assessment 2030.  
+> Given this original assessment task:  
+> `[paste task]`  
+>  
+> Suggest **3 specific changes** that would:  
+> - Make **student thinking and judgement** more visible  
+> - Allow **transparent, limited use of AI** as a tool  
+> - Still be realistic for a typical class size in **[discipline]**.  
+>  
+> Present your answer as bullet points: each bullet = "Change" + "What it achieves".
+
+Then ask groups to:
+
+- Circle or star any suggested changes that **might work** in their context.  
+- Add their own ideas, such as:  
+  - In‑class components (oral defence, live application, whiteboard sketch)  
+  - Process documentation (AI use log, annotated drafts)  
+  - Personal/local context that AI won’t know.  
+- Choose **1–2 small tweaks** they would seriously consider for this task.
+
+Reassure them:
+
+> “The point isn’t to accept AI’s redesign wholesale. It’s to use it to **unlock options**, then exercise our professional judgement about what fits our students, our unit, and Assessment 2030.”
+
+---
+
+# Micro‑Debrief (3–4 minutes)
+
+Questions you can ask:
+
+- “What surprised you about how well AI handled this task?”  
+- “What’s one small change you’d make to this assessment after this exercise?”
+
+Closing line:
+
+> “We started from something that felt almost impossible – AI‑robust, authentic assessment.  
+> By:  
+> 1) letting AI complete the task,  
+> 2) critiquing what it did, and  
+> 3) using it as a design partner,  
+> we’ve moved a step closer to assessments where **student judgement and process** are clearly visible, even in an AI‑rich world.”
+
+---
+
+# Alternative: Paper‑Only Stress‑Test
+
+If you prefer not to use AI live:
+
+1. Give each group a printed or projected assessment task.  
+2. Ask:  
+   - “If a student wanted to use AI to do this, what would they ask it to do?”  
+   - “Which parts would AI do very well?”  
+   - “Where would AI likely be weak?”  
+3. Have them mark these parts on the task (highlight/annotate), then jump straight to the **redesign questions** above.
+
+This keeps the core learning without requiring live tools.

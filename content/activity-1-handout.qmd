@@ -1,0 +1,127 @@
+---
+title: "Activity 1 – Automate the Tedious"
+subtitle: "The Summariser (with a Twist)"
+format:
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    fontsize: 11pt
+  html:
+    embed-resources: true
+---
+
+# Purpose
+
+Use AI to draft **quick summaries** of teaching materials and then **repackage** them for different purposes (announcements, slides, quizzes). Reduce the tedious parts while keeping your professional judgement in the loop.
+
+---
+
+# Core Activity (Teaching / Pedagogy)
+
+## Step 1 – Choose a short text
+
+Pick one of the following (or use your own):
+
+- A short reading excerpt (1–2 paragraphs)  
+- An assignment brief or rubric description  
+- A policy / guideline you want students to understand  
+
+Paste only **non-sensitive** text into the AI tool.
+
+## Step 2 – Get a basic summary
+
+Use (or adapt) this prompt:
+
+> You are an academic in **[discipline]**.  
+> Summarise the following text for **[year level]** undergraduate students in **5–7 bullet points**.  
+> - Use plain language and avoid unnecessary jargon.  
+> - Highlight **2–3 key ideas** that are essential for the upcoming class.  
+> - End with **one open question** I could use for class discussion.  
+>
+> Text:  
+> `[paste your text here]`
+
+Review the output. Fix obvious errors or gaps.
+
+## Step 3 – Add a "twist"
+
+Now re-use the summary for a different teaching purpose. Choose ONE:
+
+### Option A – LMS announcement
+
+> Using the summary above, write a short **LMS announcement** for my **[unit / year level]** students.  
+> - Length: **120–150 words**  
+> - Tone: clear, supportive, and practical  
+> - Explain *why* this reading / information matters  
+> - End with **2 bullet points**: "Before next class, please…"
+
+### Option B – 2-slide outline
+
+> Using the summary above, create an outline for **2 PowerPoint slides** to introduce this in class.  
+> - Slide 1: "Why this matters" – 3 bullets  
+> - Slide 2: "Key ideas to discuss" – 3 bullets + 1 discussion question  
+
+### Option C – Short quiz
+
+> Using the summary above, generate **3 multiple-choice questions** to check basic understanding.  
+> - One clearly correct answer and three plausible distractors for each  
+> - Label the correct answer  
+> - Focus on understanding key ideas, not trivial details  
+
+## Step 4 – Human in the loop
+
+Ask yourself:
+
+- Does this output say what I actually need it to say?  
+- What do I need to **edit, add, or remove**?  
+- Do I keep refining this, change direction with a new prompt, or start over?
+
+Remember: AI is for **first drafts and ideas**. You decide what happens next.
+
+---
+
+# Variants for Researchers and Professional Staff
+
+You can use the same pattern (summarise → twist) for non-teaching work.
+
+## If you are mainly doing research
+
+Try one of these:
+
+- Summarise a **journal article abstract** →  
+  - Twist: "Rewrite for a **non-technical audience** (e.g., impact statement or lay summary)."  
+- Summarise **reviewer comments** →  
+  - Twist: "Draft a **polite response letter** that groups comments by theme and proposes how I will address them."  
+- Summarise a **methods section** →  
+  - Twist: "Create a **5-bullet checklist** for running this procedure in the lab / field."
+
+## If you are in a professional / administrative role
+
+Try one of these:
+
+- Summarise part of a **policy or procedure** →  
+  - Twist: "Turn this into a **student-facing FAQ** with 5–7 questions and clear answers."  
+- Summarise a **meeting paper or report** →  
+  - Twist: "Draft a **staff bulletin** or **internal email** with key decisions and actions."  
+- Summarise a **web page or form instructions** →  
+  - Twist: "Rewrite as **step-by-step instructions** for students or staff."
+
+---
+
+# Reflection / Notes
+
+Use the prompts below and the space provided.
+
+- What tedious part of your work did AI reduce in this activity?  
+- What did you still need to change as the domain expert?  
+- Where could this summarise + twist pattern fit in your unit, project, or role?
+
+(Notes:)
+
+-  
+-  
+-  
+-  

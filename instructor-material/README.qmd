@@ -1,0 +1,126 @@
+---
+title: "Instructor Notes – Workshop Guide"
+subtitle: "AI in Pedagogical Design & Delivery"
+format:
+  html:
+    embed-resources: true
+  pdf:
+    colorlinks: true
+---
+
+# Purpose
+
+This folder contains **instructor-facing notes** for the
+_"AI in Pedagogical Design and Delivery"_ workshop.
+
+- More detailed than slide notes.  
+- More instructor-oriented than the participant handouts in `content/`.  
+- Designed to be printed, viewed on a second screen, or used as a
+  pre‑workshop planning reference.
+
+---
+
+# Files Overview
+
+## Overall Flow & Framing
+
+- `flow-framing.qmd`  
+  High-level framing and **2‑hour flow**:
+  - How to use quiz findings.  
+  - How to connect to **Assessment 2030**.  
+  - When to show/demonstrate Copilot.  
+  - Handling "horse before the cart" concerns and enterprise Copilot
+    limitations.
+
+## Activity 1 – Automate the Tedious
+
+- `activity-1.qmd` – Instructor Notes  
+  - Goal: AI as assistant for **low‑stakes, tedious tasks**.  
+  - Flow: demo → summarise → twist (announcement/slide/quiz) → debrief.  
+  - Includes suggested texts to use, ready‑to‑paste prompts, and
+    human‑in‑the‑loop framing.
+
+## Activity 2 – The Art of the Prompt
+
+- `activity-2.qmd` – Instructor Notes  
+  - Goal: shift from vague prompts to **designed prompts** using
+    Context/Role/Action/Format/Tone.  
+  - Flow: vague vs structured demo → "prompt makeover" in pairs → share.  
+  - Extra patterns for feedback, rubrics, and diagnostic tasks.
+
+## Activity 3 – 5‑Step Critique Framework
+
+- `activity-3.qmd` – Instructor Notes  
+  - Goal: apply the **5‑step check** (Purpose, Plausibility, Evidence,
+    Stakes, Action) to AI outputs.  
+  - Flow: introduce steps → pairs critique their own outputs from
+    Activities 1–2 → optional AI self‑critique demo → bridge to
+    assessment stress‑test.
+
+## Activity 4 – Unlocking the Impossible
+
+There are **two variants** for Activity 4. Choose based on the room
+and what happened in the Assessment 2030 session.
+
+- `activity-4.qmd` – Assessment Stress‑Test  
+  - Goal: use AI to **stress‑test an assessment task**, critique the AI
+    answer, and sketch small redesigns that make **student judgement and
+    process visible**.  
+  - 3‑step workflow: AI completes task → group critiques → AI suggests
+    redesigns → human judgement.
+
+- `activity-4-a.qmd` – Prompt Chaining (Alternative)  
+  - Goal: show how to tackle "impossible" design/delivery tasks by
+    chaining prompts (clarify → generate → critique).  
+  - Framing: "From Assistant to 'AI Team'" – you as **conductor** of a
+    small workflow of prompts.  
+  - Includes a meta‑"fork in the road" script so you can choose between
+    stress‑test vs chaining on the day.
+
+## Activity 5 – Secure, Safe, and Sustainable AI
+
+- `activity-5.qmd` – Instructor Notes  
+  - Goal: end with **one small, realistic commitment** about AI use.  
+  - Option A (full): micro‑tasks for a unit/team guideline, a
+    risk/benefit check, or a Week‑1 statement, with ready‑to‑use
+    prompts.  
+  - Option B (light): one clear sentence for students/staff when the
+    day has already been heavy on ethics/policy.  
+  - Emphasises a **balanced approach** and alignment with Assessment
+    2030.
+
+## Alternative Variants for Researchers & Professional Staff
+
+- `alternative-activities.qmd` – Alternative Paths  
+  Provides **role‑specific variants** of Activities 1–5 for:
+
+  - Researchers – e.g., literature reviews, grant sections, project
+    AI‑use statements.  
+  - Professional staff – e.g., policy/process comms, admin prompts,
+    team guidelines.
+
+  Contains a short script you can use to invite non‑teaching
+  participants to adapt each activity to their own context.
+
+---
+
+# How This Relates to Participant Materials
+
+- Participant‑facing **handouts** are in `content/` (e.g.
+  `activity-1-handout.qmd`, `quick-start-guide.qmd`).  
+- The **Quarto project** in `_quarto.yml` renders `content/*.qmd` to
+  static files under `docs/` for the companion website.  
+- These instructor notes are **for you** and do not have to be
+  published; you can render them locally as PDF/HTML if you find that
+  helpful.
+
+---
+
+# Suggested Use
+
+- Before the workshop: skim `flow-framing.qmd` and the individual
+  `activity-*.qmd` files to rehearse flow and talking points.  
+- During the workshop: have the relevant activity file open
+  (on paper or screen) as your **walkthrough** behind the slides.  
+- After the workshop: use these notes when refining the session or
+  sharing the format with colleagues.

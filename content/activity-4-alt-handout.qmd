@@ -1,0 +1,177 @@
+---
+title: "Activity 4 (Alternative) – Unlocking the Impossible"
+subtitle: "Prompt-Chaining for Complex Teaching & Work Tasks"
+format:
+  pdf:
+    page-size: A4
+    margin-left: 2cm
+    margin-right: 2cm
+    margin-top: 2.5cm
+    margin-bottom: 2cm
+    fontsize: 11pt
+  html:
+    embed-resources: true
+---
+
+# Purpose
+
+Tackle a task that currently feels **too big or too hard** by breaking it into a simple **3-step AI-supported workflow**:
+
+1. **Clarify** the problem and context  
+2. **Generate** options or a first draft  
+3. **Critique and refine** the output
+
+You stay in charge as the human **orchestrator** – AI is used as a set of small assistants, not a fully automated "agent".
+
+This activity pairs well with the companion resource on the website: **"Prompt-Chaining Techniques"**.
+
+---
+
+# Core Activity (Teaching / Pedagogy)
+
+## Step 1 – Choose a daunting task
+
+Pick one task in your teaching that feels complex, time-consuming, or "impossible" to get started on. For example:
+
+- Designing a new tutorial that makes student thinking visible about a tricky concept  
+- Planning a new online module or short course  
+- Creating a bank of feedback comments for a common assignment  
+- Sketching an AI-aware, authentic assessment idea
+
+Write it here in one sentence:
+
+> **My daunting task:**  
+> 
+> 
+
+## Step 2 – Design a 3-step prompt chain
+
+On paper, design **three prompts**, each with a different job:
+
+1. **Clarify the problem / context**  
+2. **Generate options or a first draft**  
+3. **Critique and refine** the output
+
+You can use the templates below and adapt them.
+
+### Step 1 – Clarify
+
+> You are a **learning designer**.  
+> CONTEXT: I teach **[year level, discipline]**. My students struggle with **[concept / skill]**.  
+> I want help with this task: **[describe your daunting task]**.  
+>  
+> Ask me **5 clarifying questions** that will help you support me effectively.
+
+Answer 2–3 of the questions in your own words.
+
+### Step 2 – Generate
+
+> Using my answers, propose **2–3 options** to help with this task: **[repeat your task]**.  
+> For each option, include:  
+> - A short description  
+> - What I would need to do  
+> - How it helps my students' learning / my workload  
+> - Any obvious limitations
+
+### Step 3 – Critique and refine
+
+> Now **critique your own options**.  
+> - Which option seems most realistic for my context, and why?  
+> - Suggest **3 small modifications** that would make it more practical for my time and constraints.  
+>  
+> Then provide a short, numbered plan (3–5 steps) for how I could pilot this in my next teaching period.
+
+Rewrite these prompts in your own words to match your task.
+
+## Step 3 – (Optional) Run part of your chain
+
+If you have AI access and time:
+
+1. Run your **clarify** prompt and answer 1–3 of the questions.  
+2. Run your **generate** prompt.  
+3. Skim the output and run your **critique/refine** prompt if time allows.
+
+Ask yourself:
+
+- Which step (clarify, generate, critique) added the **most value** for you?  
+- What would you still need to change as the human in the loop?
+
+If you don’t have AI access, simply **design the chain on paper** – it becomes a playbook you can try later.
+
+---
+
+# Example: Designing a Tutorial Activity (for reference)
+
+Here is a fully worked example you can adapt.
+
+**Daunting task:** "Design a 20-minute tutorial that makes student reasoning about [concept] visible, not just their final answers."
+
+1. Clarify prompt:
+
+> You are a learning designer.  
+> CONTEXT: I teach a **[year level] [discipline]** unit and students struggle with **[concept]**.  
+> I want a 20-minute tutorial activity that reveals their reasoning, not just final answers.  
+> Ask me **5 questions** to understand my students and constraints.
+
+2. Generate prompt:
+
+> Using my answers, propose **2 different 20-minute activities** that help students surface their reasoning about **[concept]**.  
+> For each activity, include: what students do, how I run it, and how their thinking becomes visible (not just final output).
+
+3. Critique/refine prompt:
+
+> Critique your two activities:  
+> - Which one is more likely to reveal student reasoning, and why?  
+> - Suggest **3 changes** to make it realistic for my class size and room setup.  
+> - Give me a short, step-by-step script I could follow in class.
+
+---
+
+# Variants for Researchers and Professional Staff
+
+You can use the same 3-step chaining pattern for other complex tasks.
+
+## If you are mainly doing research
+
+Choose a daunting research task, such as:
+
+- Planning a new study or data collection strategy  
+- Structuring a literature review into themes and gaps  
+- Drafting a grant "impact" or "significance" section
+
+Design a 3-step chain:
+
+1. Clarify: Ask AI to interview you about your project (5–7 questions).  
+2. Generate: Ask it to suggest 2–3 possible structures/plans based on your answers.  
+3. Critique/refine: Ask it to critique its own suggestions and propose improvements or a step-by-step action plan.
+
+## If you are in a professional / administrative role
+
+Choose a complex work task, such as:
+
+- Redesigning an information session or onboarding process  
+- Creating a series of student communications across a semester  
+- Improving a recurring workflow in your team
+
+Design a 3-step chain:
+
+1. Clarify: Ask AI to generate clarifying questions about your audience, constraints, and goals.  
+2. Generate: Ask for 2–3 options (e.g., session outlines, comms calendars, process maps).  
+3. Critique/refine: Ask it to critique its options, identify risks, and suggest small, realistic steps you could trial.
+
+---
+
+# Reflection / Notes
+
+Use the prompts below and the space provided.
+
+- What task did you choose as your "impossible" or daunting problem?  
+- Which step of the chain (clarify, generate, critique) felt most powerful for you?  
+- How might you use a similar 3-step workflow in your teaching, research, or professional role?
+
+(Notes:)
+
+-  
+-  
+-  
+-  
