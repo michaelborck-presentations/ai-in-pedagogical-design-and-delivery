@@ -1,0 +1,109 @@
+---
+title: "Sample Texts for Workshop Activities"
+subtitle: "Ready-to-use excerpts for summarising and prompt practice"
+format:
+  html:
+    embed-resources: true
+---
+
+Use your **own unit materials** whenever you can (assessment briefs, rubrics, policy snippets, reading extracts). If you don’t have anything handy, you can use one of these short, safe texts as a starting point for the summarising and prompting activities.
+
+---
+
+## Sample Text 1 – Workshop Overview (from "What to Expect")
+
+> This session is designed for educators with varying levels of AI experience—from those who've never used AI tools to those already experimenting with them. Our goal is **AI literacy through practical, hands-on experience**, not technical expertise.  
+>  
+> **Part 1: Welcome & Landscape**  
+> – Quick energizer and overview of generative AI  
+> – No technical jargon—just practical context  
+>  
+> **Part 2: Automate the Tedious**  
+> – **Hands-on Activity:** Use AI to summarize a complex reading  
+> – **Goal:** Experience AI as a time-saving assistant  
+> – **You'll try:** Basic prompting for summarisation  
+>  
+> **Part 3: The Art of the Prompt**  
+> – Introduction to the CRAFT framework for better prompts  
+> – **Hands-on Activity:** Use Microsoft's Prompt Coach tool  
+> – **Goal:** Move from basic to strategic prompting  
+>  
+> **Part 4: Your 5-Step Critique Framework**  
+> – Essential quality control for any AI output  
+> – **Hands-on Activity:** Apply the framework to previous outputs  
+> – **Goal:** Develop critical evaluation skills  
+>  
+> **Part 5: Assessment Stress-Test / Unlocking the Impossible**  
+> – **Hands-on Activity:** Test one of your assessments against AI or use a multi-step workflow to tackle an "impossible" task  
+> – **Goal:** Understand how AI might interact with your assignments and designs  
+>  
+> **Part 6: Secure, Safe & Sustainable AI**  
+> – Core tensions: privacy, accuracy, bias, ethics  
+> – **Goal:** Understand responsible AI use  
+>  
+> **Part 7: Wrap-Up & Next Steps**  
+> – Personal AI challenge  
+> – Q&A and resources
+
+You can use this text to practise:
+
+- Summarising into bullet points or an LMS announcement.  
+- Turning the overview into a short student-friendly email or slide outline.  
+- Generating quiz questions about the workshop structure.
+
+---
+
+## Sample Text 2 – Quick Start Guide (from "Quick Start")
+
+> **The 3 Things You Need to Know**  
+>  
+> 1. **AI is a Tool, Not a Replacement**  
+> – AI assists with tasks; it doesn't replace your expertise  
+> – Your judgment is more important, not less  
+> – Think "assistant," not "autopilot"  
+>  
+> 2. **AI Makes Mistakes (Often Confidently)**  
+> – Can generate plausible but incorrect information  
+> – Doesn't understand context like humans do  
+> – **Always verify critical information**  
+>  
+> 3. **Start Small, Stay Practical**  
+> – Pick one repetitive task  
+> – Test AI assistance  
+> – Evaluate results  
+> – Adjust and repeat  
+>  
+> **For educators, this means:**  
+> – Tools that can draft content, answer questions, summarise text  
+> – Not magic, not conscious—just pattern-matching at scale  
+> – Requires human oversight and expertise
+
+You can use this text to practise:
+
+- Summarising into a very short "What is AI?" paragraph for students.  
+- Recasting it as a Week‑1 statement about AI use in your unit.  
+- Turning it into a small FAQ or checklist.
+
+---
+
+## Sample Text 3 – Assessment 2030 Summary
+
+> **Assessment 2030 at Curtin** is a strategic response to generative AI and other emerging technologies. Instead of trying to ban AI, the framework encourages us to design assessments that make **student thinking and judgement visible**, so that human skills stay irreplaceable.  
+>  
+> It outlines a **two-lane approach**:  
+> – **Lane 1:** Secure assessments, such as invigilated exams and controlled tasks, where the focus is on verifying individual performance under defined conditions.  
+> – **Lane 2:** Authentic, often collaborative tasks that assume access to technology (including AI) and ask students to use tools transparently while demonstrating their own reasoning, problem-solving, and professional judgement.  
+>  
+> Assessment 2030 also emphasises **human irreplaceability**—designing tasks where AI can support the process, but cannot replace the learner’s contribution. Examples include iterative portfolios, live defences of ideas, real-world projects, and activities where students must explain or critique AI-generated output.  
+>  
+> The goal is not simply to stop misconduct, but to prepare graduates for a world where AI is part of everyday work, while maintaining academic integrity, inclusivity, and alignment with Curtin’s 2030 strategic plan.
+
+You can use this text to practise:
+
+- Summarising Assessment 2030 for colleagues who missed the session.  
+- Turning it into a short LMS announcement explaining how AI is allowed in a specific assessment.  
+- Generating 3–5 quiz or discussion questions about AI‑aware assessment design.
+
+---
+
+These sample texts are intentionally generic and safe to copy into AI tools. In the workshop, encourage participants to **swap them out for their own unit materials** whenever that feels more relevant.
