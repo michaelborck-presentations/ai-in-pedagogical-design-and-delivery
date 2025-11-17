@@ -17,6 +17,13 @@ format:
 
 ![](../docs/images/copilot-2-sigma.png)
 
+
+Drafting and ideation for these materials were supported by 
+generative AI tools, Python scripts, Quarto, and standard image 
+editors under human oversight. All content has been reviewed, edited and 
+verified by the author.
+
+
 ::: {.notes}
 
 **Opening hook (Bloom + AI tutors):**
