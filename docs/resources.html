@@ -21,6 +21,12 @@
     <!-- Pre-Reading Resources -->
     <section class="alt-bg">
         <div class="container">
+            <!-- Keyword Search -->
+            <div style="max-width: 480px; margin: 0 auto 1.5rem; text-align: center;">
+                <label for="resource-search" style="display: block; font-weight: 600; margin-bottom: 0.5rem; color: var(--text-dark);">Search resources by title or keyword</label>
+                <input id="resource-search" type="search" placeholder="Type a title, topic, or keyword..." style="width: 100%; padding: 0.6rem 0.9rem; border-radius: 999px; border: 1px solid var(--border); font-size: 0.95rem;">
+            </div>
+
             <!-- Filter Buttons: Two Levels -->
             <!-- Level 1: Role Filters -->
             <div style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center;">
@@ -214,10 +220,22 @@
                     <div class="meta-item">⏱️ 5 min read</div>
                     <div class="meta-item">📄 Markdown</div>
                 </div>
-                <a href="content/using-ai-in-education-roles-for-teaching-and-research.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
+                <a href="content/using-ai-in-education-roles-for-teaching-and-research.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">View Handout</a>
+            </div>
+
+            <div class="resource-card" data-category="Reference Advanced Educator Professional Researcher">
+                <span class="type">Reference</span>
+                <h4>Black &amp; Grey Swans in AI</h4>
+                <p>Short explainer on "Black Swan" vs "Grey Swan" risks in the AI landscape, and how to use this distinction when framing AI risk, ethics, and governance discussions with students or colleagues.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 3 min read</div>
+                    <div class="meta-item">📄 Quarto</div>
+                </div>
+                <a href="content/black-grey-swan.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">Read</a>
             </div>
 
             <div class="resource-card" data-category="Presentation Educator">
+
                 <span class="type">Presentation</span>
                 <h4>AI in Pedagogical Design and Delivery</h4>
                 <p>Main workshop presentation covering all 6 activities. Available in multiple formats for different uses.</p>
@@ -273,6 +291,17 @@
                 <a href="content/activity-3-handout.pdf" class="btn btn-secondary" style="margin-top: 1rem; margin-left: 0.5rem; display: inline-block;">Download PDF</a>
             </div>
 
+            <div class="resource-card" data-category="Handout Meta-Skills Educator Professional Researcher">
+                <span class="type">Handout</span>
+                <h4>AI Critique Toolkit – Becoming a Smart Business Professional</h4>
+                <p>Companion to Activity 3. Provides business-focused questions, templates, and a red-flag checklist for critically evaluating AI-generated recommendations and plans across roles.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 2–3 page handout</div>
+                    <div class="meta-item">📄 Quarto</div>
+                </div>
+                <a href="content/critique-toolkit.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">View Toolkit</a>
+            </div>
+
             <div class="resource-card" data-category="Handout Educator Professional Researcher">
                 <span class="type">Handout</span>
                 <h4>Activity 4 – Unlocking the Impossible</h4>
@@ -289,6 +318,17 @@
                 <p>Supports participants to draft one small, realistic commitment around safe AI use (guideline, risk check, or Week‑1 statement) aligned with Assessment 2030 principles.</p>
                 <a href="content/activity-5-handout.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">View Handout</a>
                 <a href="content/activity-5-handout.pdf" class="btn btn-secondary" style="margin-top: 1rem; margin-left: 0.5rem; display: inline-block;">Download PDF</a>
+            </div>
+
+            <div class="resource-card" data-category="Handout Reference Educator Professional Researcher">
+                <span class="type">Handout</span>
+                <h4>Ethics, Data Governance &amp; Integrity</h4>
+                <p>Practical guide to talking about AI, integrity, and data governance with students. Includes a 3-part framework (transparency, critical oversight, professional relevance), sample student-facing wording, and design tips for integrity-aware assignments.</p>
+                <div class="meta">
+                    <div class="meta-item">⏱️ 2–3 page handout</div>
+                    <div class="meta-item">📄 Quarto</div>
+                </div>
+                <a href="content/ethics-integrity.html" class="btn btn-primary" style="margin-top: 1rem; display: inline-block;">View Handout</a>
             </div>
 
             <div class="resource-card" data-category="Reference Educator">
@@ -342,23 +382,19 @@
 
     <script src="js/inject-components.js"></script>
     <script>
-        // Function to filter cards
-        function applyFilter(filterValue) {
-            document.querySelectorAll('.filter-btn').forEach(btn => {
-                if (btn.getAttribute('data-filter') === filterValue) {
-                    btn.style.background = 'var(--primary)';
-                    btn.style.color = 'white';
-                } else {
-                    btn.style.background = 'white';
-                    btn.style.color = 'var(--primary)';
-                }
-            });
+        let currentFilter = 'all';
+        let currentSearch = '';
 
-            document.querySelectorAll('.resource-card').forEach(card => {
-                const categories = card.getAttribute('data-category').split(' ');
-                if (filterValue === 'all' || categories.includes(filterValue)) {
+        function updateCards() {
+            const cards = document.querySelectorAll('.resource-card');
+            cards.forEach(card => {
+                const categories = (card.getAttribute('data-category') || '').split(' ');
+                const text = card.textContent.toLowerCase();
+                const matchesFilter = (currentFilter === 'all' || categories.includes(currentFilter));
+                const matchesSearch = (!currentSearch || text.includes(currentSearch));
+
+                if (matchesFilter && matchesSearch) {
                     card.style.display = 'block';
-                    // Fade in animation
                     card.style.opacity = '0';
                     setTimeout(() => {
                         card.style.transition = 'opacity 0.3s ease';
@@ -370,21 +406,48 @@
             });
         }
 
-        // Check URL parameters on page load
+        function applyFilter(filterValue) {
+            currentFilter = filterValue || 'all';
+
+            // Update button styles
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                if (btn.getAttribute('data-filter') === currentFilter) {
+                    btn.style.background = 'var(--primary)';
+                    btn.style.color = 'white';
+                } else if (btn.getAttribute('data-filter') === 'all' && currentFilter === 'all') {
+                    btn.style.background = 'var(--primary)';
+                    btn.style.color = 'white';
+                } else {
+                    btn.style.background = 'white';
+                    btn.style.color = 'var(--primary)';
+                }
+            });
+
+            updateCards();
+        }
+
         window.addEventListener('DOMContentLoaded', function() {
+            // Apply filter from URL if present
             const params = new URLSearchParams(window.location.search);
             const filterParam = params.get('filter');
-            if (filterParam) {
-                applyFilter(filterParam);
-            }
-        });
+            applyFilter(filterParam || 'all');
 
-        // Handle filter button clicks
-        document.querySelectorAll('.filter-btn').forEach(btn => {
-            btn.addEventListener('click', function() {
-                const filter = this.getAttribute('data-filter');
-                applyFilter(filter);
+            // Wire up filter buttons
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    applyFilter(filter);
+                });
             });
+
+            // Wire up keyword search
+            const searchInput = document.getElementById('resource-search');
+            if (searchInput) {
+                searchInput.addEventListener('input', function() {
+                    currentSearch = this.value.trim().toLowerCase();
+                    updateCards();
+                });
+            }
         });
     </script>
 </body>

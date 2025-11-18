@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Michael Borck">
-<meta name="dcterms.date" content="2025-11-18">
 
-<title>AI in Pedagogical Design and Delivery</title>
+<title>quiz-setup-guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +18,41 @@ ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+}
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -2720,7 +2753,7 @@ border-width: 0;
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ai-in-pedagogical-design-and-delivery.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="QUIZ-SETUP-GUIDE.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <main class="content" id="quarto-document-content">
 <header style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 0; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <div style="max-width: 900px; margin: 0 auto; padding: 0 1rem; display: flex; align-items: center; justify-content: space-between;">
@@ -2731,66 +2764,237 @@ border-width: 0;
     </div>
 </header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">AI in Pedagogical Design and Delivery</h1>
-<p class="subtitle lead">How AI transforms teaching roles and learning design</p>
-</div>
 
 
 
-<div class="quarto-title-meta">
+<section id="quiz-setup-implementation-guide" class="level1">
+<h1>Quiz Setup &amp; Implementation Guide</h1>
+<p>This guide explains how to set up and use both assessment quizzes for your workshop.</p>
+<section id="two-quiz-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="two-quiz-strategy">Two-Quiz Strategy</h2>
+<section id="reflective-profile-quiz-week-before" class="level3">
+<h3 class="anchored" data-anchor-id="reflective-profile-quiz-week-before">1. Reflective Profile Quiz (Week Before)</h3>
+<p><strong>Purpose:</strong> Surface anxieties and motivations; personalise pre-reading<br>
+<strong>Platform:</strong> MS Forms (your organisation)<br>
+<strong>Timing:</strong> Send via email 1 week before workshop<br>
+<strong>Duration:</strong> 8-10 minutes<br>
+<strong>Participant Action:</strong> Complete optional form, receive profile + reading suggestions</p>
+<p><strong>You need to create this in MS Forms with these 10 questions:</strong></p>
+<pre><code>Section 1: Mindset &amp; Comfort
+1. I feel confident trying new technology (5-point Likert)
+2. AI will fundamentally change my teaching (5-point Likert)
+3. Learning AI will take too much time (5-point Likert)
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Michael Borck </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 18, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
+Section 2: Anxiety Signals  
+4. Students using AI is cheating (5-point Likert)
+5. AI will replace teachers (5-point Likert)
+6. AI will make my expertise less valuable (5-point Likert)
+7. AI outputs are too unreliable (5-point Likert)
 
-
-</header>
-
-
-<section id="artificial-intelligence-in-education-aied" class="level1">
-<h1>Artificial Intelligence in Education (AIED)</h1>
-<p>The integration of Artificial Intelligence in Education (AIED) is fundamentally reshaping pedagogy. This overview outlines the five key areas of impact, from the core technology and its effect on course design and delivery to the critical challenges and the re-humanization of the educator’s role</p>
-<p>The following five topics successfully organise the discussion across the technology itself (ITS), the impact on professional roles (The Architect, The Practitioner), the systemic obstacles (Challenges &amp; Limitations), and the resulting transformation of the human professional (The Evolving Role of the Educator).</p>
-<section id="intelligent-tutoring-systems-its" class="level2">
-<h2 class="anchored" data-anchor-id="intelligent-tutoring-systems-its">1. Intelligent Tutoring Systems (ITS)</h2>
-<p><strong>Key Takeaway:</strong> ITS deliver <strong>personalised, one-on-one instruction</strong> by relying on an integrated architecture of four key components: the <strong>Domain Model</strong> (what is taught), the <strong>Learner Model</strong> (who is learning, including successes and misconceptions), the <strong>Tutoring Model</strong> (how to teach), and the <strong>User Interface Model</strong> (interaction). The quality of instruction is directly determined by the sophistication of these underlying models, which collectively ensure that the system adjusts the pace, difficulty, and focus of lessons in real-time.</p>
-<p><strong>Analogy:</strong> Intelligent Tutoring Systems function much like an automated personal trainer at a gym. Just as the trainer analyzes your current fitness level, pace, and weaknesses (the <strong>Student Model</strong>), knows the curriculum of exercises (the <strong>Domain Model</strong>), and determines the optimal routine to challenge you without overwhelming you (the <strong>Tutoring Model</strong>), the ITS continuously adjusts the learning path to ensure instruction is both challenging and achievable, promoting deeper understanding.</p>
+Section 3: Values
+8. What do you value most in teaching? (Multiple choice: knowledge / critical thinking / human connection / practical skills / all equally)
+9. What&#39;s your biggest concern about AI? (Open text)
+10. What would you like to learn? (Open text)</code></pre>
+<p><strong>Auto-Response Email Template:</strong></p>
+<blockquote class="blockquote">
+<p>Thanks for completing the Reflective Profile!</p>
+<p><strong>Your Profile: [Generated based on responses]</strong></p>
+<p>You’re in the [Concerned/Curious/Enthusiastic] group. Here’s what to expect:</p>
+<p>Pre-reading suggestions (2-3 specific files based on concerns): - what-is-ai.md if they worry about replacement - teaching-strategies-handout.md if they value human connection - quick-start-guide.md if they’re time-pressed</p>
+<p>See you Thursday!</p>
+</blockquote>
+<hr>
 </section>
-<section id="impact-on-pedagogical-design-the-architect" class="level2">
-<h2 class="anchored" data-anchor-id="impact-on-pedagogical-design-the-architect">2. Impact on Pedagogical Design (The Architect)</h2>
-<p><strong>Key Takeaway:</strong> AI fundamentally transforms the pedagogical designer’s role from a manual content creator to a <strong>Strategic Architect</strong> by automating previously slow and tedious tasks, such as generating course outlines, assessments, and multimedia. This automation forces the designer to focus on <strong>high-level, human-centric design</strong>—creating flexible, dynamic frameworks and addressing emotional barriers to learning, rather than formatting slides or writing quiz questions.</p>
-<p><strong>Analogy:</strong> If traditional pedagogical design was like crafting a single, hand-built ship (a static course) that everyone had to sail on, the AI era redesigns the role of the architect. The new Pedagogical Architect now designs a complex, adaptive fleet where each ship (module) can adjust its sails, speed, and navigation (difficulty, pace, content) based on the real-time weather (student performance data), ensuring everyone reaches their destination, but along a personalised route. The architect’s most critical new job is ensuring the human crew (teachers and students) still communicate and build rapport, not just follow the automated navigation system.</p>
+<section id="diagnostic-quiz-day-of" class="level3">
+<h3 class="anchored" data-anchor-id="diagnostic-quiz-day-of">2. Diagnostic Quiz (Day Of)</h3>
+<p><strong>Purpose:</strong> Measure AI literacy; provide real-time personalised guidance<br>
+<strong>Platform:</strong> Custom HTML/JavaScript (included in repo)<br>
+<strong>Timing:</strong> First 15 minutes of workshop<br>
+<strong>Duration:</strong> 12-15 minutes<br>
+<strong>Output:</strong> Instant adaptive profile + activity recommendations</p>
+<p><strong>File:</strong> <code>website/content/assessment/ai-literacy-diagnostic.html</code></p>
+<hr>
 </section>
-<section id="impact-on-pedagogical-delivery-the-practitioner" class="level2">
-<h2 class="anchored" data-anchor-id="impact-on-pedagogical-delivery-the-practitioner">3. Impact on Pedagogical Delivery (The Practitioner)</h2>
-<p><strong>Key Takeaway:</strong> AI revolutionizes pedagogical delivery by collapsing the feedback loop and providing educators with <strong>real-time data insights</strong> into student progress, performance patterns, and cognitive states. This data-driven delivery allows the human teacher to transition into a <strong>“real-time interventionist,”</strong> enabling them to abandon content presentation to the “average” student and instead focus on targeted, high-value interventions based on immediate, actionable data. It can be viewed the impact of AI on pedagogical delivery not as a replacement for the teacher, but as an augmented reality for the classroom. AI handles the mechanics of instruction and data analysis, allowing the human practitioner to execute their craft with surgical precision, focusing their limited time on high-value, empathetic, and complex human interactions.</p>
-<p><strong>Analogy:</strong>. AI in the classroom functions as an AI Co-Pilot. The AI (co-pilot) handles the routine mechanics of flight (content delivery, system monitoring, and performance tracking), allowing the human pilot (the educator) to focus on complex navigation, communicating with the crew (students), and managing unexpected turbulence (misconceptions or emotional barriers) with surgical precision.</p>
 </section>
-<section id="challenges-limitations" class="level2">
-<h2 class="anchored" data-anchor-id="challenges-limitations">4. Challenges &amp; Limitations</h2>
-<p><strong>Key Takeaway:</strong> Despite the technological promise, a critical challenge for AIED is the <strong>risk of eroding the human element</strong> and exacerbating <strong>educational inequity</strong> through algorithmic bias. Over-reliance on ITS can reduce valuable face-to-face interactions, while studies show that students using AI sometimes feel <strong>less connected to their teachers</strong> (the “paradox of connection”). Furthermore, predictive models trained on historical data risk perpetuating existing biases against marginalized groups when allocating resources or flagging “at-risk” learners.</p>
-<p><strong>Analogy:</strong> Think of AIED as a new, highly efficient Automated Factory. While it produces learning materials at scale (efficiency), it risks creating a sterile, one-size-fits-all product that lacks the “human touch” (eroding connection). More dangerously, if the factory’s blueprints (the algorithm) have a flaw (bias), it doesn’t just create one bad product; it replicates that flaw thousands of times, perpetuating the inequity at scale.</p>
+<section id="workshop-day-setup" class="level2">
+<h2 class="anchored" data-anchor-id="workshop-day-setup">Workshop Day Setup</h2>
+<section id="before-participants-arrive" class="level3">
+<h3 class="anchored" data-anchor-id="before-participants-arrive">Before Participants Arrive</h3>
+<ol type="1">
+<li><p><strong>Set up local server:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> website</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> http.server 8000</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Test the quiz:</strong></p>
+<ul>
+<li>Open browser to <code>http://localhost:8000/ai-literacy-diagnostic.html</code></li>
+<li>Take it yourself to verify it works</li>
+<li>Check results display and recommendations</li>
+</ul></li>
+<li><p><strong>Print results template (optional):</strong></p>
+<ul>
+<li>Have blank cards or handouts for participants to write down their profile</li>
+</ul></li>
+</ol>
 </section>
-<section id="the-evolving-human-centric-educator" class="level2">
-<h2 class="anchored" data-anchor-id="the-evolving-human-centric-educator">5. The Evolving Human-Centric Educator</h2>
-<p><strong>Key Takeaway:</strong> The long-term impact of AI is a <strong>forced re-humanization</strong> of the educator’s role, where the practitioner is compelled to abandon the commoditized, technical tasks (which AI can perform) and focus on the <strong>Human Edge of AI</strong>. This means prioritizing <strong>empathy, creativity, strategic thinking, mentorship, and socio-emotional support</strong>—the unique human skills vital for holistic student development that AI fundamentally cannot replicate. Educators must also become proficient in <strong>interpreting AI data</strong> and developing <strong>ethical reasoning</strong> to guide responsible technology use.</p>
-<p><strong>Analogy:</strong> The integration of AI is like a Rising Tide. As the AI “tide” rises, it automates and submerges all the routine, technical “lowlands” of the job (grading, content delivery). This forces the educator to move to the “high ground”—the uniquely human skills of empathy, mentorship, and creative problem-solving that the tide cannot reach. Their value is no longer in the submerged tasks, but on this new, more human-centric high ground.</p>
+<section id="opening-5-min" class="level3">
+<h3 class="anchored" data-anchor-id="opening-5-min">Opening (5 min)</h3>
+<p><strong>Introduce the diagnostic:</strong></p>
+<blockquote class="blockquote">
+<p>“Before we start, I want to understand where you’re starting from so I can make this most useful for you. You’ll spend 15 minutes on a quick assessment—not for grades, just to personalise your learning path. You’ll get instant results with specific recommendations for what to focus on in our two hours together.”</p>
+</blockquote>
+<p><strong>Set expectations:</strong></p>
+<blockquote class="blockquote">
+<p>“Your results stay with you. They help us understand our group so we can adjust pacing. There are no wrong answers—we’re just mapping AI literacy so we meet you where you are.”</p>
+</blockquote>
+</section>
+<section id="during-quiz-15-min" class="level3">
+<h3 class="anchored" data-anchor-id="during-quiz-15-min">During Quiz (15 min)</h3>
+<ul>
+<li>Participants access quiz on laptops/tablets</li>
+<li>Tell them to minimise distractions (Slack, email, etc.)</li>
+<li>You watch aggregate responses if possible (optional: look at most common concerns)</li>
+</ul>
+</section>
+<section id="immediately-after-5-min" class="level3">
+<h3 class="anchored" data-anchor-id="immediately-after-5-min">Immediately After (5 min)</h3>
+<ul>
+<li>Participants review their profile and recommendations</li>
+<li>Optional: Ask volunteers to share their profile (“Who’s a Novice Learner? Developing?”)</li>
+<li>Reference profiles during activities:
+<ul>
+<li>“If you’re a Novice, Activity 1 builds your foundation—take your time”</li>
+<li>“If you’re Proficient, Activity 3 will sharpen your critique skills”</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="creating-the-reflective-profile-form-ms-forms" class="level2">
+<h2 class="anchored" data-anchor-id="creating-the-reflective-profile-form-ms-forms">Creating the Reflective Profile Form (MS Forms)</h2>
+<section id="steps" class="level3">
+<h3 class="anchored" data-anchor-id="steps">Steps</h3>
+<ol type="1">
+<li><strong>Open MS Forms</strong>
+<ul>
+<li>Go to <code>forms.office.com</code></li>
+<li>Create new form</li>
+<li>Title: “AI Workshop: Reflective Profile”</li>
+<li>Description: “Help us understand your starting point (optional, 8 min)”</li>
+</ul></li>
+<li><strong>Add questions</strong> (use the 10 listed above)
+<ul>
+<li>Likert scale: “Strongly Disagree → Strongly Agree” (5 points)</li>
+<li>Multiple choice for values/concerns</li>
+<li>Text for open responses</li>
+</ul></li>
+<li><strong>Customize settings:</strong>
+<ul>
+<li>Turn off “Collect respondent name” (optional responses)</li>
+<li>Enable “One response per person” (optional; can skip if you want)</li>
+<li>Randomize question order (optional; I’d keep order for coherence)</li>
+</ul></li>
+<li><strong>Get the link:</strong>
+<ul>
+<li>Click “Share” button</li>
+<li>Copy link</li>
+<li>Send via email with message</li>
+</ul></li>
+<li><strong>Review responses:</strong>
+<ul>
+<li>Set up auto-response in Forms</li>
+<li>Review aggregate data before workshop (What concerns are most common?)</li>
+</ul></li>
+</ol>
+</section>
+<section id="email-message-to-send-week-before" class="level3">
+<h3 class="anchored" data-anchor-id="email-message-to-send-week-before">Email Message to Send (Week Before)</h3>
+<p>Subject: <strong>AI Workshop: Quick 8-minute Preparation</strong></p>
+<blockquote class="blockquote">
+<p>Hi everyone,</p>
+<p>Looking forward to seeing you [DATE] for “AI in Pedagogical Design and Delivery.”</p>
+<p>Before we meet, I’d like to understand where you’re starting from so I can make the workshop most useful for your group. This quick profile takes 8 minutes and helps me know what to emphasize.</p>
+<p><strong>[Link to MS Form]</strong></p>
+<p>After you complete it, you’ll get suggestions for pre-reading based on your interests/concerns. Everything is optional—including pre-reading. But these resources are there if you want them:</p>
+<ul>
+<li>what-to-expect.md (3 min overview)</li>
+<li>quick-start-guide.md (5 min essentials)</li>
+<li>what-is-ai.qmd &amp; what-are-llms.qmd (20 min deep dive)</li>
+<li>Plus others on the website</li>
+</ul>
+<p>See you soon! Michael</p>
+</blockquote>
+<hr>
+</section>
+</section>
+<section id="during-workshop-using-quiz-results" class="level2">
+<h2 class="anchored" data-anchor-id="during-workshop-using-quiz-results">During Workshop: Using Quiz Results</h2>
+<section id="real-time-adaptation" class="level3">
+<h3 class="anchored" data-anchor-id="real-time-adaptation">Real-Time Adaptation</h3>
+<p><strong>Before Activity 1:</strong> &gt; “Some of you are brand new to AI, some have used it. The first activity is designed for everyone, but there’s no pace police—take what you need.”</p>
+<p><strong>Before Activity 2 (Prompting):</strong> &gt; “This is where most of you identified growth opportunity. The CRAFT framework helps you move from ‘okay’ prompts to ‘effective’ prompts.”</p>
+<p><strong>Before Activity 4 (Assessment):</strong> &gt; “Several of you marked ‘student cheating’ as your biggest concern. This activity directly addresses how to design assessments where AI use shows thinking, not hides it.”</p>
+</section>
+<section id="addressing-common-concerns" class="level3">
+<h3 class="anchored" data-anchor-id="addressing-common-concerns">Addressing Common Concerns</h3>
+<p><strong>If many selected “loss of human connection”:</strong> - Emphasize: “AI handles the mechanics. You handle the meaningful interaction.” - Point to teaching-strategies-handout.md - During activities, highlight human element</p>
+<p><strong>If many selected “I don’t have time”:</strong> - Emphasize: “Start small. One task. 15 minutes.” - Point to quick-start-guide.md - Share time-saving wins in activities</p>
+<p><strong>If many are Novice:</strong> - Slow down on concepts - Add examples - Pair Novices with Developing participants for activities</p>
+<hr>
+</section>
+</section>
+<section id="after-workshop-follow-up" class="level2">
+<h2 class="anchored" data-anchor-id="after-workshop-follow-up">After Workshop: Follow-Up</h2>
+<section id="send-results-context-within-1-week" class="level3">
+<h3 class="anchored" data-anchor-id="send-results-context-within-1-week">Send Results + Context (Within 1 Week)</h3>
+<p>Email template:</p>
+<blockquote class="blockquote">
+<p><strong>Your AI-Literacy Results</strong></p>
+<p>Here’s your profile from the workshop diagnostic: - Knowledge: [X]% | Skills: [X]% | Confidence: [X]% - Profile: [Generated Name] - Activities we focused on: [List 2-3 based on their profile]</p>
+<p><strong>Group Insights</strong> (aggregate, no individual names): - Most common concern: academic integrity - Average knowledge score: 55% - Most needed skill: prompt engineering</p>
+<p><strong>Next Steps:</strong> - Try one “automate the tedious” task this month - Review recommended pre-reading - Email me with questions: [email]</p>
+<p><strong>In 3 Months:</strong> - Re-take the diagnostic to measure progress - Share one success story (what worked in your class)</p>
+</blockquote>
+</section>
+<section id="optional-3-month-check-in" class="level3">
+<h3 class="anchored" data-anchor-id="optional-3-month-check-in">Optional: 3-Month Check-In</h3>
+<p>Re-administer diagnostic (or short version) to measure: - Did knowledge increase? - Did confidence grow? - Are people using AI (Yes/No)? - What’s working? What’s not?</p>
+<hr>
+</section>
+</section>
+<section id="technical-notes" class="level2">
+<h2 class="anchored" data-anchor-id="technical-notes">Technical Notes</h2>
+<section id="running-the-diagnostic-locally" class="level3">
+<h3 class="anchored" data-anchor-id="running-the-diagnostic-locally">Running the Diagnostic Locally</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Method 1: Python built-in server</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> website</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> http.server 8000</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Method 2: Node http-server</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="ex">npx</span> http-server website</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Method 3: VS Code Live Server</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="co"># (Install extension, right-click file, &quot;Open with Live Server&quot;)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Then access: <code>http://localhost:8000/ai-literacy-diagnostic.html</code></p>
+</section>
+<section id="data-collection-optional" class="level3">
+<h3 class="anchored" data-anchor-id="data-collection-optional">Data Collection (Optional)</h3>
+<p>The quiz runs 100% locally. If you want to collect results:</p>
+<p><strong>Option 1: Manual (Simplest)</strong> - Ask participants to email results - Or copy/paste results to a shared spreadsheet</p>
+<p><strong>Option 2: Add Google Forms</strong> - Modify quiz to post results to a Google Form API - (Requires JavaScript modification)</p>
+<p><strong>Option 3: Simple Log File</strong> - Modify quiz to log results to a text file on server - (Requires backend, not included)</p>
+<hr>
+</section>
+</section>
+<section id="tips-for-success" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-success">Tips for Success</h2>
+<p>✅ <strong>Do:</strong> - Send Reflective Profile email exactly 1 week before (people forget if earlier) - Have fun with the quiz language—make it feel safe, not evaluative - Reference profiles throughout workshop to help people feel “seen” - Follow up with personalised recommendations - Use results to improve next iteration</p>
+<p>❌ <strong>Don’t:</strong> - Rush through the quiz intro (people get anxious) - Make it feel high-stakes (“This counts for something”) - Ignore the results (they cost you 15 min; use them!) - Use results to label people (“Oh, you’re the Novice group”)</p>
+<hr>
+</section>
+<section id="customization-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="customization-ideas">Customization Ideas</h2>
+<p><strong>For future iterations:</strong> - Add discipline-specific questions (marketing vs. HR vs. academics) - Ask about preferred learning style (visual/kinesthetic/auditory) - Ask about specific use cases they want to try - Add follow-up “What changed?” questions for re-test</p>
+<p><strong>For different audiences:</strong> - For researchers: emphasize research applications (literature review, data analysis) - For professional staff: emphasize efficiency/workflow - For academics: emphasize pedagogy and student learning</p>
 </section>
 </section>
 

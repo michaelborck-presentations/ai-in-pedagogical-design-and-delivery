@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Michael Borck">
-<meta name="dcterms.date" content="2025-11-18">
 
-<title>AI in Pedagogical Design and Delivery</title>
+<title>website-readme</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +18,41 @@ ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+}
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -2720,7 +2753,7 @@ border-width: 0;
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ai-in-pedagogical-design-and-delivery.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="WEBSITE-README.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <main class="content" id="quarto-document-content">
 <header style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 0; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <div style="max-width: 900px; margin: 0 auto; padding: 0 1rem; display: flex; align-items: center; justify-content: space-between;">
@@ -2731,66 +2764,58 @@ border-width: 0;
     </div>
 </header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">AI in Pedagogical Design and Delivery</h1>
-<p class="subtitle lead">How AI transforms teaching roles and learning design</p>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Michael Borck </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 18, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="artificial-intelligence-in-education-aied" class="level1">
-<h1>Artificial Intelligence in Education (AIED)</h1>
-<p>The integration of Artificial Intelligence in Education (AIED) is fundamentally reshaping pedagogy. This overview outlines the five key areas of impact, from the core technology and its effect on course design and delivery to the critical challenges and the re-humanization of the educator’s role</p>
-<p>The following five topics successfully organise the discussion across the technology itself (ITS), the impact on professional roles (The Architect, The Practitioner), the systemic obstacles (Challenges &amp; Limitations), and the resulting transformation of the human professional (The Evolving Role of the Educator).</p>
-<section id="intelligent-tutoring-systems-its" class="level2">
-<h2 class="anchored" data-anchor-id="intelligent-tutoring-systems-its">1. Intelligent Tutoring Systems (ITS)</h2>
-<p><strong>Key Takeaway:</strong> ITS deliver <strong>personalised, one-on-one instruction</strong> by relying on an integrated architecture of four key components: the <strong>Domain Model</strong> (what is taught), the <strong>Learner Model</strong> (who is learning, including successes and misconceptions), the <strong>Tutoring Model</strong> (how to teach), and the <strong>User Interface Model</strong> (interaction). The quality of instruction is directly determined by the sophistication of these underlying models, which collectively ensure that the system adjusts the pace, difficulty, and focus of lessons in real-time.</p>
-<p><strong>Analogy:</strong> Intelligent Tutoring Systems function much like an automated personal trainer at a gym. Just as the trainer analyzes your current fitness level, pace, and weaknesses (the <strong>Student Model</strong>), knows the curriculum of exercises (the <strong>Domain Model</strong>), and determines the optimal routine to challenge you without overwhelming you (the <strong>Tutoring Model</strong>), the ITS continuously adjusts the learning path to ensure instruction is both challenging and achievable, promoting deeper understanding.</p>
+<section id="website-build-instructions" class="level1">
+<h1>Website Build Instructions</h1>
+<p>This directory contains the source files for the companion website.</p>
+<section id="structure" class="level2">
+<h2 class="anchored" data-anchor-id="structure">Structure</h2>
+<pre><code>website/
+├── src/                    # Static HTML, CSS, JS, images
+├── content/                # Markdown source files
+│   ├── resources/         # Pre-reading materials
+│   ├── materials/         # Presentation, handouts, references
+│   └── assessment/        # Quiz HTML/JS
+└── _quarto.yml           # Quarto render config</code></pre>
 </section>
-<section id="impact-on-pedagogical-design-the-architect" class="level2">
-<h2 class="anchored" data-anchor-id="impact-on-pedagogical-design-the-architect">2. Impact on Pedagogical Design (The Architect)</h2>
-<p><strong>Key Takeaway:</strong> AI fundamentally transforms the pedagogical designer’s role from a manual content creator to a <strong>Strategic Architect</strong> by automating previously slow and tedious tasks, such as generating course outlines, assessments, and multimedia. This automation forces the designer to focus on <strong>high-level, human-centric design</strong>—creating flexible, dynamic frameworks and addressing emotional barriers to learning, rather than formatting slides or writing quiz questions.</p>
-<p><strong>Analogy:</strong> If traditional pedagogical design was like crafting a single, hand-built ship (a static course) that everyone had to sail on, the AI era redesigns the role of the architect. The new Pedagogical Architect now designs a complex, adaptive fleet where each ship (module) can adjust its sails, speed, and navigation (difficulty, pace, content) based on the real-time weather (student performance data), ensuring everyone reaches their destination, but along a personalised route. The architect’s most critical new job is ensuring the human crew (teachers and students) still communicate and build rapport, not just follow the automated navigation system.</p>
+<section id="building-locally" class="level2">
+<h2 class="anchored" data-anchor-id="building-locally">Building Locally</h2>
+<section id="prerequisites" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
+<ul>
+<li><a href="https://quarto.org/docs/get-started/">Quarto</a> installed</li>
+<li>Python 3 (for local server)</li>
+</ul>
 </section>
-<section id="impact-on-pedagogical-delivery-the-practitioner" class="level2">
-<h2 class="anchored" data-anchor-id="impact-on-pedagogical-delivery-the-practitioner">3. Impact on Pedagogical Delivery (The Practitioner)</h2>
-<p><strong>Key Takeaway:</strong> AI revolutionizes pedagogical delivery by collapsing the feedback loop and providing educators with <strong>real-time data insights</strong> into student progress, performance patterns, and cognitive states. This data-driven delivery allows the human teacher to transition into a <strong>“real-time interventionist,”</strong> enabling them to abandon content presentation to the “average” student and instead focus on targeted, high-value interventions based on immediate, actionable data. It can be viewed the impact of AI on pedagogical delivery not as a replacement for the teacher, but as an augmented reality for the classroom. AI handles the mechanics of instruction and data analysis, allowing the human practitioner to execute their craft with surgical precision, focusing their limited time on high-value, empathetic, and complex human interactions.</p>
-<p><strong>Analogy:</strong>. AI in the classroom functions as an AI Co-Pilot. The AI (co-pilot) handles the routine mechanics of flight (content delivery, system monitoring, and performance tracking), allowing the human pilot (the educator) to focus on complex navigation, communicating with the crew (students), and managing unexpected turbulence (misconceptions or emotional barriers) with surgical precision.</p>
+<section id="steps" class="level3">
+<h3 class="anchored" data-anchor-id="steps">Steps</h3>
+<ol type="1">
+<li><p><strong>Render markdown to HTML:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> website</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Preview locally:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> http.server 8000</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Visit http://localhost:8000/docs</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+<li><p><strong>Build presentation in multiple formats:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render content/materials/presentation.qmd <span class="at">--to</span> pptx</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render content/materials/presentation.qmd <span class="at">--to</span> pdf</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render content/materials/presentation.qmd <span class="at">--to</span> html</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div></li>
+</ol>
 </section>
-<section id="challenges-limitations" class="level2">
-<h2 class="anchored" data-anchor-id="challenges-limitations">4. Challenges &amp; Limitations</h2>
-<p><strong>Key Takeaway:</strong> Despite the technological promise, a critical challenge for AIED is the <strong>risk of eroding the human element</strong> and exacerbating <strong>educational inequity</strong> through algorithmic bias. Over-reliance on ITS can reduce valuable face-to-face interactions, while studies show that students using AI sometimes feel <strong>less connected to their teachers</strong> (the “paradox of connection”). Furthermore, predictive models trained on historical data risk perpetuating existing biases against marginalized groups when allocating resources or flagging “at-risk” learners.</p>
-<p><strong>Analogy:</strong> Think of AIED as a new, highly efficient Automated Factory. While it produces learning materials at scale (efficiency), it risks creating a sterile, one-size-fits-all product that lacks the “human touch” (eroding connection). More dangerously, if the factory’s blueprints (the algorithm) have a flaw (bias), it doesn’t just create one bad product; it replicates that flaw thousands of times, perpetuating the inequity at scale.</p>
 </section>
-<section id="the-evolving-human-centric-educator" class="level2">
-<h2 class="anchored" data-anchor-id="the-evolving-human-centric-educator">5. The Evolving Human-Centric Educator</h2>
-<p><strong>Key Takeaway:</strong> The long-term impact of AI is a <strong>forced re-humanization</strong> of the educator’s role, where the practitioner is compelled to abandon the commoditized, technical tasks (which AI can perform) and focus on the <strong>Human Edge of AI</strong>. This means prioritizing <strong>empathy, creativity, strategic thinking, mentorship, and socio-emotional support</strong>—the unique human skills vital for holistic student development that AI fundamentally cannot replicate. Educators must also become proficient in <strong>interpreting AI data</strong> and developing <strong>ethical reasoning</strong> to guide responsible technology use.</p>
-<p><strong>Analogy:</strong> The integration of AI is like a Rising Tide. As the AI “tide” rises, it automates and submerges all the routine, technical “lowlands” of the job (grading, content delivery). This forces the educator to move to the “high ground”—the uniquely human skills of empathy, mentorship, and creative problem-solving that the tide cannot reach. Their value is no longer in the submerged tasks, but on this new, more human-centric high ground.</p>
+<section id="output" class="level2">
+<h2 class="anchored" data-anchor-id="output">Output</h2>
+<p>All rendered files go to <code>../docs/</code> (GitHub Pages root)</p>
+</section>
+<section id="deployment" class="level2">
+<h2 class="anchored" data-anchor-id="deployment">Deployment</h2>
+<p>Push to GitHub:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add .</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;Update website content&quot;</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>GitHub Pages automatically deploys from the <code>docs/</code> folder.</p>
 </section>
 </section>
 

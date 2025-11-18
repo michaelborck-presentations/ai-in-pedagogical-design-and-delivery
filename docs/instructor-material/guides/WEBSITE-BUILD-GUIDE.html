@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Michael Borck">
-<meta name="dcterms.date" content="2025-11-18">
 
-<title>AI in Pedagogical Design and Delivery</title>
+<title>website-build-guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +18,41 @@ ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
 width: 0.8em;
 margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+{ counter-reset: source-line 0; }
+pre.numberSource code > span
+{ position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+{ content: counter(source-line);
+position: relative; left: -1em; text-align: right; vertical-align: baseline;
+border: none; display: inline-block;
+-webkit-touch-callout: none; -webkit-user-select: none;
+-khtml-user-select: none; -moz-user-select: none;
+-ms-user-select: none; user-select: none;
+padding: 0 4px; width: 4em;
+}
+pre.numberSource { margin-left: 3em; padding-left: 4px; }
+div.sourceCode
+{ }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -2720,7 +2753,7 @@ border-width: 0;
 
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="ai-in-pedagogical-design-and-delivery.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="WEBSITE-BUILD-GUIDE.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <main class="content" id="quarto-document-content">
 <header style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 1rem 0; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
     <div style="max-width: 900px; margin: 0 auto; padding: 0 1rem; display: flex; align-items: center; justify-content: space-between;">
@@ -2731,66 +2764,302 @@ border-width: 0;
     </div>
 </header>
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">AI in Pedagogical Design and Delivery</h1>
-<p class="subtitle lead">How AI transforms teaching roles and learning design</p>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Michael Borck </p>
-          </div>
-  </div>
-    
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">November 18, 2025</p>
-    </div>
-  </div>
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<section id="artificial-intelligence-in-education-aied" class="level1">
-<h1>Artificial Intelligence in Education (AIED)</h1>
-<p>The integration of Artificial Intelligence in Education (AIED) is fundamentally reshaping pedagogy. This overview outlines the five key areas of impact, from the core technology and its effect on course design and delivery to the critical challenges and the re-humanization of the educator’s role</p>
-<p>The following five topics successfully organise the discussion across the technology itself (ITS), the impact on professional roles (The Architect, The Practitioner), the systemic obstacles (Challenges &amp; Limitations), and the resulting transformation of the human professional (The Evolving Role of the Educator).</p>
-<section id="intelligent-tutoring-systems-its" class="level2">
-<h2 class="anchored" data-anchor-id="intelligent-tutoring-systems-its">1. Intelligent Tutoring Systems (ITS)</h2>
-<p><strong>Key Takeaway:</strong> ITS deliver <strong>personalised, one-on-one instruction</strong> by relying on an integrated architecture of four key components: the <strong>Domain Model</strong> (what is taught), the <strong>Learner Model</strong> (who is learning, including successes and misconceptions), the <strong>Tutoring Model</strong> (how to teach), and the <strong>User Interface Model</strong> (interaction). The quality of instruction is directly determined by the sophistication of these underlying models, which collectively ensure that the system adjusts the pace, difficulty, and focus of lessons in real-time.</p>
-<p><strong>Analogy:</strong> Intelligent Tutoring Systems function much like an automated personal trainer at a gym. Just as the trainer analyzes your current fitness level, pace, and weaknesses (the <strong>Student Model</strong>), knows the curriculum of exercises (the <strong>Domain Model</strong>), and determines the optimal routine to challenge you without overwhelming you (the <strong>Tutoring Model</strong>), the ITS continuously adjusts the learning path to ensure instruction is both challenging and achievable, promoting deeper understanding.</p>
+<section id="website-build-deploy-guide" class="level1">
+<h1>Website Build &amp; Deploy Guide</h1>
+<p>This guide covers how to build, preview, and deploy the companion website locally and to GitHub Pages.</p>
+<section id="quick-start" class="level2">
+<h2 class="anchored" data-anchor-id="quick-start">Quick Start</h2>
+<section id="view-the-website-locally" class="level3">
+<h3 class="anchored" data-anchor-id="view-the-website-locally">View the Website Locally</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># From project root</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> http.server 8000</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Then open in browser:</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># http://localhost:8000/website/src/index.html</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>That’s it! The website is pure HTML/CSS/JavaScript. No build process needed.</p>
+<hr>
 </section>
-<section id="impact-on-pedagogical-design-the-architect" class="level2">
-<h2 class="anchored" data-anchor-id="impact-on-pedagogical-design-the-architect">2. Impact on Pedagogical Design (The Architect)</h2>
-<p><strong>Key Takeaway:</strong> AI fundamentally transforms the pedagogical designer’s role from a manual content creator to a <strong>Strategic Architect</strong> by automating previously slow and tedious tasks, such as generating course outlines, assessments, and multimedia. This automation forces the designer to focus on <strong>high-level, human-centric design</strong>—creating flexible, dynamic frameworks and addressing emotional barriers to learning, rather than formatting slides or writing quiz questions.</p>
-<p><strong>Analogy:</strong> If traditional pedagogical design was like crafting a single, hand-built ship (a static course) that everyone had to sail on, the AI era redesigns the role of the architect. The new Pedagogical Architect now designs a complex, adaptive fleet where each ship (module) can adjust its sails, speed, and navigation (difficulty, pace, content) based on the real-time weather (student performance data), ensuring everyone reaches their destination, but along a personalised route. The architect’s most critical new job is ensuring the human crew (teachers and students) still communicate and build rapport, not just follow the automated navigation system.</p>
 </section>
-<section id="impact-on-pedagogical-delivery-the-practitioner" class="level2">
-<h2 class="anchored" data-anchor-id="impact-on-pedagogical-delivery-the-practitioner">3. Impact on Pedagogical Delivery (The Practitioner)</h2>
-<p><strong>Key Takeaway:</strong> AI revolutionizes pedagogical delivery by collapsing the feedback loop and providing educators with <strong>real-time data insights</strong> into student progress, performance patterns, and cognitive states. This data-driven delivery allows the human teacher to transition into a <strong>“real-time interventionist,”</strong> enabling them to abandon content presentation to the “average” student and instead focus on targeted, high-value interventions based on immediate, actionable data. It can be viewed the impact of AI on pedagogical delivery not as a replacement for the teacher, but as an augmented reality for the classroom. AI handles the mechanics of instruction and data analysis, allowing the human practitioner to execute their craft with surgical precision, focusing their limited time on high-value, empathetic, and complex human interactions.</p>
-<p><strong>Analogy:</strong>. AI in the classroom functions as an AI Co-Pilot. The AI (co-pilot) handles the routine mechanics of flight (content delivery, system monitoring, and performance tracking), allowing the human pilot (the educator) to focus on complex navigation, communicating with the crew (students), and managing unexpected turbulence (misconceptions or emotional barriers) with surgical precision.</p>
+<section id="project-structure" class="level2">
+<h2 class="anchored" data-anchor-id="project-structure">Project Structure</h2>
+<pre><code>website/
+├── src/                          # Static website files
+│   ├── index.html               # Landing page
+│   ├── resources.html           # Resources directory
+│   ├── materials.html           # Materials directory
+│   ├── css/
+│   │   └── style.css            # Main stylesheet
+│   └── images/                  # Presentation images
+│
+├── content/                      # Source markdown files (for reference)
+│   ├── resources/               # Pre-reading materials
+│   ├── materials/               # Presentation, handouts
+│   └── assessment/
+│       └── ai-literacy-diagnostic.html
+│
+└── README.md                     # Development documentation
+
+docs/                            # OUTPUT (GitHub Pages)
+├── index.html                   # (generated)
+├── resources.html
+├── materials.html
+├── css/style.css
+├── assessment/
+│   └── ai-literacy-diagnostic.html
+└── images/</code></pre>
+<hr>
 </section>
-<section id="challenges-limitations" class="level2">
-<h2 class="anchored" data-anchor-id="challenges-limitations">4. Challenges &amp; Limitations</h2>
-<p><strong>Key Takeaway:</strong> Despite the technological promise, a critical challenge for AIED is the <strong>risk of eroding the human element</strong> and exacerbating <strong>educational inequity</strong> through algorithmic bias. Over-reliance on ITS can reduce valuable face-to-face interactions, while studies show that students using AI sometimes feel <strong>less connected to their teachers</strong> (the “paradox of connection”). Furthermore, predictive models trained on historical data risk perpetuating existing biases against marginalized groups when allocating resources or flagging “at-risk” learners.</p>
-<p><strong>Analogy:</strong> Think of AIED as a new, highly efficient Automated Factory. While it produces learning materials at scale (efficiency), it risks creating a sterile, one-size-fits-all product that lacks the “human touch” (eroding connection). More dangerously, if the factory’s blueprints (the algorithm) have a flaw (bias), it doesn’t just create one bad product; it replicates that flaw thousands of times, perpetuating the inequity at scale.</p>
+<section id="local-development" class="level2">
+<h2 class="anchored" data-anchor-id="local-development">Local Development</h2>
+<section id="prerequisites" class="level3">
+<h3 class="anchored" data-anchor-id="prerequisites">Prerequisites</h3>
+<ul>
+<li>Python 3 or Node.js (for local server)</li>
+<li>Text editor (VSCode recommended)</li>
+<li>Modern web browser</li>
+</ul>
 </section>
-<section id="the-evolving-human-centric-educator" class="level2">
-<h2 class="anchored" data-anchor-id="the-evolving-human-centric-educator">5. The Evolving Human-Centric Educator</h2>
-<p><strong>Key Takeaway:</strong> The long-term impact of AI is a <strong>forced re-humanization</strong> of the educator’s role, where the practitioner is compelled to abandon the commoditized, technical tasks (which AI can perform) and focus on the <strong>Human Edge of AI</strong>. This means prioritizing <strong>empathy, creativity, strategic thinking, mentorship, and socio-emotional support</strong>—the unique human skills vital for holistic student development that AI fundamentally cannot replicate. Educators must also become proficient in <strong>interpreting AI data</strong> and developing <strong>ethical reasoning</strong> to guide responsible technology use.</p>
-<p><strong>Analogy:</strong> The integration of AI is like a Rising Tide. As the AI “tide” rises, it automates and submerges all the routine, technical “lowlands” of the job (grading, content delivery). This forces the educator to move to the “high ground”—the uniquely human skills of empathy, mentorship, and creative problem-solving that the tide cannot reach. Their value is no longer in the submerged tasks, but on this new, more human-centric high ground.</p>
+<section id="running-locally" class="level3">
+<h3 class="anchored" data-anchor-id="running-locally">Running Locally</h3>
+<p><strong>Method 1: Python (Easiest)</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> website/src</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python</span> <span class="at">-m</span> http.server 8000</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Open: http://localhost:8000</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Method 2: Node.js</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> website/src</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="ex">npx</span> http-server</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Open: http://localhost:8080</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Method 3: VSCode Live Server Extension</strong> 1. Install “Live Server” extension 2. Right-click <code>website/src/index.html</code> 3. Select “Open with Live Server”</p>
+</section>
+<section id="making-changes" class="level3">
+<h3 class="anchored" data-anchor-id="making-changes">Making Changes</h3>
+<p><strong>Editing HTML:</strong> - Edit <code>.html</code> files directly in <code>website/src/</code> - Changes appear immediately when you refresh browser</p>
+<p><strong>Editing CSS:</strong> - Edit <code>website/src/css/style.css</code> - Refresh browser to see changes</p>
+<p><strong>Adding New Pages:</strong> 1. Create new <code>.html</code> file in <code>website/src/</code> 2. Copy structure from <code>index.html</code> 3. Update navigation links in header 4. Add link to page in other pages’ navigation</p>
+</section>
+<section id="testing-navigation" class="level3">
+<h3 class="anchored" data-anchor-id="testing-navigation">Testing Navigation</h3>
+<p>Test these paths: - <code>/index.html</code> - Landing page - <code>/resources.html</code> - Resources list - <code>/materials.html</code> - Materials list - <code>/assessment/ai-literacy-diagnostic.html</code> - Quiz - <code>/css/style.css</code> - Stylesheet - <code>/images/</code> - Presentation images</p>
+<hr>
+</section>
+</section>
+<section id="building-for-deployment" class="level2">
+<h2 class="anchored" data-anchor-id="building-for-deployment">Building for Deployment</h2>
+<p>The website is already “built” - it’s just static files. But if you modify source markdown files in <code>website/content/</code>, you’d need to render them to HTML.</p>
+<section id="if-using-quarto-for-content-rendering" class="level3">
+<h3 class="anchored" data-anchor-id="if-using-quarto-for-content-rendering">If Using Quarto for Content Rendering</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># From website/ directory</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co"># This converts markdown → HTML and outputs to ../docs/</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Then deploy the <code>docs/</code> folder to GitHub Pages.</p>
+</section>
+<section id="without-quarto" class="level3">
+<h3 class="anchored" data-anchor-id="without-quarto">Without Quarto</h3>
+<p>Just copy files directly:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Copy everything from src/ to docs/</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> <span class="at">-r</span> website/src/<span class="pp">*</span> docs/</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Then deploy docs/ to GitHub Pages</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="deployment-to-github-pages" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-to-github-pages">Deployment to GitHub Pages</h2>
+<section id="automatic-deployment-recommended" class="level3">
+<h3 class="anchored" data-anchor-id="automatic-deployment-recommended">Automatic Deployment (Recommended)</h3>
+<p>Your repo is already configured for GitHub Pages from <code>docs/</code> folder.</p>
+<p><strong>To deploy:</strong></p>
+<ol type="1">
+<li>Copy website files to <code>docs/</code> folder:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">cp</span> <span class="at">-r</span> website/src/<span class="pp">*</span> docs/</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ol start="2" type="1">
+<li>Commit and push:</li>
+</ol>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> add docs/</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;Deploy website&quot;</span></span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<ol start="3" type="1">
+<li>GitHub automatically publishes from <code>docs/</code> folder to:
+<ul>
+<li>https://michaelborck-presentations.github.io/ai-in-pedagogical-design-and-delivery/</li>
+</ul></li>
+</ol>
+</section>
+<section id="checking-deployment-status" class="level3">
+<h3 class="anchored" data-anchor-id="checking-deployment-status">Checking Deployment Status</h3>
+<ul>
+<li>Go to repo → Settings → Pages</li>
+<li>You’ll see the live URL and deployment status</li>
+<li>If “Source” shows <code>docs/</code> and <code>main</code> branch, you’re good to go</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="website-features" class="level2">
+<h2 class="anchored" data-anchor-id="website-features">Website Features</h2>
+<section id="responsive-design" class="level3">
+<h3 class="anchored" data-anchor-id="responsive-design">Responsive Design</h3>
+<ul>
+<li>Mobile-friendly (tested on phones, tablets, laptops)</li>
+<li>CSS Grid and Flexbox for layout</li>
+<li>Media queries for smaller screens</li>
+</ul>
+</section>
+<section id="accessibility" class="level3">
+<h3 class="anchored" data-anchor-id="accessibility">Accessibility</h3>
+<ul>
+<li>Semantic HTML5</li>
+<li>Proper heading hierarchy</li>
+<li>Colour contrast meets WCAG standards</li>
+<li>Mobile-accessible navigation</li>
+</ul>
+</section>
+<section id="performance" class="level3">
+<h3 class="anchored" data-anchor-id="performance">Performance</h3>
+<ul>
+<li>No external dependencies</li>
+<li>Minimal CSS (~10KB)</li>
+<li>Images embedded directly</li>
+<li>Fast loading (&lt; 1s on typical connection)</li>
+</ul>
+</section>
+<section id="features" class="level3">
+<h3 class="anchored" data-anchor-id="features">Features</h3>
+<ul>
+<li>Sticky navigation</li>
+<li>Gradient hero section</li>
+<li>Card-based layout</li>
+<li>CTA buttons</li>
+<li>Resource cards with metadata</li>
+<li>Footer with links</li>
+<li>Breadcrumb navigation</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="customization" class="level2">
+<h2 class="anchored" data-anchor-id="customization">Customization</h2>
+<section id="change-colours" class="level3">
+<h3 class="anchored" data-anchor-id="change-colours">Change Colours</h3>
+<p>Edit CSS variables in <code>website/src/css/style.css</code>:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode css code-with-copy"><code class="sourceCode css"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="in">:root</span> {</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>    <span class="va">--primary</span><span class="ch">:</span> <span class="cn">#667eea</span><span class="op">;</span>          <span class="co">/* Main colour */</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>    <span class="va">--primary-dark</span><span class="ch">:</span> <span class="cn">#764ba2</span><span class="op">;</span>     <span class="co">/* Darker shade */</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    <span class="va">--accent</span><span class="ch">:</span> <span class="cn">#f59e0b</span><span class="op">;</span>           <span class="co">/* Accent colour */</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    <span class="va">--text-dark</span><span class="ch">:</span> <span class="cn">#1f2937</span><span class="op">;</span>        <span class="co">/* Text colour */</span></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    <span class="va">--text-light</span><span class="ch">:</span> <span class="cn">#6b7280</span><span class="op">;</span>       <span class="co">/* Secondary text */</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a>    <span class="va">--bg-light</span><span class="ch">:</span> <span class="cn">#f9fafb</span><span class="op">;</span>         <span class="co">/* Light background */</span></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>Then save and refresh browser.</p>
+</section>
+<section id="change-content" class="level3">
+<h3 class="anchored" data-anchor-id="change-content">Change Content</h3>
+<p>Edit HTML files directly: - <code>website/src/index.html</code> - Main landing page - <code>website/src/resources.html</code> - Resources list - <code>website/src/materials.html</code> - Materials list</p>
+</section>
+<section id="add-new-section" class="level3">
+<h3 class="anchored" data-anchor-id="add-new-section">Add New Section</h3>
+<ol type="1">
+<li>Create <code>website/src/new-page.html</code></li>
+<li>Copy HTML structure from <code>index.html</code></li>
+<li>Modify content in <code>&lt;section&gt;</code> tags</li>
+<li>Add navigation link in <code>&lt;nav&gt;</code> section</li>
+<li>Save and test locally</li>
+</ol>
+</section>
+<section id="embed-videos-or-other-media" class="level3">
+<h3 class="anchored" data-anchor-id="embed-videos-or-other-media">Embed Videos or Other Media</h3>
+<p>Add to HTML:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode html code-with-copy"><code class="sourceCode html"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">iframe</span><span class="ot"> width</span><span class="op">=</span><span class="st">&quot;560&quot;</span><span class="ot"> height</span><span class="op">=</span><span class="st">&quot;315&quot;</span><span class="ot"> </span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="ot">  src</span><span class="op">=</span><span class="st">&quot;https://www.youtube.com/embed/VIDEO_ID&quot;</span><span class="ot"> </span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a><span class="ot">  frameborder</span><span class="op">=</span><span class="st">&quot;0&quot;</span><span class="ot"> allowfullscreen</span><span class="dt">&gt;&lt;/</span><span class="kw">iframe</span><span class="dt">&gt;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+</section>
+<section id="troubleshooting" class="level2">
+<h2 class="anchored" data-anchor-id="troubleshooting">Troubleshooting</h2>
+<section id="pages-not-loading" class="level3">
+<h3 class="anchored" data-anchor-id="pages-not-loading">Pages not loading</h3>
+<ul>
+<li>Check file paths in links (relative to <code>website/src/</code>)</li>
+<li>Ensure files are in correct folder</li>
+<li>Check browser console for errors (F12)</li>
+</ul>
+</section>
+<section id="styles-not-applying" class="level3">
+<h3 class="anchored" data-anchor-id="styles-not-applying">Styles not applying</h3>
+<ul>
+<li>Clear browser cache (Ctrl+F5 or Cmd+Shift+R)</li>
+<li>Check CSS file is in <code>website/src/css/style.css</code></li>
+<li>Verify <code>&lt;link&gt;</code> tag points to correct path</li>
+</ul>
+</section>
+<section id="images-not-showing" class="level3">
+<h3 class="anchored" data-anchor-id="images-not-showing">Images not showing</h3>
+<ul>
+<li>Images should be in <code>website/src/images/</code></li>
+<li>Use relative paths: <code>../images/filename.png</code></li>
+<li>Check image file extensions (.png, .jpg, etc.)</li>
+</ul>
+</section>
+<section id="links-broken" class="level3">
+<h3 class="anchored" data-anchor-id="links-broken">Links broken</h3>
+<ul>
+<li>Use relative paths for internal links</li>
+<li>Root should be <code>website/src/</code></li>
+<li>Example: <code>resources.html</code> or <code>assessment/ai-literacy-diagnostic.html</code></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="seo-metadata" class="level2">
+<h2 class="anchored" data-anchor-id="seo-metadata">SEO &amp; Metadata</h2>
+<p>Each page has: - Unique <code>&lt;title&gt;</code> tag (appears in browser tab) - <code>&lt;meta description&gt;</code> (appears in search results) - Proper heading hierarchy (h1, h2, h3) - Semantic HTML (nav, section, footer, etc.)</p>
+<p>To improve SEO: 1. Update title and description for new pages 2. Use descriptive anchor text for links 3. Add alt text to images (if any) 4. Keep heading hierarchy logical</p>
+<hr>
+</section>
+<section id="file-size-optimization" class="level2">
+<h2 class="anchored" data-anchor-id="file-size-optimization">File Size &amp; Optimization</h2>
+<p>Current website: - CSS: ~10 KB - HTML (all pages): ~50 KB - Total: ~60 KB (very lightweight)</p>
+<p>No optimization needed, but if you want to reduce further: - Minify CSS: <code>css-minify</code> tool or online minifier - Remove unused CSS: Rarely needed here</p>
+<hr>
+</section>
+<section id="backup-version-control" class="level2">
+<h2 class="anchored" data-anchor-id="backup-version-control">Backup &amp; Version Control</h2>
+<p>All website files are in git:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> log <span class="at">--oneline</span> website/src/  <span class="co"># See all website changes</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> diff website/src/           <span class="co"># See what changed</span></span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> restore website/src/        <span class="co"># Undo changes</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p>To revert to previous version:</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> checkout COMMIT_HASH website/src/</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">&quot;Revert website to previous version&quot;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="next-steps" class="level2">
+<h2 class="anchored" data-anchor-id="next-steps">Next Steps</h2>
+<ol type="1">
+<li><strong>Test locally</strong> - Make sure it looks good</li>
+<li><strong>Customize</strong> - Update colors, text, links as needed</li>
+<li><strong>Deploy</strong> - Copy to <code>docs/</code> and push to GitHub</li>
+<li><strong>Share</strong> - Send the GitHub Pages URL to participants</li>
+</ol>
+<p>Your live website will be at:</p>
+<pre><code>https://michaelborck-presentations.github.io/ai-in-pedagogical-design-and-delivery/</code></pre>
+<hr>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions?</h2>
+<ul>
+<li>GitHub issues: Report bugs or suggest improvements</li>
+<li>Email: michael.borck@curtin.edu.au</li>
+<li>Edit files directly - it’s just HTML/CSS!</li>
+</ul>
 </section>
 </section>
 
