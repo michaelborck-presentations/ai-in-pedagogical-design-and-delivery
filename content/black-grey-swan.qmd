@@ -1,0 +1,56 @@
+---
+format:
+  html:
+    embed-resources: true
+---
+
+In the context of Artificial Intelligence, the terms **Black Swan** and **Grey Swan** refer to how we categorize and prepare for risks. They are metaphors describing high-impact events based on how predictable they are.
+
+Here is the breakdown of **Black Swan** vs. **Grey Swan** events specifically within the AI landscape.
+
+### 1. Black Swan Event
+**The Definition:** A Black Swan event is an occurrence that is **unpredictable**, has a **massive impact**, and is often **rationalized in hindsight** (we look back and say, "we should have seen that coming," even though we couldn't have).
+
+In AI, these are "unknown unknowns." They represent scenarios that are not in our training data, not in our risk models, and often fundamentally change the trajectory of the technology or society.
+
+* **Key Characteristics:**
+    * **Rarity:** It is an outlier; nothing in the past points to its possibility.
+    * **Impact:** Extreme consequences (catastrophic or revolutionary).
+    * **Retrospective Predictability:** Explanations are concocted after the fact.
+
+**Examples in AI Context:**
+* **Emergent Capabilities:** An AI model suddenly developing a capability it was never trained for and that developers did not believe was possible (e.g., a language model suddenly solving unsolved mathematical theorems without specific training).
+* **The "Flash Crash" Scenario:** Interconnected AI trading bots simultaneously hallucinating a market trend that doesn't exist, crashing the global economy in seconds before humans can pull the plug.
+* **Zero-Day Exploits:** A novel AI-generated cyberattack that bypasses all known security protocols because it utilizes a logic path no human coder ever considered.
+
+---
+
+### 2. Grey Swan Event
+**The Definition:** A Grey Swan event is **predictable** and **known to be possible**, but is considered **unlikely** to happen.
+
+In AI, these are "known unknowns." We know the risk exists, and we might even have a name for it, but we often ignore it or under-prepare because the probability seems low.
+
+* **Key Characteristics:**
+    * **Foreseeability:** We know it *could* happen (it has precedents or is theoretically obvious).
+    * **Neglect:** It is often dismissed as too expensive or complex to prevent.
+    * **Impact:** Significant, often cascading through systems.
+
+**Examples in AI Context:**
+* **Infrastructure Collapse:** A geopolitical conflict (e.g., in Taiwan) cutting off the supply of advanced GPUs (Nvidia chips), causing a sudden, long-term freeze in global AI development. We know this is a supply chain bottleneck, but the industry operates as if it won't happen.
+* **Legal/Copyright Shutdown:** A supreme court ruling that declares all training on copyrighted data illegal, forcing major foundation models (like GPT-4 or Claude) to be deleted or retrained from scratch. This is a known legal risk that companies are currently "betting" against.
+* **Data Poisoning:** A coordinated attack where bad actors slowly feed "poisoned" data into open-source datasets over years, leading to a sudden, widespread failure of models that rely on that data.
+
+### Summary Comparison
+
+| Feature | Black Swan (AI) | Grey Swan (AI) |
+| :--- | :--- | :--- |
+| **Predictability** | Impossible to predict | Possible to predict (but unlikely) |
+| **Awareness** | "We didn't know this could happen." | "We knew this could happen, but didn't think it would." |
+| **Preparation** | Impossible to prepare for specifically; requires general resilience. | Possible to mitigate, but often ignored due to cost/effort. |
+| **Analogy** | Aliens landing and giving us super-code. | A massive solar flare wiping out data centers. |
+
+### Relevance to You (AI Facilitator)
+
+As a lecturer and facilitator, you are likely helping students and colleagues think about **Grey Swans** (ethical frameworks, bias mitigation, legal compliance, institutional policies). However, the philosophical allure of AI often focuses on **Black Swans** (singularity, AGI, existential risk).
+
+Distinguishing these helps people understand where to focus day‑to‑day design and governance efforts (mitigating Grey Swans) versus where they need more flexible, long‑term thinking (adapting to Black Swans). You can pair this note with the handout **Ethics, Data Governance & Integrity** when framing AI risk and Assessment 2030.

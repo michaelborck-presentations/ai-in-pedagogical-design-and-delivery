@@ -26,35 +26,38 @@ verified by the author.
 
 ::: {.notes}
 
-**Opening hook (Bloom + AI tutors):**
+“Two standard deviations.”
 
-> “Two standard deviations.  
-> [pause 2–3 seconds, make eye contact]  
-> That’s the gap Benjamin Bloom reported in the 1980s between students in a typical classroom and students who received **one‑to‑one human tutoring** – enough to turn an average student into a top performer.  
->  
-> Fast‑forward forty years. Sal Khan – the Khan Academy guy – stands on a TED stage and says: with AI tutors and AI teaching assistants, we might finally be able to get **something like that 2‑sigma effect at scale**. A personal tutor for every student, and an AI assistant for every teacher.  
->  
-> Whether that makes you excited or slightly ill, it raises a very practical question for us here at Curtin:  
-> If tools like this are going to sit in our students’ hands – and in our own enterprise Copilot environment – **how do we design teaching, assessment and support so that we get the upside without losing what actually matters?**  
-> And how does that sit alongside **Assessment 2030**, academic integrity, and the reality that students can now summon a ‘tutor’ at 2am from their phone?”
+[pause 2–3 seconds, make eye contact]
 
-To widen beyond teaching staff, you can add:
+That’s the gap Benjamin Bloom reported in the 1980s between students in a typical classroom and 
+students who received one‑to‑one human tutoring – enough to turn an average student into a top performer.
 
-> “Even if you’re not teaching every day, there’s a similar promise in our 
-> research and professional roles – a kind of **co‑pilot for the boring parts** 
-> of our jobs – drafting, summarising, chasing patterns – so we can spend more 
-> time on work that needs human judgement and relationships.”
+Fast‑forward forty years. Sal Khan – the Khan Academy guy – stands on a TED stage and says: with 
+AI tutors and AI teaching assistants, we might finally be able to get something like that 2‑sigma 
+effect at scale. A personal tutor for every student, and an AI assistant for every teacher.
 
-**Position the session:**
+Whether that makes you excited or slightly ill, it raises a very practical question for us here at 
+Curtin: If tools like this are going to sit in our students’ hands – and in our own enterprise Copilot 
+environment – how do we design teaching, assessment and support so that we get the upside without 
+losing what actually matters?
 
-> “That’s what this session is about. We’re going to:  
-> – Experiment with using AI to **automate some of the tedious work**,  
-> – Practise how to **design prompts** and **critique AI outputs**, and  
-> – Stress‑test our own assessments and practices in the spirit of **Assessment 2030** – not to ban AI, but to redesign so that **student judgement, process, and human skills** remain irreplaceable.”
+And how does that sit alongside Assessment 2030, academic integrity, and the reality that students 
+can now summon a ‘tutor’ at 2am from their phone?”
 
-You can lightly nod to risks, but unpack them later:
+“Even if you’re not teaching every day, there’s a similar promise in our research and professional roles – a kind of co‑pilot for the boring parts of our jobs – drafting, summarising, chasing patterns – so we can spend more time on work that needs human judgement and relationships.”
 
-> “We also know from recent work that if we lean too hard on these tools, we risk **cognitive offloading**, students feeling less connected, and making cheating easier if our assessments are too automatable. So we’ll spend as much time on **how to critique and design around AI** as we do on the shiny productivity side.”
+“That’s what this session is about. We’re going to:
+
+– Experiment with using AI to automate some of the tedious work,
+– Practise how to design prompts and critique AI outputs, and
+– Stress‑test our own assessments and practices in the spirit of Assessment 2030 
+– not to ban AI, but to redesign so that student judgement, process, and human skills remain irreplaceable.”
+
+“We also know from recent work that if we lean too hard on these tools, we risk cognitive 
+offloading, students feeling less connected, and making cheating easier if our assessments 
+are too automatable. So we’ll spend as much time on how to critique and design around AI as 
+we do on the shiny productivity side.”
 
 :::
 
@@ -74,16 +77,15 @@ You can lightly nod to risks, but unpack them later:
 
 ::: {.notes}
 
-So the shape of the next two hours is roughly this: a bit of context to connect AI to Assessment 2030, then five very practical activities – automate, prompt, critique, multi‑step workflows, and safe use – and then a short wrap‑up.  
+This slide gives you a roadmap for the session. We start with a short overview linking AI to 
+Assessment 2030, then move into five hands‑on activities: using AI to automate some tedious work, 
+designing better prompts, critiquing AI outputs, testing an assessment or complex task, and making 
+one small commitment about safe use.
 
-It’s designed to be mostly hands‑on and beginner‑friendly, with space for questions and discussion as we go.
-
-For Activity 4 we have two possible paths, depending on how much Assessment 2030 you’ve already had today:  
-we can either probe one of our assessments with AI and discuss redesign, or we can use a multi‑step AI workflow to tackle one of those ‘impossible’ teaching or design problems. We’ll pick on the day based on the room.
-
-You can also briefly note that the **presentation and companion website themselves** are examples of using AI as a co‑pilot:
-
-> “Just as we’ll explore today, these slides and the website were developed with AI support – for drafting, structuring and idea generation – but always with human oversight, editing and verification. So this session is very much about *walking the talk* as well as talking about it.”
+The focus is practical and beginner‑friendly: you will work with your own materials where possible, 
+ask questions as you go, and leave with ideas you can try in your own context. For a short written 
+overview of the workshop structure, see 'What to Expect: AI in Pedagogical Design & Delivery Workshop' 
+and the individual activity handouts (Activities 1–5).
 
 :::
 
@@ -95,9 +97,21 @@ You can also briefly note that the **presentation and companion website themselv
 
 ::: {.notes}
 
-**Key Takeaway:** ITS deliver **personalised, one-on-one instruction** by relying on an integrated architecture of four key components: the **Domain Model** (what is taught), the **Learner Model** (who is learning, including successes and misconceptions), the **Tutoring Model** (how to teach), and the **User Interface Model** (interaction). The quality of instruction is directly determined by the sophistication of these underlying models, which collectively ensure that the system adjusts the pace, difficulty, and focus of lessons in real-time.
+So the shape of the next two hours is roughly this: a bit of context to connect AI to Assessment 2030, 
+then five very practical activities – automate, prompt, critique, multi‑step workflows, and safe use
+and then a short wrap‑up.
 
-**Analogy:** Intelligent Tutoring Systems function much like an automated personal trainer at a gym. Just as the trainer analyzes your current fitness level, pace, and weaknesses (the **Student Model**), knows the curriculum of exercises (the **Domain Model**), and determines the optimal routine to challenge you without overwhelming you (the **Tutoring Model**), the ITS continuously adjusts the learning path to ensure instruction is both challenging and achievable, promoting deeper understanding.
+It’s designed to be mostly hands‑on and beginner‑friendly, with space for questions and discussion as 
+we go.
+
+For Activity 4 we have two possible paths, depending on how much Assessment 2030 you’ve already had 
+today:we can either probe one of our assessments with AI and discuss redesign, or we can use a multi‑step 
+AI workflow to tackle one of those ‘impossible’ teaching or design problems. We’ll pick on the day based 
+on the room.   
+
+“Just as we’ll explore today, these slides and the website were developed with AI support – for drafting, 
+structuring and idea generation – but always with human oversight, editing and verification. So this 
+session is very much about walking the talk as well as talking about it.”
 
 :::
 ---
@@ -108,9 +122,14 @@ You can also briefly note that the **presentation and companion website themselv
 
 ::: {.notes}
 
-**Key Takeaway:** AI fundamentally transforms the pedagogical designer's role from a manual content creator to a **Strategic Architect** by automating previously slow and tedious tasks, such as generating course outlines, assessments, and multimedia. This automation forces the designer to focus on **high-level, human-centric design**—creating flexible, dynamic frameworks and addressing emotional barriers to learning, rather than formatting slides or writing quiz questions.
+This slide is about the “architect” side of teaching: how courses and learning activities are designed. 
+AI can now help with many of the slow, manual tasks (like drafting outlines, example assessments or slides),
+ which pushes pedagogical designers to focus more on big‑picture questions.
 
-**Analogy:** If traditional pedagogical design was like crafting a single, hand-built ship (a static course) that everyone had to sail on, the AI era redesigns the role of the architect. The new Pedagogical Architect now designs a complex, adaptive fleet where each ship (module) can adjust its sails, speed, and navigation (difficulty, pace, content) based on the real-time weather (student performance data), ensuring everyone reaches their destination, but along a personalised route. The architect’s most critical new job is ensuring the human crew (teachers and students) still communicate and build rapport, not just follow the automated navigation system.
+In practice, the designer becomes more of a strategic architect: setting learning goals, shaping flexible
+ pathways, and planning how human connection and emotion will be supported, rather than just producing 
+ content. For more detail and the full ship analogy, see the 'Impact on Pedagogical Design (The Architect)' 
+ section in 'AI in Pedagogical Design and Delivery'.
 
 :::
 
@@ -122,9 +141,14 @@ You can also briefly note that the **presentation and companion website themselv
 
 ::: {.notes}
 
-**Key Takeaway:** AI revolutionizes pedagogical delivery by collapsing the feedback loop and providing educators with **real-time data insights** into student progress, performance patterns, and cognitive states. This data-driven delivery allows the human teacher to transition into a **"real-time interventionist,"** enabling them to abandon content presentation to the "average" student and instead focus on targeted, high-value interventions based on immediate, actionable data.  It can be viewed the impact of AI on pedagogical delivery not as a replacement for the teacher, but as an augmented reality for the classroom. AI handles the mechanics of instruction and data analysis, allowing the human practitioner to execute their craft with surgical precision, focusing their limited time on high-value, empathetic, and complex human interactions.
+Here the focus shifts from design to day‑to‑day teaching (“the practitioner”). AI tools can help deliver 
+content, monitor participation, and surface patterns in student work, so that teachers can spend more 
+time on targeted support, feedback and relationship‑building.
 
-**Analogy:**. AI in the classroom functions as an AI Co-Pilot. The AI (co-pilot) handles the routine mechanics of flight (content delivery, system monitoring, and performance tracking), allowing the human pilot (the educator) to focus on complex navigation, communicating with the crew (students), and managing unexpected turbulence (misconceptions or emotional barriers) with surgical precision.
+You can think of AI as a co‑pilot: it handles routine monitoring and some explanations, while the human 
+teacher makes real‑time decisions, manages complexity, and responds to students as people. For a deeper 
+explanation and examples, see the 'Impact on Pedagogical Delivery (The Practitioner)' section 
+in 'AI in Pedagogical Design and Delivery'.
 
 :::
 
@@ -136,15 +160,15 @@ You can also briefly note that the **presentation and companion website themselv
 
 ::: {.notes}
 
-**Key Takeaway:** Despite the technological promise, a critical challenge for AIED is the **risk of eroding the human element** and exacerbating **educational inequity** through algorithmic bias. Over-reliance on ITS and generative tools can reduce valuable face-to-face interactions, while studies show that students using AI sometimes feel **less connected to their teachers** (the "paradox of connection"). Furthermore, predictive models trained on historical data risk perpetuating existing biases against marginalized groups when allocating resources or flagging "at-risk" learners.
+This slide highlights why AI in education is not just exciting but also risky. Over‑reliance on tools 
+can weaken human connection, and data‑driven systems can amplify existing inequities or biases if 
+they are not designed and monitored carefully.
 
-Recent work also highlights broader risks: generative AI can **hallucinate** plausible but incorrect information, enable large‑scale **misinformation and deepfakes**, and make it easier to **circumvent traditional assessments** if those tasks are easily automated. These are not reasons to ban AI outright, but reasons to **redesign tasks and guardrails** so that human judgement and process remain visible.
-
-You can link this directly to **Assessment 2030** and later activities:
-
-> “Assessment 2030 is essentially our institutional response to these challenges. Rather than pretending AI doesn’t exist, we redesign assessment and learning activities so that **student thinking and judgement** are what really matter. Activities 3–5 in this workshop are about giving you practical ways to do that.”
-
-**Analogy:** Think of AIED as a new, highly efficient Automated Factory. While it produces learning materials at scale (efficiency), it risks creating a sterile, one-size-fits-all product that lacks the "human touch" (eroding connection). More dangerously, if the factory's blueprints (the algorithm) have a flaw (bias), it doesn't just create one bad product; it replicates that flaw thousands of times, perpetuating the inequity at scale.
+Generative AI can also hallucinate, spread misinformation, and make some traditional assessments 
+easier to game. Rather than banning AI, the workshop focuses on redesigning tasks, feedback and policies 
+so that student thinking and judgement stay central—an idea captured in Assessment 2030. For more 
+discussion of these tensions, see 'Using AI in Education: Roles for Teaching & Research' and 
+the 'Challenges & Limitations' section in 'AI in Pedagogical Design and Delivery'.
 
 :::
 
@@ -156,9 +180,13 @@ You can link this directly to **Assessment 2030** and later activities:
 
 ::: {.notes}
 
-**Key Takeaway:** The long-term impact of AI is a **forced re-humanization** of the educator's role, where the practitioner is compelled to abandon the commoditized, technical tasks (which AI can perform) and focus on the **Human Edge of AI**. This means prioritizing **empathy, creativity, strategic thinking, mentorship, and socio-emotional support**—the unique human skills vital for holistic student development that AI fundamentally cannot replicate. Educators must also become proficient in **interpreting AI data** and developing **ethical reasoning** to guide responsible technology use.
+In the long term, AI pushes educators toward what only humans can do. As more routine tasks 
+(like drafting, basic explanations and some grading support) become automatable, the value of empathy, 
+mentoring, feedback, ethical judgement and creative design increases.
 
-**Analogy:** The integration of AI is like a Rising Tide. As the AI "tide" rises, it automates and submerges all the routine, technical "lowlands" of the job (grading, content delivery). This forces the educator to move to the "high ground"—the uniquely human skills of empathy, mentorship, and creative problem-solving that the tide cannot reach. Their value is no longer in the submerged tasks, but on this new, more human-centric high ground.
+You can think of AI as a rising tide that covers low‑lying, repetitive tasks, leaving the “high ground” 
+of human skills more visible. For a fuller argument and examples, see 'The Evolving Human‑Centric Educator' 
+section in 'AI in Pedagogical Design and Delivery' and 'Using AI in Education: Roles for Teaching & Research'.
 
 :::
 
@@ -170,24 +198,13 @@ You can link this directly to **Assessment 2030** and later activities:
 
 ::: {.notes}
 
-Purpose: “Use AI to draft summaries and repurpose them for teaching tasks.”
+In Activity 1 you use AI as a summariser and re‑packager. You start from a real text (such as a 
+reading excerpt, assignment brief or policy section), ask AI for a short, student‑friendly summary, 
+then turn that summary into something useful: an LMS announcement, a two‑slide outline, or a short quiz.
 
-Core instructions:
-
-1. Choose a short text:
-   - reading excerpt, assignment brief, policy section, etc.
-2. Run the summary prompt:
-   - “Summarise this for year level students in 5–7 bullet points. Use plain language, highlight 2–3 key ideas, end with one discussion question.”
-3. Choose a twist:
-   - LMS announcement,  
-   - 2‑slide outline,  
-   - short quiz.
-4. Edit the output as needed.
-
-Variants box:
-
-- Researchers: summarise an abstract → plain English for participants / media; summarise reviewer comments → draft response.
-- Professional staff: summarise a policy or process → student email, FAQ, or staff bulletin.
+The key idea is that AI can speed up routine drafting, but you still review and edit the output so it 
+fits your unit, students and voice. For step‑by‑step prompts and variants for research and professional 
+roles, see the handout 'Activity 1 – Automate the Tedious' and the 'Quick Start Guide: AI in Education'.
 
 :::
 
@@ -199,26 +216,13 @@ Variants box:
 
 ::: {.notes}
 
-Purpose: “Move from vague prompts to structured, high‑quality ones.”
+Activity 2 is about improving how you ask AI for help. You take a vague prompt you actually used, then 
+rewrite it using a simple structure: context, role, action, format and tone/constraints. Running both 
+prompts side‑by‑side shows how much clearer, more relevant and more usable the structured output is.
 
-Core instructions:
-
-1. Copy one prompt you actually used in Activity 1.
-2. Underneath it, rewrite using:
-   - CONTEXT (unit/role, level, constraints)
-   - ROLE (“You are a…”)
-   - ACTION (what you want AI to do)
-   - FORMAT (bullets, table, slides, etc.)
-   - TONE/CONSTRAINTS (word limit, level, etc.)
-3. Run both prompts and compare outputs.
-4. Note what changed in quality, relevance, and usefulness.
-
-Include 1–2 patterns on the page (e.g. teaching activity prompt + feedback helper).
-
-Variants box:
-
-- Researchers: prompt makeover for literature review help, grant impact section, interview protocol.
-- Professional staff: prompt makeover for student comms, website copy, internal memos.
+This activity links directly to the C.R.A.F.T. approach to prompting. For worked examples and extra 
+patterns (including feedback helpers and redesign prompts), see 'Activity 2 – The Art of the Prompt' 
+and the 'C.R.A.F.T. Prompting Framework'.
 
 :::
 
@@ -230,24 +234,14 @@ Variants box:
 
 ::: {.notes}
 
-Purpose: “Evaluate AI outputs quickly and decide: refine, re‑prompt, or start over.”
+In Activity 3 you learn a quick 5‑step critique for any AI output: Purpose, Plausibility, Evidence, 
+Stakes, and Action. You apply it to something AI produced earlier (for example a summary, announcement, 
+quiz or teaching idea) and record one strength and one concern for each step.
 
-Core instructions:
-
-1. Pick one AI output from Activities 1–2.
-2. For each step, note one strength + one concern:
-   - Purpose, Plausibility, Evidence, Stakes, Action.
-3. Decide:
-   - Keep and lightly edit?  
-   - Re‑prompt in a new direction?  
-   - Discard and start fresh?
-
-Include a small 5‑column table they can scribble in.
-
-Variants box:
-
-- Researchers: critique an AI‑generated abstract, “related work” section, or summary.
-- Professional staff: critique an AI‑generated student email, FAQ, or web page.
+The goal is to decide whether to keep and lightly edit, re‑prompt in a new direction, or discard and 
+start again. For a fuller explanation and templates you can reuse, see 'Activity 3 – 5‑Step Critique 
+Framework', 'Cognitive Prompting in Education', and 'AI Critique Toolkit – Becoming a Smart Business 
+Professional'.
 
 :::
 
@@ -259,25 +253,14 @@ Variants box:
 
 ::: {.notes}
 
-Purpose: “Use AI to stress‑test an assessment (or parallel task) and sketch small redesigns.”
+Activity 4 invites you to test how your assessment (or a similar task) behaves when AI is allowed. You 
+first see how well AI can complete the task, then analyse where the response looks like a strong 
+submission and where genuine student thinking or personal context is missing.
 
-Core instructions:
-
-1. Choose a task:
-   - Your own assessment, or a provided example.
-2. Step 1 – Completion:
-   - (If AI available) Ask AI to complete the task as a strong student.
-3. Step 2 – Critique:
-   - Where does the AI answer look like a pass/HD?  
-   - Where is student thinking/judgement invisible?  
-   - What worries you most?
-4. Step 3 – Redesign:
-   - Brainstorm 2–3 tweaks that would make student process more visible and allow transparent, limited AI use (e.g., in‑class element, AI use log, personal context).
-
-Variants box:
-
-- Researchers: stress‑test a grant section, data‑collection plan, or “impact” statement.
-- Professional staff: stress‑test a process description or comms piece (e.g., special consideration instructions).
+From there, you sketch small redesigns—such as adding an in‑class component, requiring an AI use log, 
+or anchoring the task in local or personal examples—to make student judgement more visible while still 
+allowing transparent, limited AI use. For detailed prompts and variants, see 'Activity 4 – Unlocking the 
+Impossible' and the overview 'AI in Pedagogical Design and Delivery'.
 
 :::
 
@@ -289,42 +272,16 @@ Variants box:
 
 ::: {.notes}
 
-Purpose: “Make one small, realistic commitment about safe AI use in your context.”
+Activity 5 is about choosing one small, concrete next step for secure, safe and sustainable AI use in 
+your own context. You might draft a short guideline for AI use in your unit or team, run a quick 
+risk–benefit check on one planned AI use, or write a Week 1 statement you could say to students or 
+colleagues.
 
-“Secure, Safe, Sustainable AI – Why it matters”
-
-- We now have enterprise Copilot (data protection) and tools like Turnitin Clarity.  
-- Security ≠ safety ≠ good pedagogy.  
-- We still need simple, explicit norms for:
-  - how we use AI in teaching  
-  - what we ask / allow from students  
-  - how this aligns with Assessment 2030 (human irreplaceability).
-
-> “The tools give us guardrails, but they don’t make decisions for us. This activity is about one small, concrete step you can take in your own unit.”
-
-Core instructions:
-
-1. Choose one micro‑task:
-   - A short “AI use in this unit/team” guideline,  
-   - A risk/benefit check for one planned AI use,  
-   - A Week‑1 statement for students/staff.
-2. Use AI to draft it (or write by hand).
-3. Edit to:
-   - Fit your tone,  
-   - Align with policy,  
-   - Emphasise human judgement and transparency.
-
-Variants box:
-
-- Researchers: “AI in this project” statement; risk check for AI in data analysis or writing.
-- Professional staff: “AI in this team” guideline; student‑facing statement about how you’ll (not) use AI on their data.
-
-- If the morning session already had heavy discussion on privacy/ethics, you can:
-  - Shrink Activity 5 to a 5–7 minute micro‑task, not a big new block.
-  - Focus on one concrete output:
-    - Option 1 (if they’re fresh): run the 3‑option micro‑task we designed (guideline, risk check, Week‑1 statement).
-    - Option 2 (if they’re exhausted): just do one thing:
-      > “Take 3 minutes to draft a single sentence you could say to your students in Week 1 about how AI may be used in this unit, in a way that supports human judgement and Assessment 2030. You can use AI to help, or just write it.”
+The emphasis is on clear expectations, transparency, and keeping human judgement central, rather than 
+banning AI or outsourcing decisions to tools like Copilot or Turnitin Clarity. For example prompts and 
+micro‑tasks that you can adapt after the workshop, see 'Activity 5 – Secure, Safe, and Sustainable AI', 
+'Ethics, Data Governance & Integrity', and 'Using AI in Education: Roles for Teaching & Research'. For 
+framing broader AI risk, Black Swans and Grey Swans, see 'Black & Grey Swans in AI'.
 
 :::
 
@@ -336,25 +293,28 @@ Variants box:
 
 ::: {.notes}
 
-**Suggested closing thread:**
+Recap the journey very briefly:  “We started by seeing how AI can automate tedious tasks and draft 
+first versions for us. We then worked on designing better prompts, critiquing AI outputs, and finally 
+stress‑testing our assessments and thinking about safe, sustainable use.”
 
-- **Recap the journey** very briefly:
-  - “We started by seeing how AI can **automate tedious tasks** and draft first versions for us.  
-    We then worked on **designing better prompts**, **critiquing AI outputs**, and finally **stress‑testing our assessments** and thinking about **safe, sustainable use**.”
-- **Tie back to Assessment 2030 and your stance:**
-  - “All of that sits inside the Assessment 2030 idea: we’re not trying to ban AI, and we’re not blindly embracing it. We’re redesigning assessment and teaching so that **student judgement, process, and human skills** are what really matter.”
-- **Reinforce the human edge:**
-  - “As more routine writing and summarising gets automated, the value of what only we can do – **empathy, feedback, facilitation, contextual judgement** – actually goes up. AI is the infrastructure; our job is to design how it supports learning, not replaces it.”
-- **Point to next steps and resources:**
-  - “If you want to keep experimenting, the companion website has the handouts, prompt frameworks, and references we’ve touched on today. You can pick one activity and try it in a small way in your own unit or team.”
+Tie back to Assessment 2030 and your stance: “All of that sits inside the Assessment 2030 idea: 
+we’re not trying to ban AI, and we’re not blindly embracing it. We’re redesigning assessment and
+teaching so that student judgement, process, and human skills are what really matter.”
 
-**Pause for questions (no dedicated Q&A slide):**
+Reinforce the human edge: “As more routine writing and summarising gets automated, the value of 
+what only we can do – empathy, feedback, facilitation, contextual judgement – actually goes up. 
+AI is the infrastructure; our job is to design how it supports learning, not replaces it.”
 
-> “I’ll pause here – what questions, worries, or ideas are bubbling up for you? They can be about the tools, the activities, or how this fits with Assessment 2030 in your own context.”
+Point to next steps and resources: “If you want to keep experimenting, the companion website 
+has the handouts, prompt frameworks, and references we’ve touched on today. You can pick one 
+activity and try it in a small way in your own unit or team.”
 
-Because this is an internal session, you can close informally, for example:
+Pause for questions (no dedicated Q&A slide): “I’ll pause here – what questions, worries, or 
+ideas are bubbling up for you? They can be about the tools, the activities, or how this fits 
+with Assessment 2030 in your own context.”
 
-> “If things come to you later, feel free to grab me in the corridor, drop me a message, or send through a sample assessment you’d like to stress‑test. I’m very happy to keep working on this with you.”
+“If things come to you later, feel free to grab me in the corridor, drop me a message, or send 
+through a sample assessment you’d like to stress‑test. I’m very happy to keep working on this with you.”
 
 :::
 
@@ -377,6 +337,11 @@ Because this is an internal session, you can close informally, for example:
 
 ::: {.notes}
 
-This slide is mainly for people who scroll the deck later and want to see **which references connect to which ideas**. You don’t have to talk through it, but you can point participants to the full References page on the website if they want to explore further.
+This slide links key readings to the main ideas in the workshop (for example Bloom’s work on tutoring, 
+research on intelligent tutoring systems, and recent studies on AI in higher education, integrity and 
+ethics).
+
+If you want to explore the evidence base or cite work in your own teaching or research, see the 
+'References' document and the overview 'AI in Pedagogical Design and Delivery'.
 
 :::
