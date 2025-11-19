@@ -6,6 +6,30 @@ format:
 
 # AI for Professional Staff: Practical Guides for Teaching Support, Operations & Coordination
 
+## Quick start for professional staff
+
+If you’re short on time, start here.
+
+1. Choose your situation:
+   - **I have data to make sense of** → use the Data Analysis pattern below.
+   - **I’m reviewing or writing policy** → use the Compliance & Policy pattern.
+   - **I need to communicate a change** → use the Stakeholder Communication pattern.
+   - **I’m planning a change or redesign** → use the Strategic Analysis / Process Improvement patterns.
+2. Grab the relevant template, paste a short description of your context, and fill in the brackets.
+3. Ask AI for a first draft, then:
+   - Check for accuracy and alignment with your institution’s policies.
+   - Adjust tone, detail and length for your stakeholders.
+4. Save any prompt that works well so you can reuse and refine it.
+
+**Example quick prompt:**
+
+```
+Context: [Brief description of my task and audience]
+Role: You are a [my role, e.g. faculty operations officer]
+Task: Help me [analyse/summarise/draft] [this thing]
+Output: [1-page summary/email/checklist] in clear, practical language
+```
+
 ## Introduction
 
 If you're a Teaching Support Officer, Academic Coordinator, Curriculum Specialist, Student Support Advisor, Finance Officer, Compliance Officer, or other professional staff role, this guide is for you.
