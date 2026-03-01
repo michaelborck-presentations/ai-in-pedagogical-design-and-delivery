@@ -1,5 +1,9 @@
 # AI in Pedagogical Design and Delivery
 
+<!-- BADGES:START -->
+[![presentation](https://img.shields.io/badge/-presentation-9c27b0?style=flat-square)](https://github.com/topics/presentation) [![ai](https://img.shields.io/badge/-ai-ff6f00?style=flat-square)](https://github.com/topics/ai) [![edtech](https://img.shields.io/badge/-edtech-4caf50?style=flat-square)](https://github.com/topics/edtech) [![education](https://img.shields.io/badge/-education-blue?style=flat-square)](https://github.com/topics/education) [![faculty-development](https://img.shields.io/badge/-faculty--development-blue?style=flat-square)](https://github.com/topics/faculty-development) [![higher-education](https://img.shields.io/badge/-higher--education-blue?style=flat-square)](https://github.com/topics/higher-education) [![html](https://img.shields.io/badge/-html-e34f26?style=flat-square)](https://github.com/topics/html) [![pedagogy](https://img.shields.io/badge/-pedagogy-blue?style=flat-square)](https://github.com/topics/pedagogy) [![teaching](https://img.shields.io/badge/-teaching-blue?style=flat-square)](https://github.com/topics/teaching) [![workshop](https://img.shields.io/badge/-workshop-blue?style=flat-square)](https://github.com/topics/workshop)
+<!-- BADGES:END -->
+
 A workshop and resource collection for building AI literacy among marketing and management faculty in higher education.
 
 ## Overview
